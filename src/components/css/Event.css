@@ -1,0 +1,11 @@
+.event {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto;
+}
+
+.competition {
+    position: relative;
+    max-width: 200px;
+    margin: 0 auto;
+}

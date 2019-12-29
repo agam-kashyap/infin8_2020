@@ -1,0 +1,16 @@
+{
+    "features": [
+      {
+        "properties": 
+          {
+            "PARK_ID": 1,
+            "NAME": "International Institute of Information Technology",
+            "DESCRIPTION": "Something"
+          },
+        "geometry": 
+          {
+            "coordinates": [12.8447999, 77.66323896266928]
+          }
+      }
+    ]
+  }
