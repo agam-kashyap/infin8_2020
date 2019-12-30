@@ -6,17 +6,7 @@ import AboutSection from './sections/AboutSection'
 import AboutSectionReverse from './sections/AboutSectionReverse'
 import Location from './sections/Location'
 import EventSection from './sections/EventSection'
-import Competition from './sections/CompetitionSection'
-
-// const Home = React.createClass({
-//     render: function() {
-//         return (
-//             <div className="home-page">
-//                 <h1>Home</h1>
-//             </div>
-//         );
-//     }
-// });
+import CFooter from './sections/Footer'
 
 class Home extends React.Component {
     render() {
@@ -29,6 +19,7 @@ class Home extends React.Component {
             <EventSection/>
             {/* <Competition/> */}
             <Location/>
+            <CFooter/>
             </MainLayout>
             </div>
         )

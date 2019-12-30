@@ -13,12 +13,21 @@ export default function App() {
                     
                 </Col>
             </Row>
+            <div className="Section">
             <Row>
-                    <Col span={6}><img src={require('../../frame.png')} className="competition"/></Col>
-                    <Col span={6}><img src={require('../../frame.png')} className="competition"/></Col>
-                    <Col span={6}><img src={require('../../frame.png')} className="competition"/></Col>
-                    <Col span={6}><img src={require('../../frame.png')} className="competition"/></Col>
-                </Row>
+                    <Col xs={24} sm={12} md={6}><img src={require('../../frame.png')} className="competition"/></Col>
+                    <Col xs={24} sm={12} md={6}><img src={require('../../frame.png')} className="competition"/></Col>
+                    <Col xs={24} sm={12} md={6}><img src={require('../../frame.png')} className="competition"/></Col>
+                    <Col xs={24} sm={12} md={6}><img src={require('../../frame.png')} className="competition"/></Col>
+            </Row>
+            <div className="Section"/>
+            <Row>
+                    <Col xs={24} sm={12} md={6}><img src={require('../../frame.png')} className="competition"/></Col>
+                    <Col xs={24} sm={12} md={6}><img src={require('../../frame.png')} className="competition"/></Col>
+                    <Col xs={24} sm={12} md={6}><img src={require('../../frame.png')} className="competition"/></Col>
+                    <Col xs={24} sm={12} md={6}><img src={require('../../frame.png')} className="competition"/></Col>
+            </Row>
+            </div>
         </div>
     );
 }

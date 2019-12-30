@@ -4,6 +4,7 @@ import { withRouter} from 'react-router-dom';
 import { Layout, Menu } from 'antd';
 import 'antd/dist/antd.css';
 import './css/main-layout.css';
+import CFooter from './sections/Footer';
 
 const { Header, Content, Footer } = Layout;
 
@@ -37,7 +38,9 @@ class MainLayout extends React.Component{
           <div style={{ background: '#fff'}}>{this.props.children}</div>
           {/* <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>{this.props.location.pathname}</div> */}
         </Content>
-        <Footer style={{ textAlign: 'center' }}>Made by Zense</Footer>
+        {/* <Footer>
+          
+        </Footer> */}
       </Layout>
       </div>
     );
