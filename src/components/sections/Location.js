@@ -8,7 +8,7 @@ export default function App() {
   const [viewport, setViewport] = useState({
     latitude: 12.8447999, 
     longitude: 77.66323896266928,
-    width: "100vw",
+    width: "100%",
     height: "50vh",
     zoom: 15,
   });
@@ -16,7 +16,7 @@ export default function App() {
   const [selectedPark, setSelectedPark] = useState(null);
 
   return (
-    <div style={{width: 10}}>
+    <div className="Map">
       <ReactMapGL
         {...viewport}
         mapboxApiAccessToken="pk.eyJ1IjoiYWdhbS1rYXNoeWFwIiwiYSI6ImNrNHBvMGR6ejBodGUzbHAxNjR5ODN3a28ifQ.nOBYQvNGFZgXlMhMum9QHQ"

@@ -16,8 +16,8 @@ class AboutSectionReverse extends React.Component {
                         <Card bordered={false}>
                         <div className="image">
                             <img src={ require('../../frame.png')} alt=""/>
-                            <div className="content">
-                            <h2>This is the <strong style={{}}>About Section</strong></h2>
+                            <div className="caption">
+                            <p>This is the <strong style={{}}>About Section</strong></p>
                             <p>Blah Blah</p>
                             </div>
                         </div>

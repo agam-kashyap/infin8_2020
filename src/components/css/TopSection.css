@@ -1,13 +1,13 @@
 .ant-carousel .slick-slide {
-    text-align: center;
-    height: 99.99vh;
+	height: 100vh;
+	width: 100vw;
     line-height: 160px;
     color: #fff;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
 	background-size: 400% 400%;
 	-webkit-animation: gradientBG 10s ease infinite;
 	        animation: gradientBG 10s ease infinite;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .ant-carousel .slick-slide h3 {

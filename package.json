@@ -12,6 +12,7 @@
     "dotenv": "^8.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-flexbox-grid": "^2.1.2",
     "react-history": "^0.18.2",
     "react-map-gl": "^5.1.5",
     "react-router": "^5.1.2",

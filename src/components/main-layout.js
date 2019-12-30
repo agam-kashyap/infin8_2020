@@ -27,7 +27,7 @@ class MainLayout extends React.Component{
     return (
       <div>
         <Layout className="layout">
-        <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
+        <Header style={{ zIndex: 1, width: '100%' }}>
           <div className="logo">
             <h1></h1>
           </div>

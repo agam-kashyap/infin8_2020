@@ -1,18 +1,37 @@
+/*  */
+img {
+  display: block;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  font-weight: bold;
+}
+/*  */
 strong {
     position: relative;
   
     &::after {
       content: '';
-      position: absolute;
+      position: relative;
       bottom: -0.125rem;
       left: -0.5rem;
       right: -0.5rem;
       height: 0.75rem;
   
       z-index: -1;
-      background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg");
-      background-repeat: no-repeat;
-      background-size: cover;
+      /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg"); */
+      /* background-repeat: no-repeat; */
+      /* background-size: cover; */
     }
   }
   
@@ -33,7 +52,7 @@ strong {
   }
 
   .aboutcard {
-      padding: 10vh;
+      padding: 5vh;
   }
 
   .image {

@@ -50,3 +50,12 @@ button {
     margin-top: -4px;
     background-color: #fff;
   }
+
+    @media screen and (min-width: 415px){
+        .Map {
+          -webkit-flex: 1 1 0;
+          -ms-flex: 1 1 0;
+          flex: 1 1 0;
+          /* max-width: 300px; */
+        }
+      }
