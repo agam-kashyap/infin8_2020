@@ -1,11 +1,33 @@
-/*  */
-img {
-  display: block;
+.wrapper {
+  display:flex;
+  flex-flow: row wrap-reverse;
+  font-weight: bold;
+  /* text-align: center; */
 }
 
-.thumbnail {
-  position: relative;
-  display: inline-block;
+.wrapper > * {
+  padding: 10px;
+  flex: 1;
+}
+
+@media all and (min-width:800px) {
+  .aboutimage {order: 1}
+  .aboutcontent {order: 2}
+}
+
+/* @media screen and (min-width: 415px){
+  .ant-row{
+    flex-direction: row;
+  }
+
+  .ant-row > * {
+    -webkit-flex: 1 1 0;
+    -ms-flex: 1 1 0;
+    flex: 1 1 0;
+  }
+} */
+img {
+  display: block;
 }
 
 .caption {
@@ -16,43 +38,16 @@ img {
   text-align: center;
   font-weight: bold;
 }
-/*  */
-strong {
-    position: relative;
-  
-    &::after {
-      content: '';
-      position: relative;
-      bottom: -0.125rem;
-      left: -0.5rem;
-      right: -0.5rem;
-      height: 0.75rem;
-  
-      z-index: -1;
-      /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg"); */
-      /* background-repeat: no-repeat; */
-      /* background-size: cover; */
-    }
-  }
-  
-  p > strong {
-    font-weight: 400;  
-  
-    &::after {
-      bottom: -0.2rem;
-      height: 0.5rem;
-      left: -0.25rem;
-      right: -0.25rem;
-    }
-  }
   
   .aboutlogo {
       display: block;
-      width: 50%;
+      /* width: 50%; */
+      min-width: 400px;
   }
 
   .aboutcard {
       padding: 5vh;
+      min-width: 400px;
   }
 
   .image {
