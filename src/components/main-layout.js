@@ -27,20 +27,15 @@ class MainLayout extends React.Component{
     return (
       <div>
         <Layout className="layout">
-        <Header style={{ zIndex: 1, width: '100%' }}>
+        {/* <Header style={{ zIndex: 1, width: '100%' }}>
           <div className="logo">
             <h1></h1>
           </div>
           <Location/>
-        </Header>
+        </Header> */}
         <Content>
-          {/* <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>Content</div> */}
-          <div style={{ background: '#55D3E0'}}>{this.props.children}</div>
-          {/* <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>{this.props.location.pathname}</div> */}
+          <div style={{ background: 'linear-gradient(0deg, #6817ab 0%, #1fc8db 51%, #d723bc 75%, #9d23d5 100%)' }}>{this.props.children}</div>
         </Content>
-        {/* <Footer>
-          
-        </Footer> */}
       </Layout>
       </div>
     );

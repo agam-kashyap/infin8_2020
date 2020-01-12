@@ -1,0 +1,18 @@
+.Blank {
+    height: 60vh;
+	width: 100vw;
+	border-radius: 10%;
+    background-color: #e9f54b;
+    margin-bottom: 10vh;
+}
+.Blank .ant-carousel .slick-slide {
+    text-align: center;
+    height: 40vh;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+.Blank .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }

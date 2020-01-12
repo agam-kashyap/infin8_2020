@@ -8,6 +8,7 @@ import Location from './sections/Location'
 import EventSection from './sections/EventSection'
 import Competition from './sections/Competition'
 import CFooter from './sections/Footer'
+import Blank from './sections/blank'
 
 class Home extends React.Component {
     render() {
@@ -15,9 +16,9 @@ class Home extends React.Component {
             <div>
             <MainLayout>
             <TopSection/>
-            <AboutSection/>
-            <AboutSectionReverse/>
-            <EventSection/>
+            <Blank/>
+            <Blank/>
+            <Blank/>
             <Competition/>
             <Location/>
             <CFooter/>
