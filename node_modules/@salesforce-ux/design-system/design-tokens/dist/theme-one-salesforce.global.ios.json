@@ -1,0 +1,406 @@
+{
+  "properties": [
+    {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "rgb(236, 235, 234)",
+      "comment": "Used as the background color for the active state on rows or items on list-like components.",
+      "access": "global",
+      "name": "colorBackgroundRowActive"
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "rgb(255, 255, 255)",
+      "comment": "Light variant of COLOR_BACKGROUND.",
+      "release": "2.8.0",
+      "name": "colorBackgroundLight"
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "rgb(243, 242, 242)",
+      "comment": "Used as the background color for the hover state on rows or items on list-like components.",
+      "access": "global",
+      "name": "colorBackgroundRowHover"
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "rgb(112, 110, 107)",
+      "comment": "Background color for UI elements related to providing neutral information (not error, success, or warning).",
+      "name": "colorBackgroundInfo"
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "rgb(243, 242, 242)",
+      "comment": "Used as background for loading stencils on white background.",
+      "access": "global",
+      "name": "colorBackgroundStencil"
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "rgb(243, 242, 242)",
+      "comment": "Default background color for the whole app.",
+      "access": "global",
+      "name": "colorBackground"
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "rgb(236, 235, 234)",
+      "comment": "Dark variant of COLOR_BACKGROUND.",
+      "release": "2.8.0",
+      "name": "colorBackgroundDark"
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "rgb(236, 235, 234)",
+      "comment": "Used as an alternate background for loading stencils on gray backgrounds.",
+      "access": "global",
+      "name": "colorBackgroundStencilAlt"
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "rgb(236, 235, 234)",
+      "comment": "Used as the background color for selected rows or items on list-like components.",
+      "access": "global",
+      "name": "colorBackgroundRowSelected"
+    },
+    {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow",
+        "background*"
+      ],
+      "value": "rgb(221, 219, 218)",
+      "comment": "Default border color for UI elements.",
+      "access": "global",
+      "name": "colorBorder"
+    },
+    {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "rgb(243, 242, 242)",
+      "comment": "Lightest separator color - used as default separator on white backgrounds.",
+      "access": "global",
+      "name": "colorBorderSeparator"
+    },
+    {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "rgb(221, 219, 218)",
+      "comment": "Medium separator color - used as default separator on light gray backgrounds.",
+      "access": "global",
+      "name": "colorBorderSeparatorAlt"
+    },
+    {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "rgb(201, 199, 197)",
+      "comment": "Darkest separator color - used as an alternate separator color when more differentiation is desired.",
+      "access": "global",
+      "name": "colorBorderSeparatorAlt2"
+    },
+    {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "rgb(112, 110, 107)",
+      "comment": "Border color for UI elements related to providing neutral information (not error, success, or warning).",
+      "name": "colorBorderInfo"
+    },
+    {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "rgb(62, 62, 60)",
+      "comment": "Border color for UI elements related to the offline state.",
+      "name": "colorBorderOffline"
+    },
+    {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "rgb(243, 242, 242)",
+      "specificity": "builders",
+      "comment": "Used to delineate the boundary of a component that is being clicked. Specific to builders.",
+      "name": "colorBorderSelectionActive"
+    },
+    {
+      "themeable": true,
+      "release": "2.6.0",
+      "name": "brandBackgroundPrimary",
+      "value": "rgb(176, 196, 223)",
+      "cssProperties": [
+        "background-color",
+        "border*color",
+        "box-shadow",
+        "fill",
+        "color"
+      ],
+      "type": "color",
+      "category": "color",
+      "comment": "Primary page background color"
+    },
+    {
+      "themeable": true,
+      "release": "2.6.0",
+      "name": "brandBackgroundPrimaryTransparent",
+      "value": "rgba(176, 196, 223, 0)",
+      "cssProperties": [
+        "background-color",
+        "border*color",
+        "box-shadow",
+        "fill",
+        "color"
+      ],
+      "type": "color",
+      "category": "color",
+      "comment": "These RGBA values need to be updated if BRAND_BACKGROUND_PRIMARY changes, solves webkit bug"
+    },
+    {
+      "themeable": true,
+      "release": "2.6.0",
+      "name": "brandBackgroundDark",
+      "value": "rgb(25, 85, 148)",
+      "cssProperties": [
+        "background-color",
+        "border*color",
+        "box-shadow",
+        "fill",
+        "color"
+      ],
+      "type": "color",
+      "category": "color",
+      "comment": "Dark variant of BRAND_BACKGROUND_PRIMARY, used within gradient of background color"
+    },
+    {
+      "themeable": true,
+      "release": "2.6.0",
+      "name": "brandBackgroundDarkTransparent",
+      "value": "rgba(25, 85, 148, 0)",
+      "cssProperties": [
+        "background-color",
+        "border*color",
+        "box-shadow",
+        "fill",
+        "color"
+      ],
+      "type": "color",
+      "category": "color",
+      "comment": "These RGBA values need to be updated if BRAND_BACKGROUND_DARK changes, solves webkit bug"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(62, 62, 60)",
+      "comment": "Action label text color",
+      "access": "global",
+      "name": "colorTextActionLabel"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(8, 7, 7)",
+      "comment": "Action label active text color",
+      "access": "global",
+      "name": "colorTextActionLabelActive"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(8, 7, 7)",
+      "comment": "Body text color",
+      "access": "global",
+      "name": "colorTextDefault"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(62, 62, 60)",
+      "comment": "Color for text that is purposefully de-emphasized to create visual hierarchy.",
+      "access": "global",
+      "name": "colorTextWeak"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(236, 235, 234)",
+      "comment": "Input placeholder text on dark backgrounds.",
+      "name": "colorTextPlaceholderInverse"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(0, 109, 204)",
+      "comment": "Link text (508)",
+      "access": "global",
+      "name": "colorTextLink"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(112, 110, 107)",
+      "comment": "Default icon color.",
+      "access": "global",
+      "name": "colorTextIconDefault"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(255, 255, 255)",
+      "comment": "Inverse text color for dark backgrounds",
+      "access": "global",
+      "name": "colorTextInverse"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(62, 62, 60)",
+      "comment": "Input placeholder text.",
+      "access": "global",
+      "name": "colorTextPlaceholder"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(176, 173, 171)",
+      "comment": "Weak inverse text color for dark backgrounds",
+      "access": "global",
+      "name": "colorTextInverseWeak"
+    },
+    {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "rgb(62, 62, 60)",
+      "comment": "Text color for field labels.",
+      "name": "colorTextLabel"
+    }
+  ]
+}

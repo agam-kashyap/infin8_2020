@@ -6,6 +6,7 @@ import AboutSection from './sections/AboutSection'
 import AboutSectionReverse from './sections/AboutSectionReverse'
 import Location from './sections/Location'
 import EventSection from './sections/EventSection'
+import Competition from './sections/Competition'
 import CFooter from './sections/Footer'
 
 class Home extends React.Component {
@@ -17,7 +18,7 @@ class Home extends React.Component {
             <AboutSection/>
             <AboutSectionReverse/>
             <EventSection/>
-            {/* <Competition/> */}
+            <Competition/>
             <Location/>
             <CFooter/>
             </MainLayout>

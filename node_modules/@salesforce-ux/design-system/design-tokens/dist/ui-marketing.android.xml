@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <property name="FONT_WEIGHT_LIGHT" category="font" value="300"/>
+  <property name="FONT_WEIGHT_REGULAR" category="font" value="400"/>
+  <property name="FONT_WEIGHT_BOLD" category="font" value="700"/>
+  <property name="FONT_SIZE_1" category="font-size" value="10"/>
+  <property name="FONT_SIZE_2" category="font-size" value="12"/>
+  <property name="FONT_SIZE_3" category="font-size" value="13"/>
+  <property name="VAR_FONT_SIZE_10" category="font-size" value="32"/>
+  <property name="FONT_SIZE_4" category="font-size" value="14"/>
+  <property name="VAR_FONT_SIZE_11" category="font-size" value="42"/>
+  <property name="FONT_SIZE_5" category="font-size" value="16"/>
+  <property name="FONT_SIZE_6" category="font-size" value="18"/>
+  <property name="FONT_SIZE_7" category="font-size" value="20"/>
+  <property name="FONT_SIZE_8" category="font-size" value="24"/>
+  <property name="VAR_FONT_SIZE_1" category="font-size" value="10"/>
+  <property name="FONT_SIZE_9" category="font-size" value="28"/>
+  <property name="VAR_FONT_SIZE_2" category="font-size" value="12"/>
+  <property name="VAR_FONT_SIZE_3" category="font-size" value="13"/>
+  <property name="FONT_SIZE_10" category="font-size" value="32"/>
+  <property name="VAR_FONT_SIZE_4" category="font-size" value="14"/>
+  <property name="FONT_SIZE_11" category="font-size" value="42"/>
+  <property name="VAR_FONT_SIZE_5" category="font-size" value="16"/>
+  <property name="VAR_FONT_SIZE_6" category="font-size" value="18"/>
+  <property name="VAR_FONT_SIZE_7" category="font-size" value="20"/>
+  <property name="VAR_FONT_SIZE_8" category="font-size" value="24"/>
+  <property name="VAR_FONT_SIZE_9" category="font-size" value="28"/>
+  <property name="LINE_HEIGHT_HEADING" category="line-height" value="1.25"/>
+  <property name="LINE_HEIGHT_TEXT" category="line-height" value="1.5"/>
+  <property name="LINE_HEIGHT_RESET" category="line-height" value="1"/>
+  <property name="VAR_LINE_HEIGHT_TEXT" category="line-height" value="1.5"/>
+  <property name="FONT_FAMILY" category="font" value="&apos;Salesforce Sans&apos;, Arial, sans-serif"/>
+  <property name="FONT_FAMILY_HEADING" category="font" value="&apos;Salesforce Sans&apos;, Arial, sans-serif"/>
+  <property name="FONT_FAMILY_MONOSPACE" category="font" value="Consolas, Menlo, Monaco, Courier, monospace"/>
+</resources>

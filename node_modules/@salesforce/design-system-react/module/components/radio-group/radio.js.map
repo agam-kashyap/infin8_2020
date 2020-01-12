@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.tmp-es/components/radio-group/radio.jsx"],"names":["Radio"],"mappings":"AAAA;AACA,OAAOA,KAAP,MAAkB,gBAAlB;AAEA,eAAeA,KAAf","sourcesContent":["// Alias\nimport Radio from '../radio/index';\n\nexport default Radio;\n"],"file":"radio.js"}

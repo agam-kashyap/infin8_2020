@@ -8,23 +8,24 @@ class AboutSectionReverse extends React.Component {
     render() {
         return(
             <div>
-                <Row between="xs">
-                    <Col xs sm md>
-                        <img src={ require('../../random.jpg')} className="aboutlogo" alt=""/>
-                    </Col>
-                    <Col xs sm md>
-                        <div className="aboutcard">
-                        <div className="image">
-                            <img src={ require('../../frame.png')} alt=""/>
-                            <div className="caption">
-                            <p>This is the About Section</p>
-                            <p>Blah Blah</p>
-                            </div>
-                        </div>
-                        </div>
-                    </Col>
-                </Row>
-            </div>
+               <ul id= "hexGrid" class= "clr">
+               <li class = "hex">
+                            <a class="hexIn" href="#">
+                                    <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" />   
+                                    <h1>Event Name</h1> 
+                                    <p>Brief Event Description Bla Bla Bla Bla</p>
+                            </a> 
+                    </li>
+
+                    <li class = "hex">
+                            <a class="hexIn" href="#">
+                                    <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" />   
+                                    <h1>Event Name</h1> 
+                                    <p>Brief Event Description Bla Bla Bla Bla</p>
+                            </a> 
+                    </li> 
+               </ul>
+           </div>
         );
     }
 }

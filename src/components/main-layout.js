@@ -35,7 +35,7 @@ class MainLayout extends React.Component{
         </Header>
         <Content>
           {/* <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>Content</div> */}
-          <div style={{ background: '#fff'}}>{this.props.children}</div>
+          <div style={{ background: '#55D3E0'}}>{this.props.children}</div>
           {/* <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>{this.props.location.pathname}</div> */}
         </Content>
         {/* <Footer>

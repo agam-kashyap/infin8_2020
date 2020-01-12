@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../.tmp-es/utilities/design-tokens/dist/s1-base-medium.common.js"],"names":["module","exports","widthStageLeft"],"mappings":"AAAAA,MAAM,CAACC,OAAP,GAAiB;AAChBC,EAAAA,cAAc,EAAE;AADA,CAAjB","sourcesContent":["module.exports = {\n\twidthStageLeft: '250px',\n};\n"],"file":"s1-base-medium.common.js"}

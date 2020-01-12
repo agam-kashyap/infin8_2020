@@ -1,0 +1,2391 @@
+{
+  "aliases": {
+    "PALETTE_DARK_GRAY_TRANSPARENT_40": {
+      "value": "rgba(8, 7, 7, 0.4)"
+    },
+    "WHITE_TRANSPARENT_30": {
+      "value": "rgba(255, 255, 255, 0.30)"
+    },
+    "PALETTE_GRAY_8": {
+      "value": "#969492"
+    },
+    "WHITE_TRANSPARENT_75": {
+      "value": "rgba(255, 255, 255, 0.75)"
+    },
+    "WHITE_TRANSPARENT_97": {
+      "value": "rgba(255, 255, 255, 0.97)"
+    },
+    "PALETTE_DARK_GRAY_TRANSPARENT_30": {
+      "value": "rgba(8, 7, 7, 0.3)"
+    },
+    "WHITE_TRANSPARENT_20": {
+      "value": "rgba(255, 255, 255, 0.20)"
+    },
+    "PALETTE_GRAY_9": {
+      "value": "#706e6b"
+    },
+    "PALETTE_DARK_GRAY_TRANSPARENT_20": {
+      "value": "rgba(8, 7, 7, 0.2)"
+    },
+    "WHITE_TRANSPARENT_10": {
+      "value": "rgba(255, 255, 255, 0.10)"
+    },
+    "PALETTE_DARK_GRAY_TRANSPARENT_10": {
+      "value": "rgba(8, 7, 7, 0.1)"
+    },
+    "BLACK_TRANSPARENT_90": {
+      "value": "rgba(0, 0, 0, 0.90)"
+    },
+    "PALETTE_WARM_GRAY_10": {
+      "value": "#514f4d"
+    },
+    "BLACK_TRANSPARENT_80": {
+      "value": "rgba(0, 0, 0, 0.80)"
+    },
+    "PALETTE_WARM_GRAY_11": {
+      "value": "#3e3e3c"
+    },
+    "BLACK_TRANSPARENT_70": {
+      "value": "rgba(0, 0, 0, 0.70)"
+    },
+    "PALETTE_WARM_GRAY_12": {
+      "value": "#2B2826"
+    },
+    "BLACK_TRANSPARENT_60": {
+      "value": "rgba(0, 0, 0, 0.60)"
+    },
+    "PALETTE_COOL_GRAY_1": {
+      "value": "#FFFFFF"
+    },
+    "WHITE_TRANSPARENT_15": {
+      "value": "rgba(255, 255, 255, 0.15)"
+    },
+    "PALETTE_WARM_GRAY_13": {
+      "value": "#080707"
+    },
+    "BLACK_TRANSPARENT_50": {
+      "value": "rgba(0, 0, 0, 0.50)"
+    },
+    "PALETTE_COOL_GRAY_2": {
+      "value": "#F9F9FA"
+    },
+    "WHITE": {
+      "value": "#FFFFFF"
+    },
+    "BLACK_TRANSPARENT_40": {
+      "value": "rgba(0, 0, 0, 0.40)"
+    },
+    "PALETTE_COOL_GRAY_10": {
+      "value": "#4E5356"
+    },
+    "PALETTE_COOL_GRAY_3": {
+      "value": "#F2F2F3"
+    },
+    "BLACK_TRANSPARENT_30": {
+      "value": "rgba(0, 0, 0, 0.30)"
+    },
+    "PALETTE_COOL_GRAY_11": {
+      "value": "#3E4041"
+    },
+    "PALETTE_COOL_GRAY_4": {
+      "value": "#E9EAEC"
+    },
+    "PALETTE_WARM_GRAY_1": {
+      "value": "#FFFFFF"
+    },
+    "BLACK_TRANSPARENT_20": {
+      "value": "rgba(0, 0, 0, 0.20)"
+    },
+    "PALETTE_COOL_GRAY_12": {
+      "value": "#292C2E"
+    },
+    "PALETTE_COOL_GRAY_5": {
+      "value": "#D9DBDD"
+    },
+    "PALETTE_WARM_GRAY_2": {
+      "value": "#fafaf9"
+    },
+    "BLACK_TRANSPARENT_10": {
+      "value": "rgba(0, 0, 0, 0.10)"
+    },
+    "PALETTE_COOL_GRAY_13": {
+      "value": "#070808"
+    },
+    "PALETTE_COOL_GRAY_6": {
+      "value": "#C4C6CA"
+    },
+    "PALETTE_WARM_GRAY_3": {
+      "value": "#f3f2f2"
+    },
+    "PALETTE_COOL_GRAY_7": {
+      "value": "#ABADB0"
+    },
+    "PALETTE_WARM_GRAY_4": {
+      "value": "#ecebea"
+    },
+    "PALETTE_COOL_GRAY_8": {
+      "value": "#919297"
+    },
+    "PALETTE_WARM_GRAY_5": {
+      "value": "#dddbda"
+    },
+    "BLACK_TRANSPARENT_24": {
+      "value": "rgba(0, 0, 0, 0.24)"
+    },
+    "PALETTE_COOL_GRAY_9": {
+      "value": "#6B6D70"
+    },
+    "PALETTE_WARM_GRAY_6": {
+      "value": "#c9c7c5"
+    },
+    "PALETTE_WARM_GRAY_7": {
+      "value": "#b0adab"
+    },
+    "PALETTE_WARM_GRAY_8": {
+      "value": "#969492"
+    },
+    "BLACK_TRANSPARENT_05": {
+      "value": "rgba(0, 0, 0, 0.05)"
+    },
+    "BLACK_TRANSPARENT_16": {
+      "value": "rgba(0, 0, 0, 0.16)"
+    },
+    "PALETTE_WARM_GRAY_9": {
+      "value": "#706e6b"
+    },
+    "PALETTE_LIGHT_GRAY_TRANSPARENT_90": {
+      "value": "rgba(255, 255, 255, 0.9)"
+    },
+    "BLACK_TRANSPARENT_07": {
+      "value": "rgba(0, 0, 0, 0.07)"
+    },
+    "PALETTE_LIGHT_GRAY_TRANSPARENT_80": {
+      "value": "rgba(255, 255, 255, 0.8)"
+    },
+    "PALETTE_LIGHT_GRAY_TRANSPARENT_70": {
+      "value": "rgba(255, 255, 255, 0.7)"
+    },
+    "PALETTE_LIGHT_GRAY_TRANSPARENT_60": {
+      "value": "rgba(255, 255, 255, 0.6)"
+    },
+    "PALETTE_LIGHT_GRAY_TRANSPARENT_50": {
+      "value": "rgba(255, 255, 255, 0.5)"
+    },
+    "PALETTE_GRAY_10": {
+      "value": "#514f4d"
+    },
+    "PALETTE_LIGHT_GRAY_TRANSPARENT_40": {
+      "value": "rgba(255, 255, 255, 0.4)"
+    },
+    "PALETTE_GRAY_11": {
+      "value": "#3e3e3c"
+    },
+    "PALETTE_LIGHT_GRAY_TRANSPARENT_30": {
+      "value": "rgba(255, 255, 255, 0.3)"
+    },
+    "PALETTE_GRAY_12": {
+      "value": "#2B2826"
+    },
+    "PALETTE_GRAY_1": {
+      "value": "#FFFFFF"
+    },
+    "PALETTE_LIGHT_GRAY_TRANSPARENT_20": {
+      "value": "rgba(255, 255, 255, 0.2)"
+    },
+    "WHITE_TRANSPARENT_90": {
+      "value": "rgba(255, 255, 255, 0.90)"
+    },
+    "PALETTE_GRAY_13": {
+      "value": "#080707"
+    },
+    "PALETTE_GRAY_2": {
+      "value": "#fafaf9"
+    },
+    "WHITE_TRANSPARENT_80": {
+      "value": "rgba(255, 255, 255, 0.80)"
+    },
+    "PALETTE_DARK_GRAY_TRANSPARENT_90": {
+      "value": "rgba(8, 7, 7, 0.9)"
+    },
+    "PALETTE_GRAY_3": {
+      "value": "#f3f2f2"
+    },
+    "PALETTE_LIGHT_GRAY_TRANSPARENT_10": {
+      "value": "rgba(255, 255, 255, 0.1)"
+    },
+    "PALETTE_DARK_GRAY_TRANSPARENT_80": {
+      "value": "rgba(8, 7, 7, 0.8)"
+    },
+    "PALETTE_GRAY_4": {
+      "value": "#ecebea"
+    },
+    "PALETTE_DARK_GRAY_TRANSPARENT_70": {
+      "value": "rgba(8, 7, 7, 0.7)"
+    },
+    "PALETTE_GRAY_5": {
+      "value": "#dddbda"
+    },
+    "WHITE_TRANSPARENT_60": {
+      "value": "rgba(255, 255, 255, 0.60)"
+    },
+    "PALETTE_DARK_GRAY_TRANSPARENT_60": {
+      "value": "rgba(8, 7, 7, 0.6)"
+    },
+    "PALETTE_GRAY_6": {
+      "value": "#c9c7c5"
+    },
+    "WHITE_TRANSPARENT_50": {
+      "value": "rgba(255, 255, 255, 0.50)"
+    },
+    "PALETTE_DARK_GRAY_TRANSPARENT_50": {
+      "value": "rgba(8, 7, 7, 0.5)"
+    },
+    "WHITE_TRANSPARENT_40": {
+      "value": "rgba(255, 255, 255, 0.40)"
+    },
+    "PALETTE_GRAY_7": {
+      "value": "#b0adab"
+    },
+    "BLACK": {
+      "value": "#000000"
+    },
+    "ALUMINIUM_BLUE": {
+      "value": "hsl(210, 25%, 48%)"
+    },
+    "FOREST_GREEN": {
+      "value": "#027E46"
+    },
+    "KOROMIKO": {
+      "value": "#FFB75D"
+    },
+    "RAIN_PURPLE_900": {
+      "value": "hsl(257, 39.2%, 42%)"
+    },
+    "SUNSHADE": {
+      "value": "#FF9E2C"
+    },
+    "FUN_GREEN": {
+      "value": "#028048"
+    },
+    "ATHENS_BLUE": {
+      "value": "hsl(210, 42.36%, 96.53%)"
+    },
+    "ROME_BLUE": {
+      "value": "hsl(210, 30.56%, 82.72%)"
+    },
+    "EMERALD": {
+      "value": "#4BCA81"
+    },
+    "MALIBU": {
+      "value": "#5EB4FF"
+    },
+    "SEA_GREEN_100": {
+      "value": "hsl(177, 64.7%, 51.9%)"
+    },
+    "GEYSER": {
+      "value": "#D8DDE6"
+    },
+    "RHINO_BLUE": {
+      "value": "hsl(210, 42.86%, 28%)"
+    },
+    "SALEM": {
+      "value": "#04844B"
+    },
+    "SEA_GREEN_300": {
+      "value": "hsl(177, 61.3%, 47.1%)"
+    },
+    "REGENT_GREY": {
+      "value": "#7E8C99"
+    },
+    "MIDNIGHT_BLUE": {
+      "value": "#00396B"
+    },
+    "SEA_GREEN_500": {
+      "value": "hsl(177, 62.6%, 41.2%)"
+    },
+    "GHOST_BLUE": {
+      "value": "hsl(210, 25.93%, 59.5%)"
+    },
+    "SKY_BLUE_100": {
+      "value": "hsl(208, 93.3%, 70.1%)"
+    },
+    "SEA_GREEN_700": {
+      "value": "hsl(177, 65.3%, 35.7%)"
+    },
+    "CERULEAN": {
+      "value": "#00A1DF"
+    },
+    "SNOWY_MINT": {
+      "value": "#D9FFDF"
+    },
+    "KAITOKE_GREEN": {
+      "value": "#004a29"
+    },
+    "SKY_BLUE_300": {
+      "value": "hsl(208, 89.6%, 61.4%)"
+    },
+    "SEA_GREEN_900": {
+      "value": "hsl(177, 65.3%, 30.9%)"
+    },
+    "ENDEAVOUR": {
+      "value": "#005FB2"
+    },
+    "TANGERINE": {
+      "value": "#FF9A3C"
+    },
+    "SANTORINI": {
+      "value": "#006DCC"
+    },
+    "DEEP_BLUSH": {
+      "value": "#EA8288"
+    },
+    "SKY_BLUE_500": {
+      "value": "hsl(208, 84.3%, 55.3%)"
+    },
+    "TOREA_BAY": {
+      "value": "#0B2399"
+    },
+    "DEEP_COVE": {
+      "value": "#061C3F"
+    },
+    "AZURE": {
+      "value": "#1589EE"
+    },
+    "BISCAY": {
+      "value": "#16325C"
+    },
+    "MAROON": {
+      "value": "#870500"
+    },
+    "SKY_BLUE_700": {
+      "value": "hsl(208, 73.9%, 48.3%)"
+    },
+    "STEAM": {
+      "value": "#E0E5EE"
+    },
+    "CINNAMON": {
+      "value": "#844800"
+    },
+    "VALENCIA": {
+      "value": "#D4504C"
+    },
+    "SKY_BLUE_900": {
+      "value": "hsl(208, 77%, 41.8%)"
+    },
+    "LINK_WATER": {
+      "value": "#F4F6F9"
+    },
+    "TRANSPARENT": {
+      "value": "transparent"
+    },
+    "TABASCO": {
+      "value": "#A61A14"
+    },
+    "BIGSTONE_BLUE": {
+      "value": "hsl(210, 66.67%, 12%)"
+    },
+    "SPIDER_BLUE": {
+      "value": "hsl(210, 28.57%, 72%)"
+    },
+    "SCIENCE_BLUE": {
+      "value": "#0070D2"
+    },
+    "LEMON_CHIFFON": {
+      "value": "#FAFFBD"
+    },
+    "SAN_JUAN": {
+      "value": "#2A426C"
+    },
+    "RAIN_PURPLE_100": {
+      "value": "hsl(257, 83.1%, 76.3%)"
+    },
+    "MEXICAN_RED": {
+      "value": "#A12B2B"
+    },
+    "ROLLINGSTONE_BLUE": {
+      "value": "hsl(210, 33.33%, 37.5%)"
+    },
+    "WHITE_LILAC": {
+      "value": "#EEF1F6"
+    },
+    "FLUSH_MAHOGANY": {
+      "value": "#C23934"
+    },
+    "GRADIENT_SHADOW_BOTTOM": {
+      "value": "linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 100%)"
+    },
+    "RAIN_PURPLE_300": {
+      "value": "hsl(257, 72.2%, 67.6%)"
+    },
+    "GORSE": {
+      "value": "#fff03f"
+    },
+    "REGENT_GREY_TRANSPARENT_80": {
+      "value": "rgba(126, 140, 153, 0.80)"
+    },
+    "ZODIAC_BLUE": {
+      "value": "hsl(210, 53.85%, 19.5%)"
+    },
+    "RAIN_PURPLE_500": {
+      "value": "hsl(257, 61.2%, 58.8%)"
+    },
+    "PIPPIN": {
+      "value": "#FFDDE1"
+    },
+    "SPARTA_BLUE": {
+      "value": "hsl(210, 32.2%, 92.62%)"
+    },
+    "PATTEN_BLUE": {
+      "value": "#D8EDFF"
+    },
+    "RAIN_PURPLE_700": {
+      "value": "hsl(257, 50.2%, 50%)"
+    },
+    "OFFSET_NONE": {
+      "value": "0"
+    },
+    "OFFSET_X_SMALL": {
+      "value": 2
+    },
+    "OFFSET_SMALL": {
+      "value": 3
+    },
+    "OFFSET_MEDIUM": {
+      "value": 4
+    },
+    "OFFSET_LARGE": {
+      "value": 8
+    },
+    "OFFSET_X_LARGE": {
+      "value": 16
+    },
+    "OFFSET_XX_LARGE": {
+      "value": 32
+    },
+    "SPACING_X_SMALL": {
+      "value": "0.5rem"
+    },
+    "SPACING_XXX_SMALL": {
+      "value": "0.125rem"
+    },
+    "SPACING_XX_SMALL": {
+      "value": "0.25rem"
+    },
+    "SPACING_SMALL": {
+      "value": "0.75rem"
+    },
+    "SPACING_MEDIUM": {
+      "value": "1rem"
+    },
+    "SPACING_NONE": {
+      "value": "0"
+    },
+    "SPACING_X_LARGE": {
+      "value": "2rem"
+    },
+    "SPACING_XX_LARGE": {
+      "value": "3rem"
+    },
+    "SPACING_LARGE": {
+      "value": "1.5rem"
+    },
+    "BORDER_RADIUS_SMALL": {
+      "value": "0.125rem"
+    },
+    "BORDER_RADIUS_MEDIUM": {
+      "value": "0.25rem"
+    },
+    "BORDER_RADIUS_LARGE": {
+      "value": "0.5rem"
+    },
+    "BORDER_RADIUS_CIRCLE": {
+      "value": "50%"
+    },
+    "BORDER_RADIUS_PILL": {
+      "value": "15rem"
+    },
+    "FONT_SIZE_1": {
+      "value": "0.625rem"
+    },
+    "FONT_SIZE_2": {
+      "value": "0.75rem"
+    },
+    "FONT_SIZE_3": {
+      "value": "0.8125rem"
+    },
+    "FONT_SIZE_4": {
+      "value": "0.875rem"
+    },
+    "FONT_SIZE_5": {
+      "value": "1rem"
+    },
+    "FONT_SIZE_6": {
+      "value": "1.125rem"
+    },
+    "FONT_SIZE_7": {
+      "value": "1.25rem"
+    },
+    "FONT_SIZE_8": {
+      "value": "1.5rem"
+    },
+    "FONT_SIZE_9": {
+      "value": "1.75rem"
+    },
+    "FONT_SIZE_10": {
+      "value": "2rem"
+    },
+    "FONT_SIZE_11": {
+      "value": "2.625rem"
+    },
+    "FONT_WEIGHT_LIGHT": {
+      "value": "300"
+    },
+    "FONT_WEIGHT_REGULAR": {
+      "value": "400"
+    },
+    "FONT_WEIGHT_BOLD": {
+      "value": "700"
+    }
+  },
+  "props": {
+    "COLOR_CONTRAST_PRIMARY": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#f3f2f2",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_CONTRAST_PRIMARY"
+    },
+    "COLOR_BACKGROUND_TEMP_MODAL_TINT": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "rgba(8, 7, 7, 0.6)",
+      "comment": "The color of the mask overlay that appears when you enter a modal state.",
+      "originalValue": "{!PALETTE_DARK_GRAY_TRANSPARENT_60}",
+      "name": "COLOR_BACKGROUND_TEMP_MODAL_TINT"
+    },
+    "BRAND_BAND_COLOR_BACKGROUND_SECONDARY_TRANSPARENT": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "rgba(253,253,253,0)",
+      "comment": "Winter 18 token, this has been deprecated. Please use BRAND_BACKGROUND_DARK_TRANSPARENT instead. These RGBA values need to be updated if BRAND_BAND_COLOR_BACKGROUND_PRIMARY changes, solves webkit bug",
+      "originalValue": "rgba(253,253,253,0)",
+      "name": "BRAND_BAND_COLOR_BACKGROUND_SECONDARY_TRANSPARENT"
+    },
+    "COLOR_BACKGROUND_ALT_2": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#f3f2f2",
+      "comment": "Used when further differentiation is needed because colorBackground and colorBackgroundAlt are both being used in close proximity.",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_BACKGROUND_ALT_2"
+    },
+    "COLOR_BACKGROUND_UTILITY_BAR_HOVER": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#ecebea",
+      "comment": "Hover color for utility bar item.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BACKGROUND_UTILITY_BAR_HOVER"
+    },
+    "COLOR_BACKGROUND_ANCHOR": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#f3f2f2",
+      "comment": "Use COLOR_BACKGROUND_PAGE_HEADER instead.",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_BACKGROUND_ANCHOR"
+    },
+    "COLOR_BACKGROUND_PRIMARY": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#f3f2f2",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_BACKGROUND_PRIMARY"
+    },
+    "COLOR_BACKGROUND_OFFLINE": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#3e3e3c",
+      "comment": "Color for UI elements related to the offline state.",
+      "originalValue": "{!PALETTE_GRAY_11}",
+      "name": "COLOR_BACKGROUND_OFFLINE"
+    },
+    "BRAND_BAND_COLOR_BACKGROUND_SECONDARY": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "rgb(253,253,253)",
+      "comment": "Winter 18 token, this has been deprecated. Please use BRAND_BACKGROUND_PRIMARY_DARK instead.",
+      "originalValue": "rgb(253,253,253)",
+      "name": "BRAND_BAND_COLOR_BACKGROUND_SECONDARY"
+    },
+    "BRAND_BAND_COLOR_BACKGROUND_PRIMARY_TRANSPARENT": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "rgba(253,253,253,0)",
+      "comment": "Winter 18 token, this has been deprecated. Please use BRAND_BACKGROUND_PRIMARY_TRANSPARENT instead. These RGBA values need to be updated if BRAND_BAND_COLOR_BACKGROUND_PRIMARY changes, solves webkit bug",
+      "originalValue": "rgba(253,253,253,0)",
+      "name": "BRAND_BAND_COLOR_BACKGROUND_PRIMARY_TRANSPARENT"
+    },
+    "COLOR_CONTRAST_SECONDARY": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#f3f2f2",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_CONTRAST_SECONDARY"
+    },
+    "COLOR_BACKGROUND_BROWSER": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#706e6b",
+      "comment": "Secondary top bar background color (child browser, file preview, etc.)",
+      "originalValue": "{!PALETTE_GRAY_9}",
+      "name": "COLOR_BACKGROUND_BROWSER"
+    },
+    "COLOR_BACKGROUND_TEMP_MODAL": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#969492",
+      "comment": "Used as the default background color for temporary dialog elements, such as the progress spinner background.",
+      "originalValue": "{!PALETTE_GRAY_8}",
+      "name": "COLOR_BACKGROUND_TEMP_MODAL"
+    },
+    "COLOR_BACKGROUND_SHADE": {
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BACKGROUND_SHADE",
+      "value": "#ecebea",
+      "deprecated": true,
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "type": "color",
+      "specificity": "builders",
+      "category": "background-color",
+      "comment": "Used as gray background when more contrast is desired."
+    },
+    "COLOR_BACKGROUND_PAYLOAD": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#fafaf9",
+      "comment": "Background color for payloads in the feed.",
+      "originalValue": "{!PALETTE_GRAY_2}",
+      "name": "COLOR_BACKGROUND_PAYLOAD"
+    },
+    "PAGE_COLOR_BACKGROUND_PRIMARY": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "rgb(253,253,253)",
+      "comment": "Winter 18 token, this has been deprecated. Please use BRAND_BACKGROUND_PRIMARY instead.",
+      "originalValue": "rgb(253,253,253)",
+      "name": "PAGE_COLOR_BACKGROUND_PRIMARY"
+    },
+    "COLOR_BACKGROUND_SHADE_DARK": {
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "COLOR_BACKGROUND_SHADE_DARK",
+      "value": "#dddbda",
+      "deprecated": true,
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "type": "color",
+      "specificity": "builders",
+      "category": "background-color",
+      "comment": "Used as gray background in conjunction with Shade when more contrast is desired."
+    },
+    "COLOR_BACKGROUND_ACTIONBAR_ICON_UTILITY": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#706e6b",
+      "comment": "Background for utility icons that live in the action bar on mobile.",
+      "originalValue": "{!PALETTE_GRAY_9}",
+      "name": "COLOR_BACKGROUND_ACTIONBAR_ICON_UTILITY"
+    },
+    "BRAND_BAND_COLOR_BACKGROUND_PRIMARY": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "rgb(253,253,253)",
+      "comment": "Winter 18 token, this has been deprecated. Please use BRAND_BACKGROUND_PRIMARY instead.",
+      "originalValue": "rgb(253,253,253)",
+      "name": "BRAND_BAND_COLOR_BACKGROUND_PRIMARY"
+    },
+    "COLOR_BACKGROUND_SECONDARY": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "deprecated": true,
+      "value": "#FFFFFF",
+      "originalValue": "{!PALETTE_GRAY_1}",
+      "name": "COLOR_BACKGROUND_SECONDARY"
+    },
+    "COLOR_BORDER_PRIMARY": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow",
+        "stroke"
+      ],
+      "deprecated": true,
+      "value": "#dddbda",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "COLOR_BORDER_PRIMARY"
+    },
+    "COLOR_STROKE_BRAND": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow",
+        "stroke"
+      ],
+      "deprecated": true,
+      "value": "#0070D2",
+      "comment": "Our product brand blue.",
+      "originalValue": "{!SCIENCE_BLUE}",
+      "name": "COLOR_STROKE_BRAND"
+    },
+    "COLOR_STROKE_BRAND_HOVER": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow",
+        "stroke"
+      ],
+      "deprecated": true,
+      "value": "#0070D2",
+      "comment": "Hover stroke color for our product brand blue.",
+      "originalValue": "{!SCIENCE_BLUE}",
+      "name": "COLOR_STROKE_BRAND_HOVER"
+    },
+    "COLOR_STROKE_BRAND_ACTIVE": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow",
+        "stroke"
+      ],
+      "deprecated": true,
+      "value": "#16325C",
+      "comment": "Active stroke color for our product brand blue.",
+      "originalValue": "{!BISCAY}",
+      "name": "COLOR_STROKE_BRAND_ACTIVE"
+    },
+    "COLOR_STROKE_DISABLED": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow",
+        "stroke"
+      ],
+      "deprecated": true,
+      "value": "#ecebea",
+      "comment": "Disabled stroke color.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_STROKE_DISABLED"
+    },
+    "COLOR_STROKE_HEADER_BUTTON": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow",
+        "stroke"
+      ],
+      "deprecated": true,
+      "value": "#b0adab",
+      "comment": "Stroke color for our global header buttons.",
+      "originalValue": "{!PALETTE_GRAY_7}",
+      "name": "COLOR_STROKE_HEADER_BUTTON"
+    },
+    "SHADOW_HARD_PRIMARY": {
+      "type": "box-shadow",
+      "category": "shadow",
+      "cssProperties": [
+        "box-shadow"
+      ],
+      "deprecated": true,
+      "value": "rgba(0, 0, 0, 0.10) 0 2px 0",
+      "comment": "Hard dropshadow found on general UI elements such as containers",
+      "originalValue": "{!BLACK_TRANSPARENT_10} 0 2px 0",
+      "name": "SHADOW_HARD_PRIMARY"
+    },
+    "SHADOW_SOFT_PRIMARY": {
+      "type": "box-shadow",
+      "category": "shadow",
+      "cssProperties": [
+        "box-shadow"
+      ],
+      "deprecated": true,
+      "value": "rgba(0, 0, 0, 0.10) 0 2px 2px",
+      "comment": "Soft dropshadow found on general UI elements such as containers",
+      "originalValue": "{!BLACK_TRANSPARENT_10} 0 2px 2px",
+      "name": "SHADOW_SOFT_PRIMARY"
+    },
+    "SHADOW_SOFT_PRIMARY_HOVER": {
+      "type": "box-shadow",
+      "category": "shadow",
+      "cssProperties": [
+        "box-shadow"
+      ],
+      "deprecated": true,
+      "value": "rgba(0, 0, 0, 0.20) 0 3px 6px",
+      "originalValue": "{!BLACK_TRANSPARENT_20} 0 3px 6px",
+      "name": "SHADOW_SOFT_PRIMARY_HOVER"
+    },
+    "SHADOW_SOFT_PRIMARY_ACTIVE": {
+      "type": "box-shadow",
+      "category": "shadow",
+      "cssProperties": [
+        "box-shadow"
+      ],
+      "deprecated": true,
+      "value": "rgba(0, 0, 0, 0.20) 0 1px 1px",
+      "originalValue": "{!BLACK_TRANSPARENT_20} 0 1px 1px",
+      "name": "SHADOW_SOFT_PRIMARY_ACTIVE"
+    },
+    "SHADOW_BUTTON_FOCUS_INVERSE": {
+      "type": "box-shadow",
+      "category": "shadow",
+      "cssProperties": [
+        "box-shadow"
+      ],
+      "deprecated": true,
+      "value": "0 0 3px #ecebea",
+      "comment": "Custom glow for focus states on UI elements with explicit containers on dark or vibrantly colored backgrounds.",
+      "originalValue": "{!OFFSET_NONE} {!OFFSET_NONE} {!OFFSET_SMALL}px {!PALETTE_GRAY_4}",
+      "name": "SHADOW_BUTTON_FOCUS_INVERSE"
+    },
+    "SHADOW_LINK_FOCUS_INVERSE": {
+      "type": "box-shadow",
+      "category": "shadow",
+      "cssProperties": [
+        "box-shadow"
+      ],
+      "deprecated": true,
+      "value": "0 0 3px #ecebea",
+      "comment": "Custom glow for focus states on UI link elements with explicit containers on dark or vibrantly colored backgrounds.",
+      "originalValue": "{!OFFSET_NONE} {!OFFSET_NONE} {!OFFSET_SMALL}px {!PALETTE_GRAY_4}",
+      "name": "SHADOW_LINK_FOCUS_INVERSE"
+    },
+    "COMPONENT_SPACING_MARGIN": {
+      "category": "spacing",
+      "type": "size",
+      "comment": "",
+      "cssProperties": [
+        "margin*",
+        "padding*"
+      ],
+      "deprecated": true,
+      "value": "0.75rem",
+      "originalValue": "{!SPACING_SMALL}",
+      "name": "COMPONENT_SPACING_MARGIN"
+    },
+    "COMPONENT_SPACING_PADDING": {
+      "category": "spacing",
+      "type": "size",
+      "comment": "",
+      "cssProperties": [
+        "margin*",
+        "padding*"
+      ],
+      "deprecated": true,
+      "value": "1rem",
+      "originalValue": "{!SPACING_MEDIUM}",
+      "name": "COMPONENT_SPACING_PADDING"
+    },
+    "CARD_SPACING_MARGIN": {
+      "category": "spacing",
+      "type": "size",
+      "comment": "",
+      "cssProperties": [
+        "margin*",
+        "padding*"
+      ],
+      "deprecated": true,
+      "value": "0.75rem",
+      "originalValue": "{!SPACING_SMALL}",
+      "name": "CARD_SPACING_MARGIN"
+    },
+    "CARD_FOOTER_PADDING": {
+      "category": "spacing",
+      "type": "size",
+      "comment": "",
+      "cssProperties": [
+        "margin*",
+        "padding*"
+      ],
+      "deprecated": true,
+      "value": "0.75rem 1rem",
+      "originalValue": "{!SPACING_SMALL} {!SPACING_MEDIUM}",
+      "name": "CARD_FOOTER_PADDING"
+    },
+    "COLOR_TEXT_TERTIARY": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "deprecated": true,
+      "value": "#969492",
+      "comment": "Tertiary body text color",
+      "originalValue": "{!PALETTE_GRAY_8}",
+      "name": "COLOR_TEXT_TERTIARY"
+    },
+    "COLOR_TEXT_INVERSE_ACTIVE": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "deprecated": true,
+      "value": "#5EB4FF",
+      "comment": "Active state on a standalone link on a dark background.",
+      "originalValue": "{!MALIBU}",
+      "name": "COLOR_TEXT_INVERSE_ACTIVE"
+    },
+    "COLOR_TEXT_ICON_DEFAULT_HINT_BORDERLESS": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "deprecated": true,
+      "value": "#ecebea",
+      "comment": "Icon color for a button that has a parent element that has a hover state. This is the default text/icon color for that button before its parent has been hovered over.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_TEXT_ICON_DEFAULT_HINT_BORDERLESS"
+    },
+    "COLOR_TEXT_TOAST": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "deprecated": true,
+      "value": "#ecebea",
+      "comment": "Color for text on toast messages.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_TEXT_TOAST"
+    },
+    "COLOR_TEXT_INVERSE_HOVER": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "deprecated": true,
+      "value": "#b0adab",
+      "comment": "Hover state on a standalone link on a dark background.",
+      "originalValue": "{!PALETTE_GRAY_7}",
+      "name": "COLOR_TEXT_INVERSE_HOVER"
+    },
+    "COLOR_TEXT_MODAL_BUTTON": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "deprecated": true,
+      "value": "#3e3e3c",
+      "comment": "Modal header button text color",
+      "originalValue": "{!PALETTE_GRAY_11}",
+      "name": "COLOR_TEXT_MODAL_BUTTON"
+    },
+    "COLOR_TEXT_ICON_UTILITY": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "deprecated": true,
+      "value": "#b0adab",
+      "comment": "Color for interactive utility icons",
+      "originalValue": "{!PALETTE_GRAY_7}",
+      "name": "COLOR_TEXT_ICON_UTILITY"
+    },
+    "COLOR_TEXT_SECONDARY": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "deprecated": true,
+      "value": "#3e3e3c",
+      "comment": "Secondary body text color",
+      "originalValue": "{!PALETTE_GRAY_11}",
+      "name": "COLOR_TEXT_SECONDARY"
+    },
+    "COLOR_TEXT_STAGE_LEFT": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "deprecated": true,
+      "value": "#ecebea",
+      "comment": "Text in stage left navigation.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_TEXT_STAGE_LEFT"
+    },
+    "COLOR_BACKGROUND_ROW_ACTIVE": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#ecebea",
+      "comment": "Used as the background color for the active state on rows or items on list-like components.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BACKGROUND_ROW_ACTIVE"
+    },
+    "COLOR_BACKGROUND_LIGHT": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#FFFFFF",
+      "comment": "Light variant of COLOR_BACKGROUND.",
+      "release": "2.8.0",
+      "originalValue": "{!PALETTE_GRAY_1}",
+      "name": "COLOR_BACKGROUND_LIGHT"
+    },
+    "COLOR_BACKGROUND_ROW_HOVER": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#f3f2f2",
+      "comment": "Used as the background color for the hover state on rows or items on list-like components.",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_BACKGROUND_ROW_HOVER"
+    },
+    "COLOR_BACKGROUND_INFO": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#706e6b",
+      "comment": "Background color for UI elements related to providing neutral information (not error, success, or warning).",
+      "originalValue": "{!PALETTE_GRAY_9}",
+      "name": "COLOR_BACKGROUND_INFO"
+    },
+    "COLOR_BACKGROUND_STENCIL": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#f3f2f2",
+      "comment": "Used as background for loading stencils on white background.",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_BACKGROUND_STENCIL"
+    },
+    "COLOR_BACKGROUND": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#f3f2f2",
+      "comment": "Default background color for the whole app.",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_BACKGROUND"
+    },
+    "COLOR_BACKGROUND_DARK": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#ecebea",
+      "comment": "Dark variant of COLOR_BACKGROUND.",
+      "release": "2.8.0",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BACKGROUND_DARK"
+    },
+    "COLOR_BACKGROUND_STENCIL_ALT": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#ecebea",
+      "comment": "Used as an alternate background for loading stencils on gray backgrounds.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BACKGROUND_STENCIL_ALT"
+    },
+    "COLOR_BACKGROUND_ROW_SELECTED": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#ecebea",
+      "comment": "Used as the background color for selected rows or items on list-like components.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BACKGROUND_ROW_SELECTED"
+    },
+    "COLOR_BORDER": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow",
+        "background*"
+      ],
+      "value": "#dddbda",
+      "comment": "Default border color for UI elements.",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "COLOR_BORDER"
+    },
+    "COLOR_BORDER_SEPARATOR": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#f3f2f2",
+      "comment": "Lightest separator color - used as default separator on white backgrounds.",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_BORDER_SEPARATOR"
+    },
+    "COLOR_BORDER_SEPARATOR_ALT": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#dddbda",
+      "comment": "Medium separator color - used as default separator on light gray backgrounds.",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "COLOR_BORDER_SEPARATOR_ALT"
+    },
+    "COLOR_BORDER_SEPARATOR_ALT_2": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#c9c7c5",
+      "comment": "Darkest separator color - used as an alternate separator color when more differentiation is desired.",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_6}",
+      "name": "COLOR_BORDER_SEPARATOR_ALT_2"
+    },
+    "COLOR_BORDER_INFO": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#706e6b",
+      "comment": "Border color for UI elements related to providing neutral information (not error, success, or warning).",
+      "originalValue": "{!PALETTE_GRAY_9}",
+      "name": "COLOR_BORDER_INFO"
+    },
+    "COLOR_BORDER_OFFLINE": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#3e3e3c",
+      "comment": "Border color for UI elements related to the offline state.",
+      "originalValue": "{!PALETTE_GRAY_11}",
+      "name": "COLOR_BORDER_OFFLINE"
+    },
+    "COLOR_BORDER_SELECTION_ACTIVE": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#f3f2f2",
+      "specificity": "builders",
+      "comment": "Used to delineate the boundary of a component that is being clicked. Specific to builders.",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_BORDER_SELECTION_ACTIVE"
+    },
+    "BRAND_BACKGROUND_PRIMARY": {
+      "originalValue": "#b0c4df",
+      "themeable": true,
+      "release": "2.6.0",
+      "name": "BRAND_BACKGROUND_PRIMARY",
+      "value": "#b0c4df",
+      "cssProperties": [
+        "background-color",
+        "border*color",
+        "box-shadow",
+        "fill",
+        "color"
+      ],
+      "type": "color",
+      "category": "color",
+      "comment": "Primary page background color"
+    },
+    "BRAND_BACKGROUND_PRIMARY_TRANSPARENT": {
+      "originalValue": "rgba(176,196,223,0)",
+      "themeable": true,
+      "release": "2.6.0",
+      "name": "BRAND_BACKGROUND_PRIMARY_TRANSPARENT",
+      "value": "rgba(176,196,223,0)",
+      "cssProperties": [
+        "background-color",
+        "border*color",
+        "box-shadow",
+        "fill",
+        "color"
+      ],
+      "type": "color",
+      "category": "color",
+      "comment": "These RGBA values need to be updated if BRAND_BACKGROUND_PRIMARY changes, solves webkit bug"
+    },
+    "BRAND_BACKGROUND_DARK": {
+      "originalValue": "#195594",
+      "themeable": true,
+      "release": "2.6.0",
+      "name": "BRAND_BACKGROUND_DARK",
+      "value": "#195594",
+      "cssProperties": [
+        "background-color",
+        "border*color",
+        "box-shadow",
+        "fill",
+        "color"
+      ],
+      "type": "color",
+      "category": "color",
+      "comment": "Dark variant of BRAND_BACKGROUND_PRIMARY, used within gradient of background color"
+    },
+    "BRAND_BACKGROUND_DARK_TRANSPARENT": {
+      "originalValue": "rgba(25,85,148,0)",
+      "themeable": true,
+      "release": "2.6.0",
+      "name": "BRAND_BACKGROUND_DARK_TRANSPARENT",
+      "value": "rgba(25,85,148,0)",
+      "cssProperties": [
+        "background-color",
+        "border*color",
+        "box-shadow",
+        "fill",
+        "color"
+      ],
+      "type": "color",
+      "category": "color",
+      "comment": "These RGBA values need to be updated if BRAND_BACKGROUND_DARK changes, solves webkit bug"
+    },
+    "COLOR_TEXT_ACTION_LABEL": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#3e3e3c",
+      "comment": "Action label text color",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_11}",
+      "name": "COLOR_TEXT_ACTION_LABEL"
+    },
+    "COLOR_TEXT_ACTION_LABEL_ACTIVE": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#080707",
+      "comment": "Action label active text color",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_13}",
+      "name": "COLOR_TEXT_ACTION_LABEL_ACTIVE"
+    },
+    "COLOR_TEXT_DEFAULT": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#080707",
+      "comment": "Body text color",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_13}",
+      "name": "COLOR_TEXT_DEFAULT"
+    },
+    "COLOR_TEXT_WEAK": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#3e3e3c",
+      "comment": "Color for text that is purposefully de-emphasized to create visual hierarchy.",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_11}",
+      "name": "COLOR_TEXT_WEAK"
+    },
+    "COLOR_TEXT_PLACEHOLDER_INVERSE": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#ecebea",
+      "comment": "Input placeholder text on dark backgrounds.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_TEXT_PLACEHOLDER_INVERSE"
+    },
+    "COLOR_TEXT_LINK": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#006DCC",
+      "comment": "Link text (508)",
+      "access": "global",
+      "originalValue": "{!SANTORINI}",
+      "name": "COLOR_TEXT_LINK"
+    },
+    "COLOR_TEXT_ICON_DEFAULT": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#706e6b",
+      "comment": "Default icon color.",
+      "originalValue": "{!PALETTE_GRAY_9}",
+      "name": "COLOR_TEXT_ICON_DEFAULT"
+    },
+    "COLOR_TEXT_INVERSE": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#FFFFFF",
+      "comment": "Inverse text color for dark backgrounds",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_1}",
+      "name": "COLOR_TEXT_INVERSE"
+    },
+    "COLOR_TEXT_PLACEHOLDER": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#3e3e3c",
+      "comment": "Input placeholder text.",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_11}",
+      "name": "COLOR_TEXT_PLACEHOLDER"
+    },
+    "COLOR_TEXT_INVERSE_WEAK": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#b0adab",
+      "comment": "Weak inverse text color for dark backgrounds",
+      "access": "global",
+      "originalValue": "{!PALETTE_GRAY_7}",
+      "name": "COLOR_TEXT_INVERSE_WEAK"
+    },
+    "COLOR_TEXT_LABEL": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#3e3e3c",
+      "comment": "Text color for field labels.",
+      "originalValue": "{!PALETTE_GRAY_11}",
+      "name": "COLOR_TEXT_LABEL"
+    },
+    "COLOR_BACKGROUND_NOTIFICATION_NEW": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#f3f2f2",
+      "comment": "Background color for a new notification list item.",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_BACKGROUND_NOTIFICATION_NEW"
+    },
+    "POPOVER_WALKTHROUGH_HEADER_IMAGE": {
+      "type": "string",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "/assets/images/popovers/popover-header.png",
+      "originalValue": "/assets/images/popovers/popover-header.png",
+      "name": "POPOVER_WALKTHROUGH_HEADER_IMAGE"
+    },
+    "COLOR_BACKGROUND_INPUT_DISABLED": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#ecebea",
+      "comment": "Disabled input",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BACKGROUND_INPUT_DISABLED"
+    },
+    "COLOR_BACKGROUND_TOGGLE_HOVER": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#969492",
+      "comment": "Hovered toggle background color.",
+      "originalValue": "{!PALETTE_GRAY_8}",
+      "name": "COLOR_BACKGROUND_TOGGLE_HOVER"
+    },
+    "POPOVER_WALKTHROUGH_COLOR_BACKGROUND": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#032e61",
+      "originalValue": "#032e61",
+      "name": "POPOVER_WALKTHROUGH_COLOR_BACKGROUND"
+    },
+    "POPOVER_WALKTHROUGH_ALT_IMAGE": {
+      "type": "string",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "/assets/images/popovers/popover-action.png",
+      "originalValue": "/assets/images/popovers/popover-action.png",
+      "name": "POPOVER_WALKTHROUGH_ALT_IMAGE"
+    },
+    "PROGRESS_COLOR_BORDER_SHADE": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#f3f2f2",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "PROGRESS_COLOR_BORDER_SHADE"
+    },
+    "COLOR_BACKGROUND_TOGGLE": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#b0adab",
+      "comment": "Toggle background color.",
+      "originalValue": "{!PALETTE_GRAY_7}",
+      "name": "COLOR_BACKGROUND_TOGGLE"
+    },
+    "POPOVER_WALKTHROUGH_ALT_NUBBIN_COLOR_BACKGROUND": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#215ca0",
+      "originalValue": "#215ca0",
+      "name": "POPOVER_WALKTHROUGH_ALT_NUBBIN_COLOR_BACKGROUND"
+    },
+    "PROGRESS_COLOR_BACKGROUND_SHADE": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#f3f2f2",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "PROGRESS_COLOR_BACKGROUND_SHADE"
+    },
+    "PAGE_HEADER_COLOR_BACKGROUND": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#f3f2f2",
+      "comment": "Default Page Header background color",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "PAGE_HEADER_COLOR_BACKGROUND"
+    },
+    "COLOR_BACKGROUND_INPUT_CHECKBOX_DISABLED": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#dddbda",
+      "comment": "Disabled checkboxes",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "COLOR_BACKGROUND_INPUT_CHECKBOX_DISABLED"
+    },
+    "COLOR_BACKGROUND_SPINNER_DOT": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#b0adab",
+      "comment": "Color of the spinner dot.",
+      "originalValue": "{!PALETTE_GRAY_7}",
+      "name": "COLOR_BACKGROUND_SPINNER_DOT"
+    },
+    "TABLE_COLOR_BACKGROUND_HEADER_HOVER": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#FFFFFF",
+      "originalValue": "{!PALETTE_GRAY_1}",
+      "name": "TABLE_COLOR_BACKGROUND_HEADER_HOVER"
+    },
+    "COLOR_BACKGROUND_BACKDROP_TINT": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#fafaf9",
+      "comment": "The color of the mask overlay that provides user feedback on interaction.",
+      "originalValue": "{!PALETTE_GRAY_2}",
+      "name": "COLOR_BACKGROUND_BACKDROP_TINT"
+    },
+    "POPOVER_WALKTHROUGH_COLOR_BACKGROUND_ALT": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#164A85",
+      "originalValue": "#164A85",
+      "name": "POPOVER_WALKTHROUGH_COLOR_BACKGROUND_ALT"
+    },
+    "TABLE_COLOR_BACKGROUND_HEADER": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#fafaf9",
+      "originalValue": "{!PALETTE_GRAY_2}",
+      "name": "TABLE_COLOR_BACKGROUND_HEADER"
+    },
+    "COLOR_BACKGROUND_SCROLLBAR": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#ecebea",
+      "comment": "The background color of an internal scrollbar.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BACKGROUND_SCROLLBAR"
+    },
+    "COLOR_BACKGROUND_TOGGLE_DISABLED": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#b0adab",
+      "comment": "Disabled toggle background color.",
+      "originalValue": "{!PALETTE_GRAY_7}",
+      "name": "COLOR_BACKGROUND_TOGGLE_DISABLED"
+    },
+    "COLOR_BACKGROUND_TOAST": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#706e6b",
+      "comment": "Background color for toast messaging.",
+      "originalValue": "{!PALETTE_GRAY_9}",
+      "name": "COLOR_BACKGROUND_TOAST"
+    },
+    "COLOR_BACKGROUND_POST": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#f3f2f2",
+      "comment": "Background color of comment posts in the feed.",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_BACKGROUND_POST"
+    },
+    "COLOR_BACKGROUND_IMAGE_OVERLAY": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "rgba(0, 0, 0, 0.60)",
+      "comment": "Color of mask overlay that sits on top of an image when text is present.",
+      "originalValue": "{!BLACK_TRANSPARENT_60}",
+      "name": "COLOR_BACKGROUND_IMAGE_OVERLAY"
+    },
+    "COLOR_PICKER_SLIDER_THUMB_COLOR_BACKGROUND": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#f3f2f2",
+      "originalValue": "{!PALETTE_GRAY_3}",
+      "name": "COLOR_PICKER_SLIDER_THUMB_COLOR_BACKGROUND"
+    },
+    "COLOR_BACKGROUND_SCROLLBAR_TRACK": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#c9c7c5",
+      "comment": "The background color of an internal scrollbar track.",
+      "originalValue": "{!PALETTE_GRAY_6}",
+      "name": "COLOR_BACKGROUND_SCROLLBAR_TRACK"
+    },
+    "POPOVER_WALKTHROUGH_HEADER_COLOR_BACKGROUND": {
+      "type": "color",
+      "category": "background-color",
+      "cssProperties": [
+        "background*",
+        "border*",
+        "box-shadow",
+        "text-shadow"
+      ],
+      "value": "#164A85",
+      "originalValue": "#164A85",
+      "name": "POPOVER_WALKTHROUGH_HEADER_COLOR_BACKGROUND"
+    },
+    "COLOR_BORDER_INPUT_DISABLED": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#c9c7c5",
+      "comment": "Border color on disabled form elements.",
+      "originalValue": "{!PALETTE_GRAY_6}",
+      "name": "COLOR_BORDER_INPUT_DISABLED"
+    },
+    "COLOR_BORDER_REMINDER": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#ecebea",
+      "comment": "Border color on notification reminders.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BORDER_REMINDER"
+    },
+    "PAGE_HEADER_COLOR_BORDER": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#dddbda",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "PAGE_HEADER_COLOR_BORDER"
+    },
+    "COLOR_BORDER_BUTTON_DEFAULT": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#dddbda",
+      "comment": "Border color for default secondary button",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "COLOR_BORDER_BUTTON_DEFAULT"
+    },
+    "COLOR_BORDER_INPUT": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#dddbda",
+      "comment": "Border color on form elements.",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "COLOR_BORDER_INPUT"
+    },
+    "COLOR_BORDER_BUTTON_FOCUS_INVERSE": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#ecebea",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BORDER_BUTTON_FOCUS_INVERSE"
+    },
+    "CARD_COLOR_BORDER": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#dddbda",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "CARD_COLOR_BORDER"
+    },
+    "BUTTON_COLOR_BORDER_PRIMARY": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#dddbda",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "BUTTON_COLOR_BORDER_PRIMARY"
+    },
+    "COLOR_BORDER_LINK_FOCUS_INVERSE": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#ecebea",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_BORDER_LINK_FOCUS_INVERSE"
+    },
+    "PAGE_HEADER_JOINED_COLOR_BORDER": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#dddbda",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "PAGE_HEADER_JOINED_COLOR_BORDER"
+    },
+    "CARD_FOOTER_COLOR_BORDER": {
+      "type": "color",
+      "category": "border-color",
+      "cssProperties": [
+        "border*",
+        "box-shadow"
+      ],
+      "value": "#dddbda",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "CARD_FOOTER_COLOR_BORDER"
+    },
+    "PAGE_HEADER_BORDER_RADIUS": {
+      "type": "size",
+      "category": "radius",
+      "cssProperties": [
+        "border*radius"
+      ],
+      "value": "0.25rem",
+      "originalValue": "{!BORDER_RADIUS_MEDIUM}",
+      "name": "PAGE_HEADER_BORDER_RADIUS"
+    },
+    "TABLE_BORDER_RADIUS": {
+      "type": "size",
+      "category": "radius",
+      "cssProperties": [
+        "border*radius"
+      ],
+      "value": "0 0 0.25rem 0.25rem",
+      "originalValue": "0 0 {!BORDER_RADIUS_MEDIUM} {!BORDER_RADIUS_MEDIUM}",
+      "name": "TABLE_BORDER_RADIUS"
+    },
+    "PAGE_HEADER_SHADOW": {
+      "type": "box-shadow",
+      "category": "shadow",
+      "cssProperties": [
+        "box-shadow"
+      ],
+      "value": "0 2px 2px 0 rgba(0, 0, 0, 0.10)",
+      "comment": "Hard dropshadow on page header",
+      "originalValue": "0 2px 2px 0 {!BLACK_TRANSPARENT_10}",
+      "name": "PAGE_HEADER_SHADOW"
+    },
+    "CARD_SHADOW": {
+      "type": "box-shadow",
+      "category": "shadow",
+      "cssProperties": [
+        "box-shadow"
+      ],
+      "value": "0 2px 2px 0 rgba(0, 0, 0, 0.10)",
+      "comment": "Hard dropshadow found on outer cards",
+      "originalValue": "0 2px 2px 0 {!BLACK_TRANSPARENT_10}",
+      "name": "CARD_SHADOW"
+    },
+    "FORM_LABEL_FONT_SIZE": {
+      "category": "font",
+      "type": "font-size",
+      "cssProperties": [
+        "font-size"
+      ],
+      "value": "0.75rem",
+      "originalValue": "{!FONT_SIZE_2}",
+      "name": "FORM_LABEL_FONT_SIZE"
+    },
+    "INPUT_STATIC_FONT_SIZE": {
+      "category": "font",
+      "type": "font-size",
+      "cssProperties": [
+        "font-size"
+      ],
+      "value": "0.875rem",
+      "originalValue": "{!FONT_SIZE_4}",
+      "name": "INPUT_STATIC_FONT_SIZE"
+    },
+    "INPUT_STATIC_FONT_WEIGHT": {
+      "category": "font",
+      "type": "font-weight",
+      "cssProperties": [
+        "font",
+        "font-weight"
+      ],
+      "value": "400",
+      "originalValue": "{!FONT_WEIGHT_REGULAR}",
+      "name": "INPUT_STATIC_FONT_WEIGHT"
+    },
+    "TABS_FONT_WEIGHT": {
+      "category": "font",
+      "type": "font-weight",
+      "cssProperties": [
+        "font",
+        "font-weight"
+      ],
+      "value": "700",
+      "comment": "Use for active tab.",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "TABS_FONT_WEIGHT"
+    },
+    "CARD_FONT_WEIGHT": {
+      "category": "font",
+      "type": "font-weight",
+      "cssProperties": [
+        "font",
+        "font-weight"
+      ],
+      "value": "700",
+      "comment": "Use for active tab.",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "CARD_FONT_WEIGHT"
+    },
+    "PAGE_HEADER_TITLE_FONT_WEIGHT": {
+      "category": "font",
+      "type": "font-weight",
+      "cssProperties": [
+        "font",
+        "font-weight"
+      ],
+      "value": "700",
+      "originalValue": "{!FONT_WEIGHT_BOLD}",
+      "name": "PAGE_HEADER_TITLE_FONT_WEIGHT"
+    },
+    "BRAND_BAND_DEFAULT_IMAGE": {
+      "category": "utility",
+      "type": "string",
+      "value": "/assets/images/themes/oneSalesforce/banner-brand-default.png",
+      "originalValue": "/assets/images/themes/oneSalesforce/banner-brand-default.png",
+      "name": "BRAND_BAND_DEFAULT_IMAGE"
+    },
+    "BANNER_USER_DEFAULT_IMAGE": {
+      "category": "utility",
+      "type": "string",
+      "value": "/assets/images/themes/oneSalesforce/banner-user-default.png",
+      "originalValue": "/assets/images/themes/oneSalesforce/banner-user-default.png",
+      "name": "BANNER_USER_DEFAULT_IMAGE"
+    },
+    "BANNER_GROUP_DEFAULT_IMAGE": {
+      "category": "utility",
+      "type": "string",
+      "value": "/assets/images/themes/oneSalesforce/banner-group-public-default.png",
+      "originalValue": "/assets/images/themes/oneSalesforce/banner-group-public-default.png",
+      "name": "BANNER_GROUP_DEFAULT_IMAGE"
+    },
+    "TEMPLATE_GUTTERS": {
+      "category": "spacing",
+      "type": "size",
+      "cssProperties": [
+        "margin*",
+        "padding*"
+      ],
+      "value": "0.75rem",
+      "originalValue": "{!SPACING_SMALL}",
+      "name": "TEMPLATE_GUTTERS"
+    },
+    "TEMPLATE_PROFILE_GUTTERS": {
+      "category": "spacing",
+      "type": "size",
+      "cssProperties": [
+        "margin*",
+        "padding*"
+      ],
+      "value": "8rem 0.75rem 0.75rem",
+      "originalValue": "8rem {!SPACING_SMALL} {!SPACING_SMALL}",
+      "name": "TEMPLATE_PROFILE_GUTTERS"
+    },
+    "TABLE_CELL_SPACING": {
+      "category": "spacing",
+      "type": "size",
+      "cssProperties": [
+        "margin*",
+        "padding*"
+      ],
+      "value": "0.25rem 0.5rem",
+      "originalValue": "{!SPACING_XX_SMALL} {!SPACING_X_SMALL}",
+      "name": "TABLE_CELL_SPACING"
+    },
+    "CARD_FOOTER_TEXT_ALIGN": {
+      "category": "text",
+      "type": "text-align",
+      "cssProperties": [
+        "text-align"
+      ],
+      "value": "center",
+      "originalValue": "center",
+      "name": "CARD_FOOTER_TEXT_ALIGN"
+    },
+    "COLOR_TEXT_ICON_INVERSE": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#FFFFFF",
+      "comment": "Icon color on dark background",
+      "originalValue": "{!PALETTE_GRAY_1}",
+      "name": "COLOR_TEXT_ICON_INVERSE"
+    },
+    "COLOR_TEXT_INPUT_ICON": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#b0adab",
+      "comment": "Input icon",
+      "originalValue": "{!PALETTE_GRAY_7}",
+      "name": "COLOR_TEXT_INPUT_ICON"
+    },
+    "COLOR_TEXT_ICON_INVERSE_ACTIVE": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#FFFFFF",
+      "comment": "Icon color on dark background - active state",
+      "originalValue": "{!PALETTE_GRAY_1}",
+      "name": "COLOR_TEXT_ICON_INVERSE_ACTIVE"
+    },
+    "COLOR_TEXT_TAB_LABEL_DISABLED": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#ecebea",
+      "comment": "Color for disabled text in a tab group.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_TEXT_TAB_LABEL_DISABLED"
+    },
+    "COLOR_TEXT_INPUT_DISABLED": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#3e3e3c",
+      "comment": "Input disabled text",
+      "originalValue": "{!PALETTE_GRAY_11}",
+      "name": "COLOR_TEXT_INPUT_DISABLED"
+    },
+    "COLOR_TEXT_ICON_DEFAULT_DISABLED": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#dddbda",
+      "comment": "Default icon color - disabled state",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "COLOR_TEXT_ICON_DEFAULT_DISABLED"
+    },
+    "COLOR_TEXT_BUTTON_DEFAULT_DISABLED": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#dddbda",
+      "comment": "Text color for default secondary button - disabled state",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "COLOR_TEXT_BUTTON_DEFAULT_DISABLED"
+    },
+    "COLOR_TEXT_TOGGLE_DISABLED": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#dddbda",
+      "comment": "Color for disabled toggles",
+      "originalValue": "{!PALETTE_GRAY_5}",
+      "name": "COLOR_TEXT_TOGGLE_DISABLED"
+    },
+    "COLOR_TEXT_TAB_LABEL": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#2B2826",
+      "comment": "Color for default text in a tab group.",
+      "originalValue": "{!PALETTE_GRAY_12}",
+      "name": "COLOR_TEXT_TAB_LABEL"
+    },
+    "COLOR_TEXT_ICON_DEFAULT_HINT": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#b0adab",
+      "comment": "Icon color for a button that has a parent element that has a hover state. This is the default text/icon color for that button before its parent has been hovered over.",
+      "originalValue": "{!PALETTE_GRAY_7}",
+      "name": "COLOR_TEXT_ICON_DEFAULT_HINT"
+    },
+    "COLOR_TEXT_BUTTON_INVERSE": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#ecebea",
+      "comment": "Text color for a button that has a parent element that has a hover state. This is the default text/icon color for that button before its parent has been hovered over.",
+      "originalValue": "{!PALETTE_GRAY_4}",
+      "name": "COLOR_TEXT_BUTTON_INVERSE"
+    },
+    "COLOR_TEXT_BUTTON_DEFAULT_HINT": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#b0adab",
+      "comment": "Text color for a button that has a parent element that has a hover state. This is the default text/icon color for that button before its parent has been hovered over.",
+      "originalValue": "{!PALETTE_GRAY_7}",
+      "name": "COLOR_TEXT_BUTTON_DEFAULT_HINT"
+    },
+    "COLOR_TEXT_ICON_INVERSE_HOVER": {
+      "type": "color",
+      "category": "text-color",
+      "cssProperties": [
+        "color",
+        "fill"
+      ],
+      "value": "#FFFFFF",
+      "comment": "Icon color on dark background - hover state",
+      "originalValue": "{!PALETTE_GRAY_1}",
+      "name": "COLOR_TEXT_ICON_INVERSE_HOVER"
+    }
+  }
+}

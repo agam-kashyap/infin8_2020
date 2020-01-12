@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../.tmp-es/utilities/design-tokens/dist/bg-icons.common.js"],"names":["module","exports","folder"],"mappings":"AAAAA,MAAM,CAACC,OAAP,GAAiB;AAChBC,EAAAA,MAAM,EAAE;AADQ,CAAjB","sourcesContent":["module.exports = {\n\tfolder: 'rgb(99, 163, 238)',\n};\n"],"file":"bg-icons.common.js"}

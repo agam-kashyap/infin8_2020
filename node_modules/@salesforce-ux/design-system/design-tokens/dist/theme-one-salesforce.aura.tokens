@@ -1,0 +1,144 @@
+<aura:tokens>
+  <aura:token name="colorContrastPrimary" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundTempModalTint" property="background*,border*,box-shadow,text-shadow" value="rgba(8, 7, 7, 0.6)"/>
+  <aura:token name="brandBandColorBackgroundSecondaryTransparent" property="background*,border*,box-shadow,text-shadow" value="rgba(253, 253, 253, 0)"/>
+  <aura:token name="colorBackgroundAlt2" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundUtilityBarHover" property="background*,border*,box-shadow,text-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorBackgroundAnchor" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundPrimary" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundOffline" property="background*,border*,box-shadow,text-shadow" value="rgb(62, 62, 60)"/>
+  <aura:token name="brandBandColorBackgroundSecondary" property="background*,border*,box-shadow,text-shadow" value="rgb(253, 253, 253)"/>
+  <aura:token name="brandBandColorBackgroundPrimaryTransparent" property="background*,border*,box-shadow,text-shadow" value="rgba(253, 253, 253, 0)"/>
+  <aura:token name="colorContrastSecondary" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundBrowser" property="background*,border*,box-shadow,text-shadow" value="rgb(112, 110, 107)"/>
+  <aura:token name="colorBackgroundTempModal" property="background*,border*,box-shadow,text-shadow" value="rgb(150, 148, 146)"/>
+  <aura:token name="colorBackgroundShade" property="background*,border*,box-shadow,text-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorBackgroundPayload" property="background*,border*,box-shadow,text-shadow" value="rgb(250, 250, 249)"/>
+  <aura:token name="pageColorBackgroundPrimary" property="background*,border*,box-shadow,text-shadow" value="rgb(253, 253, 253)"/>
+  <aura:token name="colorBackgroundShadeDark" property="background*,border*,box-shadow,text-shadow" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorBackgroundActionbarIconUtility" property="background*,border*,box-shadow,text-shadow" value="rgb(112, 110, 107)"/>
+  <aura:token name="brandBandColorBackgroundPrimary" property="background*,border*,box-shadow,text-shadow" value="rgb(253, 253, 253)"/>
+  <aura:token name="colorBackgroundSecondary" property="background*,border*,box-shadow,text-shadow" value="rgb(255, 255, 255)"/>
+  <aura:token name="colorBorderPrimary" property="border*,box-shadow,stroke" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorStrokeBrand" property="border*,box-shadow,stroke" value="rgb(0, 112, 210)"/>
+  <aura:token name="colorStrokeBrandHover" property="border*,box-shadow,stroke" value="rgb(0, 112, 210)"/>
+  <aura:token name="colorStrokeBrandActive" property="border*,box-shadow,stroke" value="rgb(22, 50, 92)"/>
+  <aura:token name="colorStrokeDisabled" property="border*,box-shadow,stroke" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorStrokeHeaderButton" property="border*,box-shadow,stroke" value="rgb(176, 173, 171)"/>
+  <aura:token name="shadowHardPrimary" property="box-shadow" value="rgba(0, 0, 0, 0.10) 0 2px 0"/>
+  <aura:token name="shadowSoftPrimary" property="box-shadow" value="rgba(0, 0, 0, 0.10) 0 2px 2px"/>
+  <aura:token name="shadowSoftPrimaryHover" property="box-shadow" value="rgba(0, 0, 0, 0.20) 0 3px 6px"/>
+  <aura:token name="shadowSoftPrimaryActive" property="box-shadow" value="rgba(0, 0, 0, 0.20) 0 1px 1px"/>
+  <aura:token name="shadowButtonFocusInverse" property="box-shadow" value="0 0 3px #ecebea"/>
+  <aura:token name="shadowLinkFocusInverse" property="box-shadow" value="0 0 3px #ecebea"/>
+  <aura:token name="componentSpacingMargin" property="margin*,padding*" value="0.75rem"/>
+  <aura:token name="componentSpacingPadding" property="margin*,padding*" value="1rem"/>
+  <aura:token name="cardSpacingMargin" property="margin*,padding*" value="0.75rem"/>
+  <aura:token name="cardFooterPadding" property="margin*,padding*" value="0.75rem 1rem"/>
+  <aura:token name="colorTextTertiary" property="color,fill" value="rgb(150, 148, 146)"/>
+  <aura:token name="colorTextInverseActive" property="color,fill" value="rgb(94, 180, 255)"/>
+  <aura:token name="colorTextIconDefaultHintBorderless" property="color,fill" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorTextToast" property="color,fill" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorTextInverseHover" property="color,fill" value="rgb(176, 173, 171)"/>
+  <aura:token name="colorTextModalButton" property="color,fill" value="rgb(62, 62, 60)"/>
+  <aura:token name="colorTextIconUtility" property="color,fill" value="rgb(176, 173, 171)"/>
+  <aura:token name="colorTextSecondary" property="color,fill" value="rgb(62, 62, 60)"/>
+  <aura:token name="colorTextStageLeft" property="color,fill" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorBackgroundRowActive" property="background*,border*,box-shadow,text-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorBackgroundLight" property="background*,border*,box-shadow,text-shadow" value="rgb(255, 255, 255)"/>
+  <aura:token name="colorBackgroundRowHover" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundInfo" property="background*,border*,box-shadow,text-shadow" value="rgb(112, 110, 107)"/>
+  <aura:token name="colorBackgroundStencil" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackground" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundDark" property="background*,border*,box-shadow,text-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorBackgroundStencilAlt" property="background*,border*,box-shadow,text-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorBackgroundRowSelected" property="background*,border*,box-shadow,text-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorBorder" property="border*,box-shadow,background*" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorBorderSeparator" property="border*,box-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBorderSeparatorAlt" property="border*,box-shadow" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorBorderSeparatorAlt2" property="border*,box-shadow" value="rgb(201, 199, 197)"/>
+  <aura:token name="colorBorderInfo" property="border*,box-shadow" value="rgb(112, 110, 107)"/>
+  <aura:token name="colorBorderOffline" property="border*,box-shadow" value="rgb(62, 62, 60)"/>
+  <aura:token name="colorBorderSelectionActive" property="border*,box-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="brandBackgroundPrimary" property="background-color,border*color,box-shadow,fill,color" value="rgb(176, 196, 223)"/>
+  <aura:token name="brandBackgroundPrimaryTransparent" property="background-color,border*color,box-shadow,fill,color" value="rgba(176, 196, 223, 0)"/>
+  <aura:token name="brandBackgroundDark" property="background-color,border*color,box-shadow,fill,color" value="rgb(25, 85, 148)"/>
+  <aura:token name="brandBackgroundDarkTransparent" property="background-color,border*color,box-shadow,fill,color" value="rgba(25, 85, 148, 0)"/>
+  <aura:token name="colorTextActionLabel" property="color,fill" value="rgb(62, 62, 60)"/>
+  <aura:token name="colorTextActionLabelActive" property="color,fill" value="rgb(8, 7, 7)"/>
+  <aura:token name="colorTextDefault" property="color,fill" value="rgb(8, 7, 7)"/>
+  <aura:token name="colorTextWeak" property="color,fill" value="rgb(62, 62, 60)"/>
+  <aura:token name="colorTextPlaceholderInverse" property="color,fill" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorTextLink" property="color,fill" value="rgb(0, 109, 204)"/>
+  <aura:token name="colorTextIconDefault" property="color,fill" value="rgb(112, 110, 107)"/>
+  <aura:token name="colorTextInverse" property="color,fill" value="rgb(255, 255, 255)"/>
+  <aura:token name="colorTextPlaceholder" property="color,fill" value="rgb(62, 62, 60)"/>
+  <aura:token name="colorTextInverseWeak" property="color,fill" value="rgb(176, 173, 171)"/>
+  <aura:token name="colorTextLabel" property="color,fill" value="rgb(62, 62, 60)"/>
+  <aura:token name="colorBackgroundNotificationNew" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="popoverWalkthroughHeaderImage" property="background*,border*,box-shadow,text-shadow" value="/assets/images/popovers/popover-header.png"/>
+  <aura:token name="colorBackgroundInputDisabled" property="background*,border*,box-shadow,text-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorBackgroundToggleHover" property="background*,border*,box-shadow,text-shadow" value="rgb(150, 148, 146)"/>
+  <aura:token name="popoverWalkthroughColorBackground" property="background*,border*,box-shadow,text-shadow" value="rgb(3, 46, 97)"/>
+  <aura:token name="popoverWalkthroughAltImage" property="background*,border*,box-shadow,text-shadow" value="/assets/images/popovers/popover-action.png"/>
+  <aura:token name="progressColorBorderShade" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundToggle" property="background*,border*,box-shadow,text-shadow" value="rgb(176, 173, 171)"/>
+  <aura:token name="popoverWalkthroughAltNubbinColorBackground" property="background*,border*,box-shadow,text-shadow" value="rgb(33, 92, 160)"/>
+  <aura:token name="progressColorBackgroundShade" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="pageHeaderColorBackground" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundInputCheckboxDisabled" property="background*,border*,box-shadow,text-shadow" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorBackgroundSpinnerDot" property="background*,border*,box-shadow,text-shadow" value="rgb(176, 173, 171)"/>
+  <aura:token name="tableColorBackgroundHeaderHover" property="background*,border*,box-shadow,text-shadow" value="rgb(255, 255, 255)"/>
+  <aura:token name="colorBackgroundBackdropTint" property="background*,border*,box-shadow,text-shadow" value="rgb(250, 250, 249)"/>
+  <aura:token name="popoverWalkthroughColorBackgroundAlt" property="background*,border*,box-shadow,text-shadow" value="rgb(22, 74, 133)"/>
+  <aura:token name="tableColorBackgroundHeader" property="background*,border*,box-shadow,text-shadow" value="rgb(250, 250, 249)"/>
+  <aura:token name="colorBackgroundScrollbar" property="background*,border*,box-shadow,text-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorBackgroundToggleDisabled" property="background*,border*,box-shadow,text-shadow" value="rgb(176, 173, 171)"/>
+  <aura:token name="colorBackgroundToast" property="background*,border*,box-shadow,text-shadow" value="rgb(112, 110, 107)"/>
+  <aura:token name="colorBackgroundPost" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundImageOverlay" property="background*,border*,box-shadow,text-shadow" value="rgba(0, 0, 0, 0.6)"/>
+  <aura:token name="colorPickerSliderThumbColorBackground" property="background*,border*,box-shadow,text-shadow" value="rgb(243, 242, 242)"/>
+  <aura:token name="colorBackgroundScrollbarTrack" property="background*,border*,box-shadow,text-shadow" value="rgb(201, 199, 197)"/>
+  <aura:token name="popoverWalkthroughHeaderColorBackground" property="background*,border*,box-shadow,text-shadow" value="rgb(22, 74, 133)"/>
+  <aura:token name="colorBorderInputDisabled" property="border*,box-shadow" value="rgb(201, 199, 197)"/>
+  <aura:token name="colorBorderReminder" property="border*,box-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="pageHeaderColorBorder" property="border*,box-shadow" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorBorderButtonDefault" property="border*,box-shadow" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorBorderInput" property="border*,box-shadow" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorBorderButtonFocusInverse" property="border*,box-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="cardColorBorder" property="border*,box-shadow" value="rgb(221, 219, 218)"/>
+  <aura:token name="buttonColorBorderPrimary" property="border*,box-shadow" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorBorderLinkFocusInverse" property="border*,box-shadow" value="rgb(236, 235, 234)"/>
+  <aura:token name="pageHeaderJoinedColorBorder" property="border*,box-shadow" value="rgb(221, 219, 218)"/>
+  <aura:token name="cardFooterColorBorder" property="border*,box-shadow" value="rgb(221, 219, 218)"/>
+  <aura:token name="pageHeaderBorderRadius" property="border*radius" value="0.25rem"/>
+  <aura:token name="tableBorderRadius" property="border*radius" value="0 0 0.25rem 0.25rem"/>
+  <aura:token name="pageHeaderShadow" property="box-shadow" value="0 2px 2px 0 rgba(0, 0, 0, 0.10)"/>
+  <aura:token name="cardShadow" property="box-shadow" value="0 2px 2px 0 rgba(0, 0, 0, 0.10)"/>
+  <aura:token name="formLabelFontSize" property="font-size" value="0.75rem"/>
+  <aura:token name="inputStaticFontSize" property="font-size" value="0.875rem"/>
+  <aura:token name="inputStaticFontWeight" property="font,font-weight" value="400"/>
+  <aura:token name="tabsFontWeight" property="font,font-weight" value="700"/>
+  <aura:token name="cardFontWeight" property="font,font-weight" value="700"/>
+  <aura:token name="pageHeaderTitleFontWeight" property="font,font-weight" value="700"/>
+  <aura:token name="brandBandDefaultImage" value="/assets/images/themes/oneSalesforce/banner-brand-default.png"/>
+  <aura:token name="bannerUserDefaultImage" value="/assets/images/themes/oneSalesforce/banner-user-default.png"/>
+  <aura:token name="bannerGroupDefaultImage" value="/assets/images/themes/oneSalesforce/banner-group-public-default.png"/>
+  <aura:token name="templateGutters" property="margin*,padding*" value="0.75rem"/>
+  <aura:token name="templateProfileGutters" property="margin*,padding*" value="8rem 0.75rem 0.75rem"/>
+  <aura:token name="tableCellSpacing" property="margin*,padding*" value="0.25rem 0.5rem"/>
+  <aura:token name="cardFooterTextAlign" property="text-align" value="center"/>
+  <aura:token name="colorTextIconInverse" property="color,fill" value="rgb(255, 255, 255)"/>
+  <aura:token name="colorTextInputIcon" property="color,fill" value="rgb(176, 173, 171)"/>
+  <aura:token name="colorTextIconInverseActive" property="color,fill" value="rgb(255, 255, 255)"/>
+  <aura:token name="colorTextTabLabelDisabled" property="color,fill" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorTextInputDisabled" property="color,fill" value="rgb(62, 62, 60)"/>
+  <aura:token name="colorTextIconDefaultDisabled" property="color,fill" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorTextButtonDefaultDisabled" property="color,fill" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorTextToggleDisabled" property="color,fill" value="rgb(221, 219, 218)"/>
+  <aura:token name="colorTextTabLabel" property="color,fill" value="rgb(43, 40, 38)"/>
+  <aura:token name="colorTextIconDefaultHint" property="color,fill" value="rgb(176, 173, 171)"/>
+  <aura:token name="colorTextButtonInverse" property="color,fill" value="rgb(236, 235, 234)"/>
+  <aura:token name="colorTextButtonDefaultHint" property="color,fill" value="rgb(176, 173, 171)"/>
+  <aura:token name="colorTextIconInverseHover" property="color,fill" value="rgb(255, 255, 255)"/>
+</aura:tokens>
