@@ -7,7 +7,7 @@ render() {
  return (
  <Carousel autoplay>
     <div>
-      <img src={require('../../warner-bros.png')} alt=""/>
+      <img src={require('../assets/warner-bros.png')} alt=""/>
     </div>
   </Carousel>
  );
