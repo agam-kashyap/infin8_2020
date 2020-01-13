@@ -1,31 +1,20 @@
 import React from 'react';
 import { Card } from 'antd';
 import { Row, Col } from 'react-flexbox-grid';
-import '../css/hexagon-comp.css'
+import '../css/about.css';
 
-class AboutSection extends React.Component {
+class About extends React.Component {
     render() {
         return(
-           <div>
-               <ul id= "hexGrid" class= "clr">
-               <li class = "hex">
-                            <a class="hexIn" href="#">
-                                    <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" />   
-                                    <h1>Event Name</h1> 
-                                    <p>Brief Event Description Bla Bla Bla Bla</p>
-                            </a> 
-                    </li>
-
-                    <li class = "hex">
-                            <a class="hexIn" href="#">
-                                    <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" />   
-                                    <h1>Event Name</h1> 
-                                    <p>Brief Event Description Bla Bla Bla Bla</p>
-                            </a> 
-                    </li> 
-               </ul>
+           <div className="outer-container">
+                <div className="image-container">
+                    <img className = "containImage" src={require('../assets/dance1.jpg')}/>
+                </div>
+                <div className="text-container">
+                    <p>Lorem ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
            </div>
         );
     }
 }
-export default AboutSection;
+export default About;
