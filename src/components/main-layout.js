@@ -28,7 +28,7 @@ class MainLayout extends React.Component{
       <div>
         <Layout className="layout">
         <Content>
-          <div style={{ background: 'linear-gradient(0deg, #6817ab 0%, #1fc8db 51%, #d723bc 75%, #9d23d5 100%)' }}>{this.props.children}</div>
+          <div style={{ background: 'linear-gradient(#373b44,#4286f4)' }}>{this.props.children}</div>
         </Content>
       </Layout>
       </div>
