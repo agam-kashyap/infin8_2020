@@ -19,28 +19,13 @@ class CFooter extends React.Component {
 
                         <Col xs={{span: 12}} sm={{span: 12 }} md={{span: 4,offset: 2}}>
                         <div className="widget no-box">
-                            <h1 className="widget-title">Quick Links<span></span></h1>
+                            <h1 className="widget-title">Contact Us<span></span></h1>
                             <ul className="thumbnail-widget">
                             <li>
-                            <div className="thumb-content"><a href="#.">Get Started</a></div>	
+                            <div className="thumb-content"><a href="https://www.facebook.com/iiitb.infin8/?ref=br_rs">Facebook</a></div>	
                             </li>
                             <li>
-                            <div className="thumb-content"><a href="#.">Top Leaders</a></div>	
-                            </li>
-                            <li>
-                            <div className="thumb-content"><a href="#.">Success Stories</a></div>	
-                            </li>
-                            <li>
-                            <div className="thumb-content"><a href="#.">Event/Tickets</a></div>	
-                            </li>
-                            <li>
-                            <div className="thumb-content"><a href="#.">News</a></div>	
-                            </li>
-                            <li>
-                            <div className="thumb-content"><a href="#.">Lifestyle</a></div>	
-                            </li>
-                            <li>
-                            <div className="thumb-content"><a href="#.">About</a></div>	
+                            <div className="thumb-content"><a href="https://www.instagram.com/infin8_iiitb/?hl=en">Instagram</a></div>	
                             </li>
                             </ul>
                         </div>
@@ -49,8 +34,12 @@ class CFooter extends React.Component {
                         <Col xs={{span : 12, offset: 1}} sm={{span: 12, offset: 1}} md={{span: 6, offset: 4}}>
                         <div className="widget no-box">
                             <h1 className="widget-title">Contact Us<span></span></h1>
-
                             <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
+                            <ul className="thumbnail-widget">
+                                <li>
+                                    <div className= "thumb-content" >XYZ</div>
+                                </li>
+                            </ul>
                         </div>
                         </Col>
 

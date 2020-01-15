@@ -1,38 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
 
 .hero {
-  background-color: #0040C1;
+  -webkit-animation: gradientBG 5s ease infinite;
+          animation: gradientBG 5s ease infinite;
   position: relative;
   height: 100vh;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
 }
 
-.hero__title {
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  z-index: 1;
-}
-
+@media screen and (min-width: 700px){
 .cube {
   position: absolute;
   top: 80vh;
   left: 45vw;
   width: 10px;
   height: 10px;
-  border: solid 1px darken(#0040C1, 8%);
+  border: solid 1px darken(#9d23d5, 8%);
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   animation: cube 12s ease-in forwards infinite;
   
   &:nth-child(2n) {
-    border-color: lighten(#0040C1, 10%);
+    border-color: lighten(#9d23d5, 10%);
   }
   
+  @media screen and (min-width: 1200px){
+
   &:nth-child(2) {
     animation-delay: 2s;
     left: 25vw;
@@ -44,6 +38,7 @@
     left: 75vw;
     top: 50vh;
   }
+}
   
   &:nth-child(4) {
     animation-delay: 6s;
@@ -73,4 +68,9 @@
     transform: scale(20) rotate(960deg) translate(-50%, -50%); 
     opacity: 0;
   }
+}
+}
+
+.Image{
+  margin-top: -20vh;
 }
