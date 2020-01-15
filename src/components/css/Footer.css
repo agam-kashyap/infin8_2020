@@ -76,3 +76,7 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 transition: all 250ms ease-in-out 0s;
 
 }
+
+.footerlogo {
+	height: 10vh;
+}
