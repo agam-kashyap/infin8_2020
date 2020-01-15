@@ -28,6 +28,7 @@ render() {
                         <span
                             class="letter">l</span><span class="letter">o</span><span class="letter">r</span><span class="letter">e</span></div>
         </div>
+          
   </div>
   </Carousel>
  );
