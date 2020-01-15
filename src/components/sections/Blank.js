@@ -26,7 +26,7 @@ class Blank extends React.Component {
             <div style={styles}>
             <Parallax
               bgImage={image4}
-              strength={1000}
+              strength={500}
               renderLayer={percentage => (
                 <div>
                   {/* <div
