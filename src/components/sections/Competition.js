@@ -72,7 +72,7 @@ class Competition extends React.Component {
                     <li class = "hex">
                             <a class="hexIn" href="#">
                                     <Fade bottom big>
-                                        <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" />   
+                                        <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" />
                                     </Fade>
                                     <h1>Event Name</h1> 
                                     <p>Brief Event Description Bla Bla Bla Bla</p>

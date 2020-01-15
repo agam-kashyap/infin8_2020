@@ -1,5 +1,5 @@
 import React from 'react';
-import { Parallax } from "react-parallax";
+import { Parallax } from "react-parallax"
 import "../css/about.css";
 
 const image4 =
