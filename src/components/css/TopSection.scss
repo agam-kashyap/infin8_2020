@@ -80,6 +80,28 @@ $config: (
     transform: translate(-50%);
 }
 
+.wrapper2 {
+    position: relative;
+    top: 0%;
+    margin-top: -13.0%;
+    left: 50%;
+    width: 100vw;
+    text-align: center;
+    font-size: 10vw;
+    transform: translate(-50%);
+}
+
+.wrapper3 {
+    position: relative;
+    top: 0%;
+    margin-top: -6.0%;
+    left: 50%;
+    width: 100vw;
+    text-align: center;
+    font-size: 10vw;
+    transform: translate(-50%);
+}
+
 .letter {
     width: font(size);
     display: inline-block;
@@ -107,6 +129,8 @@ $config: (
     }
 }
 
+
+
 // ----------------------------------
 
 @for $i from 1 through config(nb-letters) {
@@ -131,5 +155,34 @@ $config: (
         to {
             margin-top: font(size);
         }
+    }
+}
+
+
+
+.numbers {
+    // width: font(size);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    // margin: 0 ceil(font(letter-spacing) / 2);
+    font-family: font(family);
+    font-size: font(size);
+    // font-weight: 600;
+    // line-height: font(size);
+    // text-transform: uppercase;
+    color: color(text);
+    @include respond-to(625px) {
+        //font-size: 16px;
+        //width: 18px;
+    }
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        // width: 100%;
+        word-break: break-all;
+        background-color: color(background);
     }
 }
