@@ -89,10 +89,37 @@
     /* font-family: 'Exo 2', sans-serif; */
     font-family: 'Righteous', cursive;
     font-size: 10vh;
+    display: inline-block;
+    color: white;
+    font-family: 'Righteous', serif;
+    font-size: 12em; 
+    text-shadow: .05em .05em 0 rgb(75, 75, 75);
+    
 }
 
+.overlay h1:after {
+    content: attr(data-shadow);
+    position: absolute;
+    top: .06em; left: .06em;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        hsla(48,20%,90%,1) 45%,
+        hsla(48,20%,90%,1) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    background-clip: text;
+    text-fill-color: transparent;
+  
+    animation: shad-anim 15s linear infinite;
+    }
+
 .hindi h1{
-    font-size: 13vh;
+    font-size: 25vh;
     font-family: 'Sura', serif;
 }
 
@@ -129,3 +156,8 @@
     background-color: #4CAF50;
     color: white;
   }
+
+  @keyframes shad-anim {
+    0% {background-position: 0 0}
+    0% {background-position: 100% -100%}
+    }

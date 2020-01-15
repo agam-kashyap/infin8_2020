@@ -20,7 +20,7 @@ class Blank extends React.Component {
                                     <h1> नृत्यक्षेत्र  </h1>
                                 </div>
                             ),
-                            image: require("../assets/dance2.jpg"),
+                            image: require("../assets/dance1.jpg"),
                             amount: 0.5,
                             expanded: false,
                         },

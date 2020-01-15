@@ -17,7 +17,7 @@ class Blank extends React.Component {
                         {   
                             children: (
                                 <div className = "customChild overlay" >
-                                    <h1> Euponia</h1>
+                                    <h1 data-shadow='Euponia'> Euponia</h1>
                                 </div>
                             ),
                             image: require("../assets/bands2.jpg"),

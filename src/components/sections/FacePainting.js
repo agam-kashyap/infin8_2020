@@ -17,10 +17,10 @@ class Blank extends React.Component {
                         {   
                             children: (
                                 <div className = "customChild overlay" >
-                                    <h1> Face painting</h1>
+                                    <h1 data-shadow='Face painting'>Face painting</h1>
                                 </div>
                             ),
-                            image: require("../assets/dance2.jpg"),
+                            image: require("../assets/FacePaint.jpg"),
                             amount: 0.5,
                             expanded: false,
                         },
