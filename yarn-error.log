@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/share/yarn/bin/yarn.js start
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add yarn-iframe
 
 PATH: 
   /home/agam/gems/bin:/home/agam/anaconda3/condabin:/home/agam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/jdk1.8.0_221/bin:/snap/bin
@@ -14,12 +14,17 @@ Platform:
   linux x64
 
 Trace: 
-  SyntaxError: /home/agam/Desktop/zense/infin8/infin8_2020/package.json: Unexpected token < in JSON at position 538
-      at JSON.parse (<anonymous>)
-      at /usr/share/yarn/lib/cli.js:1625:59
-      at Generator.next (<anonymous>)
-      at step (/usr/share/yarn/lib/cli.js:310:30)
-      at /usr/share/yarn/lib/cli.js:321:13
+  Error: https://registry.yarnpkg.com/yarn-iframe: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1184:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
 
 npm manifest: 
   {
@@ -40,11 +45,7 @@ npm manifest:
       "react-flexbox-grid": "^2.1.2",
       "react-history": "^0.18.2",
       "react-map-gl": "^5.1.5",
-  <<<<<<< HEAD
-      "react-parallax": "^3.0.3",
-  =======
       "react-reveal": "^1.2.2",
-  >>>>>>> f995f6bd1028a1dbc42b8a2d1c240429211ccefb
       "react-router": "^5.1.2",
       "react-router-dom": "^5.1.2",
       "react-scripts": "3.3.0",

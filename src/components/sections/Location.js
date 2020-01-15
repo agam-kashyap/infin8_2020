@@ -29,7 +29,7 @@ export default function App() {
                 latitude={park.geometry.coordinates[0]}
                 longitude={park.geometry.coordinates[1]}
             >
-            <button onClick={e => {e.preventDefault();setSelectedPark(park); console.log("hello")}}></button>
+            <button className="Mapbutton" onClick={e => {e.preventDefault();setSelectedPark(park); console.log("hello")}}></button>
             </Marker>
         ))}
 
