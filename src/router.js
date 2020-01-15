@@ -5,11 +5,8 @@ import { createBrowserHistory } from "history";
 
 //Pages
 import Home from './components/home';
-<<<<<<< HEAD
 
-=======
-import Blank from './components/sections/blank';
->>>>>>> 32c7a4b2a5b1f42f6b2fa2b228d70cbf4518a0c2
+import Blank from './components/sections/Euphony';
 // import Login from './components/login';
 // import Register from './components/register';
 // import BookingComponent from './components/bookingcomponent';
