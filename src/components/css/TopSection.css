@@ -1,3 +1,4 @@
+
 .ant-carousel .slick-slide {
 	height: 100vh;
 	width: 100vw;
@@ -42,5 +43,52 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    max-width: 100%;
+    max-width: 100vw;
 }
+
+.fadingtext {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	width: 300px;
+	height: 150px;
+	background: red;
+	margin-left: -150px;
+	z-index: 30;
+	-webkit-animation: fade-in-slogan infinite 2s ease-in forwards;
+	   -moz-animation: fade-in-slogan infinite 2s ease-in forwards;
+			animation: fade-in-slogan infinite 2s ease-in forwards;
+  }
+  
+  @-webkit-keyframes fade-in-slogan {
+	0%   { opacity: 0; }
+	30%  { opacity: 1; }
+	50%  { opacity: 1; }
+	70%  { opacity: 1; }
+	100% { opacity: 0; } 
+  }
+
+
+
+  .watermark {
+	height: 100vh;
+	/* width: 100vw; */
+	background-image: url('../assets/infin8shyout.png');
+	background-position: ;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	opacity: 0.2;
+	margin-top: -99vh;
+	margin-left: 20vw;
+  }
+
+  .header {
+	  background-image: url('../assets/iiitb.png');
+	  height: 10vh;
+	  width: 110%;
+	  margin: 10px;
+	  background-repeat: no-repeat;
+	  background-size: contain;
+  }

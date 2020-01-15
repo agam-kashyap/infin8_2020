@@ -5,6 +5,7 @@ import { createBrowserHistory } from "history";
 
 //Pages
 import Home from './components/home';
+import Blank from './components/sections/Blank';
 // import Login from './components/login';
 // import Register from './components/register';
 // import BookingComponent from './components/bookingcomponent';
@@ -15,6 +16,7 @@ export default (
     <Router history={history}>
     <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/blank" component={Blank}/>
         {/* <Route exact path="/login" component={Login}/> */}
         {/* <Route exact path="/register" component={Register}/> */}
         {/* <Route exact path="/booking" component={BookingComponent}/> */}
