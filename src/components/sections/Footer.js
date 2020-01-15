@@ -57,6 +57,7 @@ class CFooter extends React.Component {
                             <ul className="thumbnail-widget">
                                 <li>
                                     <h3>Adam Levine</h3>+91 7226938999
+                                    <br></br>
                                 </li>
                                 <li>
                                     <h3>Adam Levine</h3>+91 7226938999
@@ -85,7 +86,7 @@ class CFooter extends React.Component {
                         </Col>
                         <Col md={4} xs={6} sm={12}>
                         <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.9771672553525!2d77.66104301532664!3d12.844751190939244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae135aeb7f340f%3A0x3ad86af40d2ac611!2sInternational%20Institute%20of%20Information%20Technology%20Bangalore!5e0!3m2!1sen!2sin!4v1579113162889!5m2!1sen!2sin"
-                         width="600" height="450" allowfullscreen="">
+                         width="100%" height="100%" allowfullscreen="">
                         </Iframe>
                         </Col>
                     </Row>

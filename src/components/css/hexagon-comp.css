@@ -52,7 +52,8 @@
   }
   
   .hex h1,
-  .hex p {
+  .hex p, 
+  .hex a {
     margin: 0;
     width: 102%;
     left: -1%;  /* prevent line on the right where background doesn't cover image */
