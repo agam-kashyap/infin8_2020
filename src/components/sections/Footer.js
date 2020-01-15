@@ -11,16 +11,15 @@ class CFooter extends React.Component {
                     <div className="container">
                     <Row>
                     
-                        <Col xs={12} sm={6} md={3}>
+                        <Col xs={{span: 12}} sm={{span: 12 }} md={{span: 4}}>
                         <div className="widget subscribe no-box">
-                        <h5 className="widget-title">COMPANY NAME<span></span></h5>
-                        <p>About the company, little discription will goes here.. </p>
+                            <img className="footerlogo" src={require("../assets/iiitb.png")}/>
                         </div>
                         </Col>
 
-                        <Col xs={12} sm={6} md={3}>
+                        <Col xs={{span: 12}} sm={{span: 12 }} md={{span: 4,offset: 2}}>
                         <div className="widget no-box">
-                            <h5 className="widget-title">Quick Links<span></span></h5>
+                            <h1 className="widget-title">Quick Links<span></span></h1>
                             <ul className="thumbnail-widget">
                             <li>
                             <div className="thumb-content"><a href="#.">Get Started</a></div>	
@@ -47,17 +46,9 @@ class CFooter extends React.Component {
                         </div>
                         </Col>
 
-                        <Col xs={12} sm={6} md={3}>
+                        <Col xs={{span : 12, offset: 1}} sm={{span: 12, offset: 1}} md={{span: 6, offset: 4}}>
                         <div className="widget no-box">
-                            <h5 className="widget-title">Get Started<span></span></h5>
-                            <p>Get access to your full Training and Marketing Suite.</p>
-                            <a className="btn" href="#." target="_blank">Register Now</a>
-                        </div>
-                        </Col>
-
-                        <Col xs={12} sm={6} md={3}>
-                        <div className="widget no-box">
-                            <h5 className="widget-title">Contact Us<span></span></h5>
+                            <h1 className="widget-title">Contact Us<span></span></h1>
 
                             <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
                         </div>
@@ -71,7 +62,7 @@ class CFooter extends React.Component {
                     <div className="container">
                     <Row>
                     <div className="col-md-12 text-center">
-                    <p>Copyright Company Name © 2016. All rights reserved.</p>
+                    <p>Copyright <a href="https://zense.co.in">Zense</a>  © 2020. All rights reserved.</p>
                     </div>
                     </Row>
                     </div>

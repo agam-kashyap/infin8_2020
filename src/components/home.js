@@ -14,8 +14,6 @@ class Home extends React.Component {
             <MainLayout>
             <TopSection/>
             <About/>
-            <About/>
-            <About/>
             <Competition/>
             <Location/>
             <CFooter/>
