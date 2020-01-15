@@ -1,63 +1,35 @@
 import React, {Component} from 'react';
-import MapGL, {Marker, Popup, NavigationControl} from 'react-map-gl';
-import Pin from './Pin'
+import Iframe from 'react-iframe'
+import "../css/Location.css";
+import { Col, Row } from 'antd';
 
-const TOKEN = 'pk.eyJ1IjoiYWdhbS1rYXNoeWFwIiwiYSI6ImNrNHBvMGR6ejBodGUzbHAxNjR5ODN3a28ifQ.nOBYQvNGFZgXlMhMum9QHQ'; // Set your mapbox token here
-
-const navStyle = {
-  position: 'absolute',
-  top: 0,
-  left: 0,
-  padding: '10px'
-};
-
-export default class Location extends Component {
-
-
-    constructor(props) {
-    super(props);
-    this.state = {
-      viewport: {
-        latitude: 12.8447999,
-        longitude: 77.66323896266928,
-        zoom: 15,
-        bearing: 0,
-        pitch: 0,
-        width: 50,
-        height: 50,
-      },
-      popupInfo: "Blah Blah"
-    };
-    this.renderPopup = this.renderPopup.bind(this)
-  }
-renderPopup(){
-    return this.state.popupInfo && (
-      <Popup tipSize={5}
-        anchor="bottom-right"
-        longitude={this.state.popupInfo.state.longitude}
-        latitude={this.state.popupInfo.state.latitude}
-        onClose={() => this.setState({popupInfo: null})}
-        closeOnClick={true}>
-        <p>"Bleh Bleh"</p>
-      </Popup>
-    )
-  }
-render() {
-    const {viewport} = this.state;
-    return (
-      <MapGL
-        {...viewport}
-        mapStyle="mapbox://styles/agam-kashyap/ck4ppvyzc40xg1dqlnra1aki9"
-        mapboxApiAccessToken={TOKEN} >
-        {/* {markers} */}
-        {this.renderPopup()}
-        <div className="nav" style={navStyle}>
-          <NavigationControl/>
-          <Marker longitude={77.66323896266928} latitude={12.8447999}>
-            <Pin onClick={() => this.setState({popupInfo: "popupInfo"})}/>
-          </Marker>
-          </div>
-      </MapGL>
+class Location extends React.Component {
+  render() {
+    return(
+      <div>
+        <Row>
+          <Col xs={12} md={12} sm={12}>
+          <h2 style={{color: "#fff"}}>Event Location</h2>
+                    <br></br>
+                    <address>
+                        <p style={{color: "#fff"}}>
+                            26/C, Hosur Road,Electronics City Phase 1, Electronic City
+                            <br />
+                            Karnataka,India.
+                            <br />
+                            560100
+                        </p>
+                    </address>
+          </Col>
+          <Col  xs={12} md={12} sm={12}>
+          <Iframe
+              url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.97716725604!2d77.66103764976539!3d12.844751190894804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae135aeb7f340f%3A0x3ad86af40d2ac611!2sInternational+Institute+of+Information+Technology+Bangalore!5e0!3m2!1sen!2sin!4v1552580936073"
+              width="100%" height="100%" styles={{border: "0"}} allowfullscreen></Iframe>
+          </Col>
+        </Row>
+      </div>
     );
   }
 }
+
+export default Location;

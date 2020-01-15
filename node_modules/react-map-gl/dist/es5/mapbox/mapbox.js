@@ -70,7 +70,8 @@ var defaultProps = {
   latitude: 0,
   zoom: 0,
   bearing: 0,
-  pitch: 0
+  pitch: 0,
+  altitude: 1.5
 };
 
 function getAccessToken() {
