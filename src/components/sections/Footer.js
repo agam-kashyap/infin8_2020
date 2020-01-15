@@ -17,9 +17,9 @@ class CFooter extends React.Component {
                         </div>
                         </Col>
 
-                        <Col xs={{span: 12}} sm={{span: 12 }} md={{span: 4,offset: 2}}>
+                        <Col xs={{span: 12}} sm={{span: 12 }} md={{span: 4,offset: 1}}>
                         <div className="widget no-box">
-                            <h1 className="widget-title">Contact Us<span></span></h1>
+                            <h1 className="widget-title">Connect<span></span></h1>
                             <ul className="thumbnail-widget">
                             <li>
                             <div className="thumb-content"><a href="https://www.facebook.com/iiitb.infin8/?ref=br_rs">Facebook</a></div>	
@@ -31,13 +31,41 @@ class CFooter extends React.Component {
                         </div>
                         </Col>
 
-                        <Col xs={{span : 12, offset: 1}} sm={{span: 12, offset: 1}} md={{span: 6, offset: 4}}>
+                        <Col xs={{span : 12, offset: 1}} sm={{span: 12, offset: 1}} md={{span: 6, offset: 1}}>
                         <div className="widget no-box">
                             <h1 className="widget-title">Contact Us<span></span></h1>
                             <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
                             <ul className="thumbnail-widget">
                                 <li>
-                                    <div className= "thumb-content" >XYZ</div>
+                                    <h3>Adam Levine</h3>+91 7226938999
+                                </li>
+                                <li>
+                                    <h3>Adam Levine</h3>+91 7226938999
+                                </li>
+                                <li>
+                                    <h3>Adam Levine</h3>+91 7226938999
+                                </li>
+                                <li>
+                                    <h3>Adam Levine</h3>+91 7226938999
+                                </li>
+                            </ul>
+                        </div>
+                        </Col>
+
+                        <Col xs={{span : 12, offset: 1}} sm={{span: 12, offset: 1}} md={{span: 6, offset: 1}}>
+                        <div className="widget no-box">
+                            <ul className="thumbnail-widget">
+                                <li>
+                                    <h3>Adam Levine</h3>+91 7226938999
+                                </li>
+                                <li>
+                                    <h3>Adam Levine</h3>+91 7226938999
+                                </li>
+                                <li>
+                                    <h3>Adam Levine</h3>+91 7226938999
+                                </li>
+                                <li>
+                                    <h3>Adam Levine</h3>+91 7226938999
                                 </li>
                             </ul>
                         </div>
