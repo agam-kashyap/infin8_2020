@@ -11,10 +11,10 @@ class Competition extends React.Component {
                     <li class = "hex">
                             <a class="hexIn" href="#">
                                     <Fade bottom big>
-                                        <img src={require('../assets/pubg1.jpg')} />   
+                                        <img src={require('../assets/pubg2.jpg')} />   
                                     </Fade>
                                 <h1>LAN Gaming</h1> 
-                                <p>Brief Event Description Bla Bla Bla Bla</p>        
+                                <p>Some players play like pros, while other play to hang out with bros. Show your foes who's the boss or just relax with your bros.</p>        
                                 
                             </a> 
                     </li>
@@ -22,10 +22,10 @@ class Competition extends React.Component {
                     <li class = "hex">
                             <a class="hexIn" href="#">
                                     <Fade bottom big>
-                                        <img src={require("../assets/sing2.jpg")} />   
+                                        <img src={require("../assets/solosinging2.jpg")} />   
                                     </Fade>
-                                    <h1>Individual Singing</h1> 
-                                    <p>Brief Event Description Bla Bla Bla Bla</p>
+                                    <h1>Solo-Singing</h1> 
+                                    <p>"The best way to express yourself is music" and Swaraag is a great platform for music enthusisasts</p>
                             </a> 
                     </li>
 
