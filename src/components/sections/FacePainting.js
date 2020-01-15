@@ -4,7 +4,7 @@ import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
 
-class Blank extends React.Component {
+class FacePainting extends React.Component {
     render() {
         return(
             <div>
@@ -81,4 +81,4 @@ scribbling on your friend’s face.</p>
         );
     }
 }
-export default Blank;
+export default FacePainting;

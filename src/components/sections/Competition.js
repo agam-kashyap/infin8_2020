@@ -9,18 +9,17 @@ class Competition extends React.Component {
                 <ul id = "hexGrid" class = "clr">
 
                     <li class = "hex">
-                            <div class="hexIn">
+                            <div class="hexIn" href="/blank">
                                     <Fade bottom big>
                                         <img src={require('../assets/pubg2.jpg')} />   
                                     </Fade>
                                 <h1>LAN Gaming</h1> 
                                 <p>Some players play like pros, while other play to hang out with bros. Show your foes who's the boss or just relax with your bros.</p>        
-                                <h1><a className="hexagon-button">See More</a></h1>
                             </div> 
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn">
+                            <div class="hexIn" href="#">
                                     <Fade bottom big>
                                         <img src={require("../assets/solosinging2.jpg")} />   
                                     </Fade>
@@ -30,7 +29,7 @@ class Competition extends React.Component {
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn">
+                            <div class="hexIn" href="#">
                                     <Fade bottom big>
                                         <img src={require('../assets/bands2.jpg')} />   
                                     </Fade>
@@ -40,7 +39,7 @@ class Competition extends React.Component {
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn">
+                            <div class="hexIn" href="#">
                                     <Fade bottom big>
                                         <img src={require("../assets/fanatics.jpg")} />      
                                     </Fade>
@@ -50,7 +49,7 @@ class Competition extends React.Component {
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn">
+                            <div class="hexIn" href="#">
                                     <Fade bottom big>
                                         <img src={require("../assets/dance2.jpg")} />   
                                     </Fade>
@@ -60,7 +59,7 @@ class Competition extends React.Component {
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn">
+                            <div class="hexIn" href="#">
                                     <Fade bottom big>
                                         <img src = {require("../assets/FacePaint.jpg")} />   
                                     </Fade>
@@ -70,7 +69,7 @@ class Competition extends React.Component {
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn">
+                            <div class="hexIn" href="#">
                                     <Fade bottom big>
                                         <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" />
                                     </Fade>

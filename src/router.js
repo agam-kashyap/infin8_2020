@@ -6,10 +6,11 @@ import { createBrowserHistory } from "history";
 //Pages
 import Home from './components/home';
 
-import Blank from './components/sections/GroupDance';
-// import Login from './components/login';
-// import Register from './components/register';
-// import BookingComponent from './components/bookingcomponent';
+import GroupDance from './components/sections/GroupDance';
+import Euphony from './components/sections/Euphony';
+import FacePainting from './components/sections/FacePainting';
+import LAN from './components/sections/LANGaming';
+import SING from './components/sections/Singing';
 
 const history = createBrowserHistory();
 export default (
@@ -17,10 +18,11 @@ export default (
     <Router history={history}>
     <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/blank" component={Blank}/>
-        {/* <Route exact path="/login" component={Login}/> */}
-        {/* <Route exact path="/register" component={Register}/> */}
-        {/* <Route exact path="/booking" component={BookingComponent}/> */}
+        <Route exact path="/groupdance" component={GroupDance}/>
+        <Route exact path="/euphony" component={Euphony}/>
+        <Route exact path="/facepainting" component={FacePainting}/>
+        <Route exact path="/lan" component={LAN}/>
+        <Route exact path="/singing" component={SING}/>
     </Switch>
     </Router>
     </BrowserRouter>
