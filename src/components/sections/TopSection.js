@@ -28,7 +28,7 @@ render() {
                         <span
                             class="letter">l</span><span class="letter">o</span><span class="letter">r</span><span class="letter">e</span></div>
         </div>
-        <br />
+        <div class = "space"></div>
         <div class = "wrapper2">
           <div class = "numbers"> </div>
            <span class = "letter">7</span><span class = "letter">F</span><span class = "letter">E</span><span class = "letter">B</span><span class = "letter">-</span><span class = "letter">2</span><span class = "letter">0</span><span class = "letter">2</span><span class = "letter">0</span><br />
