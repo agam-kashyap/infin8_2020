@@ -4,6 +4,12 @@
 
 <!-- ## [Unreleased] -->
 
+## 2.11.0
+
+### Changed
+
+- For touch devices, update the line-height token of `.slds-button` to use the touch-specific token `$height-tappable` (2.75rem) which is a system-wide touch token instead of using a component-specific token.
+
 ## 2.10.0
 
 ### Fixed
@@ -14,7 +20,7 @@
 
 - Modify display of `slds-button` to `inline-flex`
 - Center contents of contained Buttons with change of `display: inline-flex` to `slds-button`
-- `justify-content: center` is now applied to the stretch variant `.slds-button_stretch`
+- `justify-content: center` is now applied to the stretch variant `.slds-button_stretch` to ensure centered text after `inline-flex` was added to `slds-button`
 - For touch devices:
   - Increase the line-height (which affects the overall visual height) to `$button-line-height-touch` (2.65rem)
   - Set the size of `.slds-button__icon` to `$square-icon-medium-content` (1rem)
