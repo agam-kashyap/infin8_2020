@@ -9,6 +9,41 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  .cube {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px darken(#9d23d5, 8%);
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 12s ease-in forwards infinite;
+    
+    &:nth-child(2n) {
+      border-color: lighten(#9d23d5, 10%);
+    }
+    
+    &:nth-child(4) {
+      animation-delay: 6s;
+      left: 90vw;
+      top: 10vh;
+    }
+    
+    &:nth-child(5) {
+      animation-delay: 8s;
+      left: 10vw;
+      top: 85vh;
+    }
+    
+    &:nth-child(6) {
+      animation-delay: 10s;
+      left: 50vw;
+      top: 10vh;
+    }
+  }
+}
 @media screen and (min-width: 700px){
 .cube {
   position: absolute;

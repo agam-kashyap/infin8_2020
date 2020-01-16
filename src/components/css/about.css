@@ -3,7 +3,7 @@
   min-height: 60vh;
   width: 99.2vw;
   border-radius: 10%;
-  background-color: rgb(107, 44, 158);
+  background-color: #8246C7;
   margin-bottom: 10vh;
   display: flex;
   flex-direction: row;
@@ -41,6 +41,12 @@
 .text-container h1 {
   margin: auto;
   text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .text-container {
+    font-size: 3vw;
+  }
 }
 
 .image-container img {
