@@ -74,7 +74,7 @@ class Competition extends React.Component {
                                         <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" />
                                     </Fade>
                                     <h1>Fashion Show</h1> 
-                                    <a href = "/blank">GO!</a>
+                                    <a href = "/fashion">GO!</a>
                             </div> 
                     </li>
                 </ul>

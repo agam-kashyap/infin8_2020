@@ -88,11 +88,10 @@
     color:  #ffffff;
     /* font-family: 'Exo 2', sans-serif; */
     font-family: 'Righteous', cursive;
-    font-size: 10vh;
     display: inline-block;
     color: white;
     font-family: 'Righteous', serif;
-    font-size: 12em; 
+    font-size: 10vw; 
     text-shadow: .05em .05em 0 rgb(75, 75, 75);
     
 }

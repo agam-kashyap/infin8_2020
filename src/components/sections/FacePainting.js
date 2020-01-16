@@ -45,6 +45,7 @@ scribbling on your friend’s face.</p>
         <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
         <br />
         <br />
+        <button class = "button button1"><a href = "#">Register</a></button>
         <br />
         <br />
         <br />
