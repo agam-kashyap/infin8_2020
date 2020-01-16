@@ -9,72 +9,72 @@ class Competition extends React.Component {
                 <ul id = "hexGrid" class = "clr">
 
                     <li class = "hex">
-                            <div class="hexIn" href="/blank">
+                            <div class="hexIn">
                                     <Fade bottom big>
                                         <img src={require('../assets/pubg2.jpg')} />   
                                     </Fade>
-                                <h1>LAN Gaming</h1> 
-                                <p>Some players play like pros, while other play to hang out with bros. Show your foes who's the boss or just relax with your bros.</p>        
+                                <h1>LAN Gaming</h1>
+                                <a href = "/lan">GO!</a>
                             </div> 
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn" href="#">
+                            <div class="hexIn">
                                     <Fade bottom big>
                                         <img src={require("../assets/solosinging2.jpg")} />   
                                     </Fade>
                                     <h1>Solo-Singing</h1> 
-                                    <p>"The best way to express yourself is music" and Swaraag is a great platform for music enthusisasts</p>
+                                    <a href = "/Singing">GO!</a>                            
                             </div> 
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn" href="#">
+                            <div class="hexIn">
                                     <Fade bottom big>
                                         <img src={require('../assets/bands2.jpg')} />   
                                     </Fade>
                                     <h1>Battle of Bands</h1> 
-                                    <p>Brief Event Description Bla Bla Bla Bla</p>
+                                    <a href = "/euphony">GO!</a>
                             </div> 
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn" href="#">
+                            <div class="hexIn">
                                     <Fade bottom big>
                                         <img src={require("../assets/fanatics.jpg")} />      
                                     </Fade>
                                     <h1>League of Fanatics</h1> 
-                                    <p>Brief Event Description Bla Bla Bla Bla</p>
+                                    <a href = "/blank">GO!</a>
                             </div> 
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn" href="#">
+                            <div class="hexIn">
                                     <Fade bottom big>
                                         <img src={require("../assets/dance2.jpg")} />   
                                     </Fade>
                                     <h1>Dance off</h1> 
-                                    <p>Brief Event Description Bla Bla Bla Bla</p>
+                                    <a href = "/groupdance">GO!</a>
                             </div> 
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn" href="#">
+                            <div class="hexIn">
                                     <Fade bottom big>
                                         <img src = {require("../assets/FacePaint.jpg")} />   
                                     </Fade>
-                                    <h1>Event Name</h1> 
-                                    <p>Brief Event Description Bla Bla Bla Bla</p>
+                                    <h1>Face Painting</h1> 
+                                    <a href = "/facepainting">GO!</a>
                             </div> 
                     </li>
 
                     <li class = "hex">
-                            <div class="hexIn" href="#">
+                            <div class="hexIn">
                                     <Fade bottom big>
                                         <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" />
                                     </Fade>
-                                    <h1>Event Name</h1> 
-                                    <p>Brief Event Description Bla Bla Bla Bla</p>
+                                    <h1>Fashion Show</h1> 
+                                    <a href = "/blank">GO!</a>
                             </div> 
                     </li>
                 </ul>
