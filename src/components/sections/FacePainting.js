@@ -41,7 +41,6 @@ Face painting is all about giving that chance to bring out the other face for ev
 a statement which has been made or would like to be made.
 It is an opportunity, where one gets to display their idea, creativity and painting skills while at the same time have fun
 scribbling on your friend’s face.</p>
-        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
         <br />
         <br />
         <button class = "button button1"><a href = "#">Register</a></button>
