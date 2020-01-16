@@ -17,12 +17,12 @@ class CFooter extends React.Component {
                         </div>
                         </Col> */}
 
-                        <Col md={4} xs={6} sm={12}>
+                        <Col md={{span:4, offset:1}} xs={{span:6,offset:1}} sm={{span:12}} >
                         <div className="widget no-box">
                             <h1 className="widget-title">Connect<span></span></h1>
                             <ul className="thumbnail-widget">
                             <li>
-                            <div className="thumb-content"><a href="https://www.facebook.com/iiitb.infin8/?ref=br_rs">Facebook</a></div>	
+                            <div className="thumb-content"><a href="https://www.facebook.com/infin8iiitb">Facebook</a></div>	
                             </li>
                             <li>
                             <div className="thumb-content"><a href="https://www.instagram.com/infin8_iiitb/?hl=en">Instagram</a></div>	
@@ -31,25 +31,19 @@ class CFooter extends React.Component {
                         </div>
                         </Col>
 
-                        <Col md={4} xs={6} sm={12}>
+                        <Col md={4} xs={12} sm={12}>
                         <div className="widget no-box">
                             <h1 className="widget-title">Contact Us<span></span></h1>
                             {/* <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p> */}
                             <ul className="thumbnail-widget">
                                 <li>
-                                    <h3>Adam Levine</h3>+91 9999999999
-                                </li>
-                                <li>
-                                    <h3>Adam Levine</h3>+91 9999999999
-                                </li>
-                                <li>
-                                    <h3>Adam Levine</h3>+91 9999999999
+                                    <h3>+91 9691622672</h3>
                                 </li>
                             </ul>
                         </div>
                         </Col>
 
-                        <Col md={4} xs={6} sm={12}>
+                        <Col md={4} xs={12} sm={12}>
                             <div className="widget no-box">
                                 <h2 className="widget-title">Event Location</h2>
                                     <br></br>
