@@ -1,30 +1,30 @@
 Arguments: 
-  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add yarn-iframe
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add react-ifrane
 
 PATH: 
-  /home/agam/gems/bin:/home/agam/anaconda3/condabin:/home/agam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/jdk1.8.0_221/bin:/snap/bin
+  /home/prajwal/.sdkman/candidates/kotlin/current/bin:/home/prajwal/.rvm/gems/ruby-2.5.1/bin:/home/prajwal/.rvm/gems/ruby-2.5.1@global/bin:/home/prajwal/.rvm/rubies/ruby-2.5.1/bin:/home/prajwal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/prajwal/.rvm/bin:/home/prajwal/.rvm/bin:/opt/yarn-[version]/bin
 
 Yarn version: 
-  1.21.1
+  1.19.2
 
 Node version: 
-  12.13.1
+  10.17.0
 
 Platform: 
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/yarn-iframe: Not found
-      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66947:18)
-      at Request.self.callback (/usr/share/yarn/lib/cli.js:140665:22)
-      at Request.emit (events.js:210:5)
-      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141637:10)
-      at Request.emit (events.js:210:5)
-      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141559:12)
-      at Object.onceWrapper (events.js:299:28)
-      at IncomingMessage.emit (events.js:215:7)
-      at endReadableNT (_stream_readable.js:1184:12)
-      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+  Error: https://registry.yarnpkg.com/react-ifrane: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66927:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140586:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141558:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141480:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1143:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
 
 npm manifest: 
   {
@@ -44,7 +44,9 @@ npm manifest:
       "react-dom": "^16.12.0",
       "react-flexbox-grid": "^2.1.2",
       "react-history": "^0.18.2",
+      "react-iframe": "^1.8.0",
       "react-map-gl": "^5.1.5",
+      "react-parallax": "^3.0.3",
       "react-reveal": "^1.2.2",
       "react-router": "^5.1.2",
       "react-router-dom": "^5.1.2",
@@ -9884,6 +9886,13 @@ Lockfile:
     dependencies:
       history "^4.5.0"
   
+  react-iframe@^1.8.0:
+    version "1.8.0"
+    resolved "https://registry.yarnpkg.com/react-iframe/-/react-iframe-1.8.0.tgz#8c78f2c59b894ca5605fa7e45e61e27e57e96091"
+    integrity sha512-NYi89+rEqREwQxW9sDf+akh6/dtwWd3bOjByoVEIQ7SicOxVawRMer3pLdWjFaHXpuxTB9NqobPf/Ohj2iAKkg==
+    dependencies:
+      object-assign "^4.1.1"
+  
   react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
     version "16.12.0"
     resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
@@ -9940,6 +9949,13 @@ Lockfile:
     version "1.0.3"
     resolved "https://registry.yarnpkg.com/react-required-if/-/react-required-if-1.0.3.tgz#6a40a761b1d54815c1d4e6610910cbf92b5aa987"
     integrity sha1-akCnYbHVSBXB1OZhCRDL+StaqYc=
+  
+  react-reveal@^1.2.2:
+    version "1.2.2"
+    resolved "https://registry.yarnpkg.com/react-reveal/-/react-reveal-1.2.2.tgz#f47fbc44debc4c185ae2163a215a9e822c7adfef"
+    integrity sha512-JCv3fAoU6Z+Lcd8U48bwzm4pMZ79qsedSXYwpwt6lJNtj/v5nKJYZZbw3yhaQPPgYePo3Y0NOCoYOq/jcsisuw==
+    dependencies:
+      prop-types "^15.5.10"
   
   react-router-dom@^5.1.2:
     version "5.1.2"

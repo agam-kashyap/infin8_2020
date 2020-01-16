@@ -1,27 +1,26 @@
 import React from "react";
-import { withRouter} from 'react-router-dom';
+// import { withRouter} from 'react-router-dom';
 
-import { Layout, Menu } from 'antd';
+import { Layout } from 'antd';
 import 'antd/dist/antd.css';
 import './css/main-layout.css';
-import CFooter from './sections/Footer';
 
-const { Header, Content, Footer } = Layout;
+const { Content } = Layout;
 
-const Location = withRouter(props => {
-  const { location } = props;
-  return (
-    <Menu
-      theme="dark"
-      mode="horizontal"
-      selectedKeys={[location.pathname]}
-      style={{ lineHeight: '64px' }}
-    >
-      <Menu.Item key="/"><a href="/">Event</a></Menu.Item>
-      <Menu.Item key="/login"><a href="/login">Competitions</a></Menu.Item>
-    </Menu>
-  )
-})
+// const Location = withRouter(props => {
+//   const { location } = props;
+//   return (
+//     <Menu
+//       theme="dark"
+//       mode="horizontal"
+//       selectedKeys={[location.pathname]}
+//       style={{ lineHeight: '64px' }}
+//     >
+//       <Menu.Item key="/"><a href="/">Event</a></Menu.Item>
+//       <Menu.Item key="/login"><a href="/login">Competitions</a></Menu.Item>
+//     </Menu>
+//   )
+// })
 class MainLayout extends React.Component{
   render() {
     return (

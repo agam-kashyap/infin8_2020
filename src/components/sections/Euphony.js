@@ -1,5 +1,4 @@
 import React from 'react';
-import { Carousel } from 'antd';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
@@ -60,7 +59,7 @@ competition.</li>
         </ul>    
         <br />
         <br />
-        <button class = "button button1"><a href = "#">Register</a></button>
+        <button class = "button button1"><a href = "/">Register</a></button>
         <br />
         <br />
         <br />
