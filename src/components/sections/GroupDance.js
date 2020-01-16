@@ -66,33 +66,7 @@ makeup, setup and overall effects.</li>
         </ul>    
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <button class = "button button1"><a href = "#">Register</a></button>
         <br />
         <br />
     </div>

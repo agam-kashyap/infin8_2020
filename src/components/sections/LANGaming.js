@@ -191,33 +191,7 @@ PUBG, CS: GO, FIFA, COD. Take your favourite pick and decimate your opponents. <
         </ul>                           
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <button class = "button button1"><a href = "#">Register</a></button>
         <br />
         <br />
     </div>
