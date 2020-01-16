@@ -1,10 +1,9 @@
 import React from 'react';
-import { Carousel } from 'antd';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
 
-class Blank extends React.Component {
+class LAN extends React.Component {
     render() {
         return(
             <div>
@@ -228,4 +227,4 @@ PUBG, CS: GO, FIFA, COD. Take your favourite pick and decimate your opponents. <
         );
     }
 }
-export default Blank;
+export default LAN;

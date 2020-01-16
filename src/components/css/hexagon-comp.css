@@ -52,17 +52,24 @@
   }
   
   .hex h1,
-  .hex p {
+  .hex p,
+  .hex a{
     margin: 0;
     width: 102%;
-    left: -1%;  /* prevent line on the right where background doesn't cover image */
+    left: -1%;  /*prevent line on the right where background doesn't cover image*/
     padding: 5%;
     box-sizing: border-box;
     background-color: rgba(9, 78, 228, 0.8);
     font-weight: 300;
     transition: transform .2s ease-out, opacity .3s ease-out;
   }
+
+  .hex a{
+    color : white;
+    font-size: large;
+  }
   
+
   .hex h1 {
     bottom: 50%;
     padding-top: 50%;
@@ -81,7 +88,7 @@
     border-bottom: 1px solid #fff;
   }
   
-  .hex p {
+  .hex p, .hex a {
     top: 50%;
     padding-bottom: 50%;
     transform: translateY(100%) translatez(-1px);
@@ -90,7 +97,7 @@
   
   /*** HOVER EFFECT  **********************************************************************/
   
-  .hexIn:hover h1, .hexIn:focus h1, .hexIn:hover p, .hexIn:focus p {
+  .hexIn:hover h1, .hexIn:focus h1, .hexIn:hover p, .hexIn:focus p, .hexIn:focus a, .hexIn:hover a {
     transform: translateY(0%) translatez(-1px);
   }
   

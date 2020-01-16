@@ -81,3 +81,11 @@ transition: all 250ms ease-in-out 0s;
 	height: 10vh;
 	margin-left: -10vw;
 }
+
+.hexagon-button {
+	color: #ff8d1e;
+}
+
+.hexagon-button:hover {
+	color: green;
+}

@@ -1,10 +1,9 @@
 import React from 'react';
-import { Carousel } from 'antd';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
 
-class Blank extends React.Component {
+class GroupDance extends React.Component {
     render() {
         return(
             <div>
@@ -103,4 +102,4 @@ makeup, setup and overall effects.</li>
         );
     }
 }
-export default Blank;
+export default GroupDance;

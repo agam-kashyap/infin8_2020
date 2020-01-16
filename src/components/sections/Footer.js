@@ -13,7 +13,7 @@ class CFooter extends React.Component {
                     
                         <Col md={4} xs={6} sm={12}>
                         <div className="widget subscribe no-box">
-                            <img className="footerlogo" src={require("../assets/iiitb.png")}/>
+                            <img className="footerlogo" src={require("../assets/iiitb.png")} alt="iiitb"/>
                         </div>
                         </Col>
 
@@ -57,6 +57,7 @@ class CFooter extends React.Component {
                             <ul className="thumbnail-widget">
                                 <li>
                                     <h3>Adam Levine</h3>+91 7226938999
+                                    <br></br>
                                 </li>
                                 <li>
                                     <h3>Adam Levine</h3>+91 7226938999

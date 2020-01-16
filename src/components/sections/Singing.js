@@ -1,10 +1,9 @@
 import React from 'react';
-import { Carousel } from 'antd';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
 
-class Blank extends React.Component {
+class SING extends React.Component {
     render() {
         return(
             <div>
@@ -111,4 +110,4 @@ any slangs or derogatory language.</li>
         );
     }
 }
-export default Blank;
+export default SING;

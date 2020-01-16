@@ -1,10 +1,9 @@
 import React from 'react';
-import { Carousel } from 'antd';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
 
-class Blank extends React.Component {
+class Euphony extends React.Component {
     render() {
         return(
             <div>
@@ -17,7 +16,7 @@ class Blank extends React.Component {
                         {   
                             children: (
                                 <div className = "customChild overlay" >
-                                    <h1 data-shadow='Euponia'> Euponia</h1>
+                                    <h1>Euphony</h1>
                                 </div>
                             ),
                             image: require("../assets/bands2.jpg"),
@@ -60,7 +59,7 @@ competition.</li>
         </ul>    
         <br />
         <br />
-        <button class = "button button1"><a href = "#">Register</a></button>
+        <button class = "button button1"><a href = "/">Register</a></button>
         <br />
         <br />
         <br />
@@ -97,4 +96,4 @@ competition.</li>
         );
     }
 }
-export default Blank;
+export default Euphony;
