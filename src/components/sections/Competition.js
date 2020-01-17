@@ -34,7 +34,7 @@ class Competition extends React.Component {
                                         <img src={require('../assets/bands2.jpg')} alt="Band"/>   
                                     </Fade>
                                     <h1>Battle of Bands</h1> 
-                                    <a href = "/euphony">GO!</a>
+                                    <a href = "/overtone">GO!</a>
                             </div> 
                     </li>
 

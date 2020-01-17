@@ -38,7 +38,7 @@ class Euphony extends React.Component {
         <p> Battle of bands, organised last year for the very first time, was an
 immediate hit. Addressing our motive to make infin8 bigger, how can we
 forget to add the most significant event of last year? We bring to you, our
-very own - Battle of bands aka ​<b> Euphony</b>.</p>
+very own - Battle of bands aka ​<b> Overtone</b>.</p>
         <p>Get ready to have the most fantastic evening of your lives. Bands from all
 over Bengaluru will compete with each other for the title of the 'best band.'
 Euphony will set a standard for many more years to come.</p>
