@@ -56,10 +56,13 @@ competition.</li>
             <li>Decisions of the judges will be final and binding under all circumstances.</li>
             <li>A band will have a total of 10 minutes on stage.</li>
             <li>Exceeding the given time will lead to a penalty.</li>
-        </ul>    
+        </ul>
+        <ul type="disc">
+            <li>Registration Fee: &#8377 500</li>
+        </ul>   
         <br />
         <br />
-        <button class = "button button1"><a href = "/">Register</a></button>
+        <button class = "button button1"><a href = "https://forms.gle/hyZtUsotvTZVEMSv7">Register</a></button>
         <br />
         <br />
     </div>
