@@ -58,7 +58,8 @@ competition.</li>
             <li>Exceeding the given time will lead to a penalty.</li>
         </ul>
         <ul type="disc">
-            <li>Registration Fee: &#8377 500</li>
+            <li>Registration Fee: &#8377;500</li>
+            <li>Prize: &#8377;20000 </li>
         </ul>   
         <br />
         <br />
