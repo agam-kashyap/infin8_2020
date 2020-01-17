@@ -20,7 +20,7 @@ export default (
     <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/groupdance" component={GroupDance}/>
-        <Route exact path="/euphony" component={Euphony}/>
+        <Route exact path="/overtone" component={Euphony}/>
         <Route exact path="/facepainting" component={FacePainting}/>
         <Route exact path="/lan" component={LAN}/>
         <Route exact path="/singing" component={SING}/>

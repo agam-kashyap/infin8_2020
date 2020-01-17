@@ -16,7 +16,7 @@ class Euphony extends React.Component {
                         {   
                             children: (
                                 <div className = "customChild overlay" >
-                                    <h1>Euphony</h1>
+                                    <h1>Overtone</h1>
                                 </div>
                             ),
                             image: require("../assets/bands2.jpg"),
