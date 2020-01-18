@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/meettheteam.css';
 import { Row,Col } from 'antd';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import FooterNoMap from './Footerwithoutmap';
 
 class Team extends React.Component {
     render() {
@@ -262,7 +263,7 @@ class Team extends React.Component {
                                 </div>
                             </Col>
                     
-                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
+                            <Col md={{span:3}} sm={{span:8}} xs={{span:12,offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/solosinging2_300x300.jpg')}/>
@@ -284,6 +285,7 @@ class Team extends React.Component {
                         </Row>
                     </div>
                 </div>
+                <FooterNoMap/>
         </div>
         );
     }

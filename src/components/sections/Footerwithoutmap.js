@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/Footer.css';
 import { Row,Col } from 'antd';
-
 class FooterNoMap extends React.Component {
     render() {
         return (
@@ -17,7 +16,7 @@ class FooterNoMap extends React.Component {
                         </div>
                         </Col> */}
 
-                        <Col md={{span:4, offset:1}} xs={{span:6,offset:1}} sm={{span:12}} >
+                        <Col md={{span:4, offset:1}} sm={{span:6,offset:1}} xs={{span:12}} >
                         <div className="widget no-box">
                             <h1 className="widget-title">Connect<span></span></h1>
                             <ul className="thumbnail-widget">
@@ -59,6 +58,9 @@ class FooterNoMap extends React.Component {
                                     </div>
                         </Col>
                     </Row>
+                    <Row>
+
+                    </Row>
                     </div>
                 </div>
                     
@@ -66,9 +68,7 @@ class FooterNoMap extends React.Component {
                     <div className="container">
                     <Row>
                     <div className="col-md-12 text-center">
-                    {/* <Col sm={{span:24 }} xs={{span:12, offset: 1}} md={{span:12, offset: 1}}> */}
                     <p>Copyright <a href="https://zense.co.in">Zense</a>  © 2020. All rights reserved.</p>
-                    {/* </Col> */}
                     </div>
                     </Row>
                     </div>

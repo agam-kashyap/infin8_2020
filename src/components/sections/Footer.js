@@ -17,7 +17,7 @@ class CFooter extends React.Component {
                         </div>
                         </Col> */}
 
-                        <Col md={{span:4, offset:1}} xs={{span:6,offset:1}} sm={{span:12}} >
+                        <Col md={{span:4, offset:1}} sm={{span:6,offset:1}} xs={{span:12}} >
                         <div className="widget no-box">
                             <h1 className="widget-title">Connect<span></span></h1>
                             <ul className="thumbnail-widget">
