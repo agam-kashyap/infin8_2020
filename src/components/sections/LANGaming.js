@@ -19,7 +19,7 @@ class LAN extends React.Component {
                                     <h1>Last Man Standing</h1>
                                 </div>
                             ),
-                            image: require("../assets/pubg1.jpg"),
+                            image: require("../assets/pubg2.jpg"),
                             amount: 0.5,
                             expanded: false,
                         },

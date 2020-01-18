@@ -5,8 +5,39 @@ import Fade from 'react-reveal/Fade';
 class Competition extends React.Component {
     render() {
         return(
-            <div>
+            <div className="competition">
                 <ul id = "hexGrid" class = "clr">
+
+                <li class = "hex">
+                            <div class="hexIn">
+                                    <Fade bottom big>
+                                        <img src={require('../assets/edm.jpg')} alt="pubg"/>   
+                                    </Fade>
+                                <h1>EDM Night</h1>
+                                <a href = "/edm">GO!</a>
+                            </div> 
+                    </li>
+
+                    <li class = "hex">
+                            <div class="hexIn">
+                                    <Fade bottom big>
+                                        <img src={require('../assets/streetfair3.jpeg')} alt="pubg"/>   
+                                    </Fade>
+                                <h1>Carnival</h1>
+                                <a href = "/mela">GO!</a>
+                            </div> 
+                    </li>
+
+                    <li class = "hex">
+                            <div class="hexIn">
+                                    <Fade bottom big>
+                                        <img src={require('../assets/stageplay2.jpeg')} alt="pubg"/>   
+                                    </Fade>
+                                <h1>Curtain Call</h1>
+                                <a href = "/stage">GO!</a>
+                            </div> 
+                    </li>
+
 
                     <li class = "hex">
                             <div class="hexIn">
@@ -37,14 +68,14 @@ class Competition extends React.Component {
                                     <a href = "/overtone">GO!</a>
                             </div> 
                     </li>
-
+                    
                     <li class = "hex">
                             <div class="hexIn">
                                     <Fade bottom big>
-                                        <img src={require("../assets/fanatics.jpg")} alt="BOF"/>      
+                                        <img src = {require("../assets/FacePaint.jpg")} alt="face"/>   
                                     </Fade>
-                                    <h1>League of Fanatics</h1> 
-                                    <a href = "/blank">GO!</a>
+                                    <h1>Face Painting</h1> 
+                                    <a href = "/facepainting">GO!</a>
                             </div> 
                     </li>
 
@@ -61,10 +92,10 @@ class Competition extends React.Component {
                     <li class = "hex">
                             <div class="hexIn">
                                     <Fade bottom big>
-                                        <img src = {require("../assets/FacePaint.jpg")} alt="face"/>   
+                                        <img src={require("../assets/fanatics.jpg")} alt="BOF"/>      
                                     </Fade>
-                                    <h1>Face Painting</h1> 
-                                    <a href = "/facepainting">GO!</a>
+                                    <h1>League of Fanatics</h1> 
+                                    <a href = "/lof">GO!</a>
                             </div> 
                     </li>
 

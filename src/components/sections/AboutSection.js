@@ -15,7 +15,7 @@ class About extends React.Component {
 fifth iteration of Infin8 has numerous live events,
 workshops and a multitude of contests, with the main
 attractions being the Battle of Bands and EDM Night
-featuring prominent DJs of the country</p>
+featuring Candice Redding & Kalpanik Bass.</p>
                 </div>
            </div>
            </div>

@@ -66,7 +66,7 @@ makeup, setup and overall effects.</li>
         </ul>    
         <br />
         <br />
-        <button class = "button button1"><a href = "#">Register</a></button>
+        <button class = "button button1"><a href = "https://docs.google.com/forms/d/e/1FAIpQLSe5bUCW5O483a7xbfxs5fs0mxTLLTqlHwsibu_IXv_NL8qSDw/viewform">Register</a></button>
         <br />
         <br />
     </div>

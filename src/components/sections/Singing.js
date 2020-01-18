@@ -16,7 +16,7 @@ class SING extends React.Component {
                         {   
                             children: (
                                 <div className = "customChild overlay" >
-                                    <h1 data-shadow = 'Solo Singing'>Solo Singing</h1>
+                                    <h1 data-shadow = 'Swaraag'>Swaraag</h1>
                                 </div>
                             ),
                             image: require("../assets/sing2.jpg"),
@@ -74,7 +74,7 @@ any slangs or derogatory language.</li>
         
         <br />
         <br />
-        <button class = "button button1"><a href = "#">Register</a></button>
+        <button class = "button button1"><a href = "https://docs.google.com/forms/d/e/1FAIpQLSfH7mqHW4bdL7rF2bShjenIkwBOZzcehb4WQe5rJP1OxKctKw/viewform">Register</a></button>
         <br />
         <br />
     </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
+import FooterNoMap from './Footerwithoutmap';
 
 class FacePainting extends React.Component {
     render() {
@@ -47,6 +48,8 @@ scribbling on your friend’s face.</p>
         <br />
         <br />
     </div>
+
+    {/* <FooterNoMap/> */}
 
             </div>
 
