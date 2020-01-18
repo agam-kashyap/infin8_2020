@@ -95,4 +95,22 @@
     text-align: center;
     font-family: 'Rye', cursive;
     font-size: 6vh;
+    position: relative;
+}
+
+
+.headingMain {
+    text-align: center;
+    font-family: 'Rye', cursive;
+    font-size: 10vh;
+    position: relative;
+}
+
+.headerlogo {
+    background-image: url('../assets/infin8logofrowebsite.png');
+    height: 10vh;
+    width: 110%;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }

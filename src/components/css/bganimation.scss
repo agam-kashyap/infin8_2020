@@ -9,6 +9,15 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.heroteam {
+  -webkit-animation: gradientBG 5s ease infinite;
+  animation: gradientBG 5s ease infinite;
+position: relative;
+
+overflow: hidden;
+font-family: 'Montserrat', sans-serif;
+}
+
 @media screen and (max-width: 600px) {
   .cube {
     position: absolute;
@@ -108,4 +117,139 @@
 
 .Image{
   margin-top: -20vh;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .cubeteam {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px darken(#91d523, 8%);
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 12s ease-in forwards infinite;
+    
+    &:nth-child(2n) {
+      border-color: lighten(#23d54f, 10%);
+    }
+    
+    &:nth-child(4) {
+      animation-delay: 6s;
+      left: 90vw;
+      top: 10vh;
+    }
+    
+    &:nth-child(5) {
+      animation-delay: 8s;
+      left: 10vw;
+      top: 85vh;
+    }
+    
+    &:nth-child(6) {
+      animation-delay: 10s;
+      left: 50vw;
+      top: 10vh;
+    }
+  }
+}
+@media screen and (min-width: 700px){
+.cubeteam {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #dbff9a;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube 12s ease-in forwards infinite;
+  
+  &:nth-child(2n) {
+    border-color: lighten(#b1ff99, 10%);
+  }
+  
+  @media screen and (min-width: 1200px){
+
+  &:nth-child(2) {
+    animation-delay: 2s;
+    left: 25vw;
+    top: 40vh;
+  }
+  
+  &:nth-child(3) {
+    animation-delay: 4s;
+    left: 75vw;
+    top: 50vh;
+  }
+}
+  
+  &:nth-child(4) {
+    animation-delay: 6s;
+    left: 90vw;
+    top: 10vh;
+  }
+  
+  &:nth-child(5) {
+    animation-delay: 8s;
+    left: 10vw;
+    top: 185vh;
+  }
+  
+  &:nth-child(6) {
+    animation-delay: 10s;
+    left: 50vw;
+    top: 10vh;
+  }
+
+  &:nth-child(7) {
+    animation-delay: 6s;
+    left: 90vw;
+    top: 100vh;
+  }
+  
+  &:nth-child(8) {
+    animation-delay: 8s;
+    left: 10vw;
+    top: 130vh;
+  }
+  
+  &:nth-child(9) {
+    animation-delay: 1s;
+    left: 50vw;
+    top: 150vh;
+  }
+
+  &:nth-child(10) {
+    animation-delay: 6s;
+    left: 75vw;
+    top: 180vh;
+  }
+  
+  &:nth-child(11) {
+    animation-delay: 8s;
+    left: 10vw;
+    top: 130vh;
+  }
+  
+  &:nth-child(12) {
+    animation-delay: 1s;
+    left: 40vw;
+    top: 200vh;
+  }
+}
+
+@keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);   
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%); 
+    opacity: 0;
+  }
+}
 }
