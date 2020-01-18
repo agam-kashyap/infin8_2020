@@ -108,6 +108,7 @@ class Competition extends React.Component {
                                     <a href = "/fashion">GO!</a>
                             </div> 
                     </li>
+                    
                 </ul>
             </div>
 

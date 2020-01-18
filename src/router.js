@@ -16,6 +16,7 @@ import League from './components/sections/League'
 import EDM from './components/sections/EDM'
 import Stage from './components/sections/Stage'
 import Carnival from './components/sections/Carnival'
+import Team from './components/sections/MeetTheTeam'
 
 const history = createBrowserHistory();
 export default (
@@ -33,6 +34,7 @@ export default (
         <Route exact path="/edm" component={EDM} />
         <Route exact path="/stage" component={Stage} />
         <Route exact path="/mela" component={Carnival} />
+        <Route exact path="/team" component={Team} />
     </Switch>
     </Router>
     </BrowserRouter>
