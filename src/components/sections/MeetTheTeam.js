@@ -231,10 +231,8 @@ class Team extends React.Component {
                                     <div class="pic">
                                         <img src={require('../assets/people/tanmay.JPG')}/>
                                         <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
+                                            <li><a href="https://www.facebook.com/sinbycosmay" ><FaFacebook/></a></li>
+                                            <li><a href="https://www.instagram.com/sinbycosmay/" ><FaInstagram/></a></li>
                                         </ul>
                                     </div>
                                     <div class="team-content">
@@ -258,10 +256,9 @@ class Team extends React.Component {
                                     <div class="pic">
                                         <img src={require('../assets/people/agam.png')}/>
                                         <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
+                                            <li><a href="https://www.facebook.com/agam.sasluck" ><FaFacebook/></a></li>
+                                            <li><a href="https://www.instagram.com/agam_kashyap" ><FaInstagram/></a></li>
+                                            <li><a href="https://www.linkedin.com/in/agam-kashyap-83538817a/" ><FaLinkedin/></a></li>
                                         </ul>
                                     </div>
                                     <div class="team-content">

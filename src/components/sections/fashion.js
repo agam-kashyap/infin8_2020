@@ -48,6 +48,7 @@ are at liberty to choose any one of the above. </li>
             <li> The decision of the judges is final and binding. </li>
             <li> <b>Judging criteria:</b> based on walk and outfit only.</li>
             <li> Last date of registration is 6th February 2020</li>
+            <li> No requests for refund will be entertained. </li>
         </ul>
         <br />
         <br />
