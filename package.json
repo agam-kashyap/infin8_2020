@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "antd": "^3.26.4",
     "dotenv": "^8.2.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-flexbox-grid": "^2.1.2",
