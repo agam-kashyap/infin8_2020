@@ -1,6 +1,8 @@
 import React from 'react';
 import '../css/Footer.css';
 import { Row,Col } from 'antd';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
+
 class FooterNoMap extends React.Component {
     render() {
         return (
@@ -21,10 +23,10 @@ class FooterNoMap extends React.Component {
                             <h1 className="widget-title">Connect<span></span></h1>
                             <ul className="thumbnail-widget">
                             <li>
-                            <div className="thumb-content"><a href="https://www.facebook.com/infin8iiitb">Facebook</a></div>	
+                            <div className="thumb-content"><a href="https://www.facebook.com/infin8iiitb"><FaFacebook size={70}/></a></div>	
                             </li>
                             <li>
-                            <div className="thumb-content"><a href="https://www.instagram.com/infin8_iiitb/?hl=en">Instagram</a></div>	
+                            <div className="thumb-content"><a href="https://www.instagram.com/infin8_iiitb/?hl=en"><FaInstagram size={70}/></a></div>	
                             </li>
                             </ul>
                         </div>
@@ -46,7 +48,7 @@ class FooterNoMap extends React.Component {
                             <div className="widget no-box">
                                 <h2 className="widget-title">Event Location</h2>
                                     <br></br>
-                                    <address>
+                                    <address className="address">
                                         <p style={{color: "#fff"}}>
                                             26/C, Hosur Road,Electronics City Phase 1, Electronic City
                                             <br />
