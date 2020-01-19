@@ -9,7 +9,7 @@ class Team extends React.Component {
         return(
             <div>
                 
-                <div className="heroteam">
+                <div className="heroteam" style={{  }}>
                     <div className="cubeteam"></div>
                     <div className="cubeteam"></div>
                     <div className="cubeteam"></div>

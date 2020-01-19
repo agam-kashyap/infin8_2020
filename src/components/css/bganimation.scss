@@ -128,13 +128,13 @@ font-family: 'Montserrat', sans-serif;
     left: 45vw;
     width: 10px;
     height: 10px;
-    border: solid 1px darken(#91d523, 8%);
+    border: solid 1px darken(#3D5483, 8%);
     transform-origin: top left;
     transform: scale(0) rotate(0deg) translate(-50%, -50%);
     animation: cube 12s ease-in forwards infinite;
     
     &:nth-child(2n) {
-      border-color: lighten(#23d54f, 10%);
+      border-color: lighten(#3D5483, 10%);
     }
     
     &:nth-child(4) {
@@ -163,13 +163,13 @@ font-family: 'Montserrat', sans-serif;
   left: 45vw;
   width: 10px;
   height: 10px;
-  border: solid 1px #dbff9a;
+  border: solid 1px darkern(#3D5483,10%);
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   animation: cube 12s ease-in forwards infinite;
   
   &:nth-child(2n) {
-    border-color: lighten(#b1ff99, 10%);
+    border-color: lighten(#3D5483, 10%);
   }
   
   @media screen and (min-width: 1200px){
