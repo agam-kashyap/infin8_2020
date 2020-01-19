@@ -13,7 +13,7 @@ class Competition extends React.Component {
                                     <Fade bottom big>
                                         <img src={require('../assets/edm.jpg')} alt="pubg"/>   
                                     </Fade>
-                                <h1>EDM Night</h1>
+                                <h1>SUNBURN Campus</h1>
                                 <a href = "/edm">GO!</a>
                             </div> 
                     </li>
@@ -74,7 +74,7 @@ class Competition extends React.Component {
                                     <Fade bottom big>
                                         <img src = {require("../assets/FacePaint.jpg")} alt="face"/>   
                                     </Fade>
-                                    <h1>Face Painting</h1> 
+                                    <h1>Painting</h1> 
                                     <a href = "/facepainting">GO!</a>
                             </div> 
                     </li>
@@ -108,6 +108,7 @@ class Competition extends React.Component {
                                     <a href = "/fashion">GO!</a>
                             </div> 
                     </li>
+                    <li class="hex"></li>
                     
                 </ul>
             </div>

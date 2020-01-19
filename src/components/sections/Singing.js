@@ -74,7 +74,7 @@ any slangs or derogatory language.</li>
         
         <br />
         <br />
-        <button class = "button button1"><a href = "https://docs.google.com/forms/d/e/1FAIpQLSfH7mqHW4bdL7rF2bShjenIkwBOZzcehb4WQe5rJP1OxKctKw/viewform">Register</a></button>
+        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSfH7mqHW4bdL7rF2bShjenIkwBOZzcehb4WQe5rJP1OxKctKw/viewform"><button class = "button button1">Register</button></a>
         <br />
         <br />
     </div>

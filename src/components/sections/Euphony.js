@@ -63,7 +63,7 @@ competition.</li>
         </ul>   
         <br />
         <br />
-        <button class = "button button1"><a href = "https://forms.gle/hyZtUsotvTZVEMSv7">Register</a></button>
+        <a href = "https://forms.gle/hyZtUsotvTZVEMSv7"><button class = "button button1">Register</button></a>
         <br />
         <br />
     </div>

@@ -16,7 +16,7 @@ class Stage extends React.Component {
                         {   
                             children: (
                                 <div className = "customChild overlay" >
-                                    <h1 data-shadow = 'Carnival'>Carnival</h1>
+                                    <h1 data-shadow = 'Informals'>Informals</h1>
                                 </div>
                             ),
                             image: require("../assets/streetfair2.jpeg"),
@@ -35,8 +35,22 @@ class Stage extends React.Component {
             </div>
         </div>
         <div className = "content">
-        <h2> "All the world's a stage" is what Shakespeare believed.<b> Curtain Call</b> - The stage play
-            competition seeks if you have what it takes to make the stage your world.
+        <h2> 
+            <ul type = "disc">
+                <li>Mela</li>
+                <li>Gulp & Gobble</li>
+                <li>Twister</li>
+                <li>Casino</li>
+                <li>Jamming Session</li>
+                <li>Midnight Parties</li>
+                <li>Open Mic</li>
+                <li>Slam Poetry</li>
+                <li>Board Games</li>
+                <li>Shooting</li>
+                <li>Bull Riding</li>
+                <li>Zorbing</li>
+                <li>Air Hockey</li>
+            </ul>
         </h2>
         
         <br />

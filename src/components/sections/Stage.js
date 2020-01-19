@@ -41,7 +41,7 @@ class Stage extends React.Component {
         
         <br />
         <br />
-        <button class = "button button1"><a href = "https://docs.google.com/forms/d/e/1FAIpQLSe_iQt2DGymJJlLHzMjVluU7d6HQMq1R7VNHNMu4E4qWU_H5Q/viewform">Register</a></button>
+        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSe_iQt2DGymJJlLHzMjVluU7d6HQMq1R7VNHNMu4E4qWU_H5Q/viewform"><button class = "button button1">Register</button></a>
         <br />
         <br />
     </div>
