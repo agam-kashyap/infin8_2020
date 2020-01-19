@@ -38,12 +38,16 @@
 	}
 }
 
-img {
+.infin8-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    max-width: 100vw;
+	max-width: 100vw;
+	
+	@media screen and (max-width: 400px){
+		margin-top: auto;
+	}
 }
 
 .fadingtext {
@@ -85,7 +89,7 @@ img {
   }
 
   .header {
-	  background-image: url('../assets/iiitb.png');
+	  background-image: url('../assets/iiitb-white.png');
 	  height: 10vh;
 	  width: 110%;
 	  margin: 10px;

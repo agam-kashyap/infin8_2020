@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "@salesforce-ux/design-system": "^2.10.2",
     "@salesforce/design-system-react": "^0.10.17",
     "@testing-library/jest-dom": "^4.2.4",
@@ -15,6 +18,7 @@
     "react-dom": "^16.12.0",
     "react-flexbox-grid": "^2.1.2",
     "react-history": "^0.18.2",
+    "react-icons": "^3.8.0",
     "react-iframe": "^1.8.0",
     "react-map-gl": "^5.1.5",
     "react-parallax": "^3.0.3",

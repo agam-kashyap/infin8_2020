@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
+import FooterNoMap from './Footerwithoutmap';
 
 class FacePainting extends React.Component {
     render() {
@@ -41,39 +42,14 @@ Face painting is all about giving that chance to bring out the other face for ev
 a statement which has been made or would like to be made.
 It is an opportunity, where one gets to display their idea, creativity and painting skills while at the same time have fun
 scribbling on your friend’s face.</p>
-        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <button class = "button button1"><a href = "#">Register</a></button>
         <br />
         <br />
     </div>
+
+    {/* <FooterNoMap/> */}
 
             </div>
 

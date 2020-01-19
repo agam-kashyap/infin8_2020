@@ -19,7 +19,7 @@ class LAN extends React.Component {
                                     <h1>Last Man Standing</h1>
                                 </div>
                             ),
-                            image: require("../assets/pubg1.jpg"),
+                            image: require("../assets/pubg2.jpg"),
                             amount: 0.5,
                             expanded: false,
                         },
@@ -191,33 +191,7 @@ PUBG, CS: GO, FIFA, COD. Take your favourite pick and decimate your opponents. <
         </ul>                           
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <button class = "button button1"><a href = "#">Register</a></button>
         <br />
         <br />
     </div>

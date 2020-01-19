@@ -11,6 +11,12 @@ import Euphony from './components/sections/Euphony';
 import FacePainting from './components/sections/FacePainting';
 import LAN from './components/sections/LANGaming';
 import SING from './components/sections/Singing';
+import FashionShow from './components/sections/fashion'
+import League from './components/sections/League'
+import EDM from './components/sections/EDM'
+import Stage from './components/sections/Stage'
+import Carnival from './components/sections/Carnival'
+import Team from './components/sections/MeetTheTeam'
 
 const history = createBrowserHistory();
 export default (
@@ -19,10 +25,16 @@ export default (
     <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/groupdance" component={GroupDance}/>
-        <Route exact path="/euphony" component={Euphony}/>
+        <Route exact path="/overtone" component={Euphony}/>
         <Route exact path="/facepainting" component={FacePainting}/>
         <Route exact path="/lan" component={LAN}/>
         <Route exact path="/singing" component={SING}/>
+        <Route exact path='/fashion' component = {FashionShow} />
+        <Route exact path="/lof" component= {League} />
+        <Route exact path="/edm" component={EDM} />
+        <Route exact path="/stage" component={Stage} />
+        <Route exact path="/mela" component={Carnival} />
+        <Route exact path="/team" component={Team} />
     </Switch>
     </Router>
     </BrowserRouter>

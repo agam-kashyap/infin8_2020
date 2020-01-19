@@ -16,7 +16,7 @@ class Euphony extends React.Component {
                         {   
                             children: (
                                 <div className = "customChild overlay" >
-                                    <h1>Euphony</h1>
+                                    <h1>Overtone</h1>
                                 </div>
                             ),
                             image: require("../assets/bands2.jpg"),
@@ -38,7 +38,7 @@ class Euphony extends React.Component {
         <p> Battle of bands, organised last year for the very first time, was an
 immediate hit. Addressing our motive to make infin8 bigger, how can we
 forget to add the most significant event of last year? We bring to you, our
-very own - Battle of bands aka ​<b> Euphony</b>.</p>
+very own - Battle of bands aka ​<b> Overtone</b>.</p>
         <p>Get ready to have the most fantastic evening of your lives. Bands from all
 over Bengaluru will compete with each other for the title of the 'best band.'
 Euphony will set a standard for many more years to come.</p>
@@ -56,37 +56,14 @@ competition.</li>
             <li>Decisions of the judges will be final and binding under all circumstances.</li>
             <li>A band will have a total of 10 minutes on stage.</li>
             <li>Exceeding the given time will lead to a penalty.</li>
-        </ul>    
+        </ul>
+        <ul type="disc">
+            <li>Registration Fee: &#8377;500</li>
+            <li>Prize: &#8377;20000 </li>
+        </ul>   
         <br />
         <br />
-        <button class = "button button1"><a href = "/">Register</a></button>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <button class = "button button1"><a href = "https://forms.gle/hyZtUsotvTZVEMSv7">Register</a></button>
         <br />
         <br />
     </div>
