@@ -41,13 +41,6 @@ but only the joy of expression - the joy that follows a song felt from the heart
 and sung from the soul.</h2>
         <p>Swaraag, The Solo Singing Competition is a great platform for music
 enthusiasts to showcase their vocal prowess.</p>
-        <p>Swaraag '20 is undoubtedly going to be bigger than ever before and so are
-going to be the cash prizes for our top 3 winners:</p>
-        <ul type = "disc">
-            <li>1st:</li>
-            <li>2nd:</li>
-            <li>3rd:</li>
-        </ul>
         <h2>General Rules </h2> 
         <ul type = "disc">
             <li>Participant is free to sing any English or Hindi song.</li>
@@ -69,6 +62,8 @@ any slangs or derogatory language.</li>
                 <li>Presentation and Song selection, Use of Props (if any): 10 marks</li>
                 <li>Confidence and Stage Presence, Time Factor: 10 mark</li>
             </ul>
+
+            <ul type="disc"><li><b>Prizes: &#8377;5000</b></li></ul>
         </ul>  
 
         
