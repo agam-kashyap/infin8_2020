@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amarante&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Playfair+Display&display=swap');
 /* Hexagons */
 #hexGrid {
     overflow: hidden;
@@ -39,8 +40,8 @@
     color: #fff;
     overflow: hidden;
     transform: skewY(-30deg) rotate(60deg);
-    font-family: 'Amarante', cursive;
-    font-size: 3vh;
+    font-family: 'PT Serif', serif;
+    font-size: 1.4vw;
   }
   
   

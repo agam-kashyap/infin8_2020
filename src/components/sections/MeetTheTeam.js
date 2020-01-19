@@ -141,7 +141,7 @@ class Team extends React.Component {
                                     </div>
                                 </div>
                             </Col>
-                            
+
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
@@ -183,7 +183,7 @@ class Team extends React.Component {
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')} />
+                                        <img src={require('../assets/people/smit.jpg')} />
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -229,7 +229,7 @@ class Team extends React.Component {
                             <Col md={{span:3}} sm={{span:8}} xs={{span:12,offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
+                                        <img src={require('../assets/people/tanmay.JPG')}/>
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -256,7 +256,7 @@ class Team extends React.Component {
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
+                                        <img src={require('../assets/people/agam.png')}/>
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -289,25 +289,7 @@ class Team extends React.Component {
                                     </div>
                                 </div>
                             </Col>
-                    
-                            <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
-                                <div class="our-team">
-                                    <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')} />
-                                        <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="team-content">
-                                        <div class="team-info">
-                                            <h3 class="title">Prajwal Agarwal</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
+                
                         </Row>
 
 
@@ -350,6 +332,50 @@ class Team extends React.Component {
                                     <div class="team-content">
                                         <div class="team-info">
                                             <h3 class="title">Williamson</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                        <div className="heading" >
+                            Content Writers
+                        </div>
+                        <br/>
+                        <br/>
+                        <Row type="flex" justify="space-around" align="middle">
+                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
+                                        <ul class="social">
+                                            <li><a href="#" ><FaFacebook/></a></li>
+                                            <li><a href="#"><FaTwitter/></a></li>
+                                            <li><a href="#" ><FaInstagram/></a></li>
+                                            <li><a href="#" ><FaLinkedin/></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="team-info">
+                                            <h3 class="title">CP Vikram Aditya</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+                    
+                            <Col md={{span:3}} sm={{span:8}} xs={{span:12,offset:1}}>
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
+                                        <ul class="social">
+                                            <li><a href="#" ><FaFacebook/></a></li>
+                                            <li><a href="#"><FaTwitter/></a></li>
+                                            <li><a href="#" ><FaInstagram/></a></li>
+                                            <li><a href="#" ><FaLinkedin/></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="team-info">
+                                            <h3 class="title">Gurleen </h3>
                                         </div>
                                     </div>
                                 </div>
