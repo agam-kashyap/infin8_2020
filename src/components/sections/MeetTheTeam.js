@@ -62,7 +62,7 @@ class Team extends React.Component {
                                     </div>
                                 </div>
                             </Col>
-                            <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
+                            {/* <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/solosinging2_300x300.jpg')} />
@@ -80,7 +80,7 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col>
+                            </Col> */}
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
@@ -122,7 +122,7 @@ class Team extends React.Component {
                         </Row>
                         
                         <Row type="flex" justify="space-around" align="middle">
-                        <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
+                        {/* <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/solosinging2_300x300.jpg')} />
@@ -140,9 +140,9 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col>
+                            </Col> */}
 
-                            <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
+                            {/* <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/solosinging2_300x300.jpg')}/>
@@ -159,7 +159,7 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col>
+                            </Col> */}
                     
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
@@ -207,7 +207,7 @@ class Team extends React.Component {
                         <br/>
                         <br/>
                         <Row type="flex" justify="space-around" align="middle">
-                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
+                            {/* <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/solosinging2_300x300.jpg')}/>
@@ -224,7 +224,7 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col>
+                            </Col> */}
                     
                             <Col md={{span:3}} sm={{span:8}} xs={{span:12,offset:1}}>
                                 <div class="our-team">
@@ -269,7 +269,7 @@ class Team extends React.Component {
                                 </div>
                             </Col>
                     
-                            <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
+                            {/* <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/solosinging2_300x300.jpg')}/>
@@ -285,12 +285,12 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col>
+                            </Col> */}
                 
                         </Row>
 
 
-                        <div className="heading" >
+                        {/* <div className="heading" >
                             Design
                         </div>
                         <br/>
@@ -377,7 +377,7 @@ class Team extends React.Component {
                                     </div>
                                 </div>
                             </Col>
-                        </Row>
+                        </Row> */}
                     </div>
                 </div>
                 <FooterNoMap/>
