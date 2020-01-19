@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/Footer.css';
 import { Row,Col } from 'antd';
 import Iframe from 'react-iframe'
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 class CFooter extends React.Component {
     render() {
         return (
@@ -22,10 +23,10 @@ class CFooter extends React.Component {
                             <h1 className="widget-title">Connect<span></span></h1>
                             <ul className="thumbnail-widget">
                             <li>
-                            <div className="thumb-content"><a href="https://www.facebook.com/infin8iiitb">Facebook</a></div>	
+                            <div className="thumb-content"><a href="https://www.facebook.com/infin8iiitb"><FaFacebook size={70}/></a></div>	
                             </li>
                             <li>
-                            <div className="thumb-content"><a href="https://www.instagram.com/infin8_iiitb/?hl=en">Instagram</a></div>	
+                            <div className="thumb-content"><a href="https://www.instagram.com/infin8_iiitb/?hl=en"><FaInstagram size={70}/></a></div>	
                             </li>
                             </ul>
                         </div>
@@ -45,9 +46,9 @@ class CFooter extends React.Component {
 
                         <Col md={4} xs={12} sm={12}>
                             <div className="widget no-box">
-                                <h2 className="widget-title">Event Location</h2>
+                                <h2 className="thumbnail-widget">Event Location</h2>
                                     <br></br>
-                                    <address>
+                                    <address className="address">
                                         <p style={{color: "#fff"}}>
                                             26/C, Hosur Road,Electronics City Phase 1, Electronic City
                                             <br />
@@ -57,6 +58,12 @@ class CFooter extends React.Component {
                                         </p>
                                     </address>
                                     </div>
+                        </Col>
+
+                        <Col md={{span: 4, offset:1}} xs={12} sm={12}>
+                            <div className="widget no-box">
+                                <a href="/team"><h1 className="widget-title" style={{ textAlign:"center", fontSize:"4vh", fontFamily:"Rye"}}>Meet Our Team</h1></a>        
+                            </div>
                         </Col>
                     </Row>
                     <Row>

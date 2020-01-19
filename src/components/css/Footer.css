@@ -1,6 +1,8 @@
 /*==================== 
 	Footer 
 ====================== */
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC|Bentham|Calistoga|Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Amarante|Righteous|Rye&display=swap');
 
 /* Main Footer */
 footer .main-footer{	padding: 20px 0;	background: #252525;}
@@ -41,7 +43,7 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .widget.subscribe p{	margin-bottom: 18px;}
 .widget li a{	color: #ff8d1e;}
 .widget li a:hover{	color: #4b92dc;}
-.widget-title {margin-bottom: 20px;}
+.widget-title {margin-bottom: 20px; font-family: 'Alegreya SC', serif; font-size:3vh}
 .widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
 .widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
 .widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
@@ -88,4 +90,12 @@ transition: all 250ms ease-in-out 0s;
 
 .hexagon-button:hover {
 	color: green;
+}
+
+.thumbnail-widget {
+	font-family: 'Alegreya SC', serif; font-size:3vh
+}
+
+.address {
+	font-family: 'Alegreya SC', serif; font-size:3vh
 }

@@ -51,7 +51,7 @@ are at liberty to choose any one of the above. </li>
         </ul>
         <br />
         <br />
-        <button class = "button button1"><a href = "https://forms.gle/8vtm7J1fNRjENBJs7">Register</a></button>
+        <a href = "https://forms.gle/8vtm7J1fNRjENBJs7"><button class = "button button1">Register</button></a>
         <br />
         <br />
     </div>

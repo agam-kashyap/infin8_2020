@@ -17,7 +17,7 @@ class FacePainting extends React.Component {
                         {   
                             children: (
                                 <div className = "customChild overlay" >
-                                    <h1 data-shadow='Face painting'>Face painting</h1>
+                                    <h1 data-shadow='Painting'>Painting</h1>
                                 </div>
                             ),
                             image: require("../assets/FacePaint.jpg"),
@@ -36,15 +36,12 @@ class FacePainting extends React.Component {
             </div>
         </div>
         <div className = "content">
-        <p> The Japanese say you have three faces. The first face, you show to the world. The second face, you show to your close
-friends, and your family. The third face, you never show anyone.”
-Face painting is all about giving that chance to bring out the other face for everyone to see, be it of any person, idea or even
-a statement which has been made or would like to be made.
-It is an opportunity, where one gets to display their idea, creativity and painting skills while at the same time have fun
-scribbling on your friend’s face.</p>
+        <p> Painting is an artist's means of expression, to pour their heart out on an empty canvas. A painting shows not only a picture, but the story behind it. Paint a story on your canvas. The sky is the limit for your creativity. The painting which conveys the strongest message will win.</p>
+        <h2><ul type="disc"><li><b>Prize Money: &#8377;3500</b></li></ul></h2>
+        <h2><ul type="disc"><li><b>Spot Registration will be applicable.</b></li></ul></h2>        
+        <h2><ul type="disc"><li><b>Contact: </b></li></ul></h2>
         <br />
         <br />
-        <button class = "button button1"><a href = "#">Register</a></button>
         <br />
         <br />
     </div>

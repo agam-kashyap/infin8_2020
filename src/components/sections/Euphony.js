@@ -54,7 +54,7 @@ more prizes, with of course more of you!</p>
             <li>All bands must register online/offline before the commencement of the
 competition.</li>
             <li>Decisions of the judges will be final and binding under all circumstances.</li>
-            <li>A band will have a total of 10 minutes on stage.</li>
+            <li>A band will have a total of 25 minutes on stage.</li>
             <li>Exceeding the given time will lead to a penalty.</li>
         </ul>
         <ul type="disc">
@@ -63,7 +63,7 @@ competition.</li>
         </ul>   
         <br />
         <br />
-        <button class = "button button1"><a href = "https://forms.gle/hyZtUsotvTZVEMSv7">Register</a></button>
+        <a href = "https://forms.gle/hyZtUsotvTZVEMSv7"><button class = "button button1">Register</button></a>
         <br />
         <br />
     </div>
