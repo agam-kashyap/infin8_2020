@@ -62,7 +62,7 @@ class CFooter extends React.Component {
 
                         <Col md={{span: 4, offset:1}} xs={12} sm={12}>
                             <div className="widget no-box">
-                                <a href="/team"><h1 className="widget-title" style={{ textAlign:"center", fontSize:"4vh", fontFamily:"Rye"}}>Meet Our Team</h1></a>        
+                                <a href="/team"><h1 className="widget-title" style={{ textAlign:"center", fontSize:"4vh", fontFamily:"Rye", color:"#7BD2F8"}}><u>Meet Our Team</u></h1></a>        
                             </div>
                         </Col>
                     </Row>

@@ -47,7 +47,7 @@ class Team extends React.Component {
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
+                                        <img src={require('../assets/people/abhigna.jpeg')}/>
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -84,7 +84,7 @@ class Team extends React.Component {
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')} />
+                                        <img src={require('../assets/people/aniruddha.jpg')} />
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -103,7 +103,7 @@ class Team extends React.Component {
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
+                                        <img src={require('../assets/people/bharath.jpg')}/>
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -164,7 +164,7 @@ class Team extends React.Component {
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')} />
+                                        <img src={require('../assets/people/shivani.png')} />
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -185,10 +185,10 @@ class Team extends React.Component {
                                     <div class="pic">
                                         <img src={require('../assets/people/smit.jpg')} />
                                         <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
+                                            <li><a href="https://www.facebook.com/smit.srl.7.4" ><FaFacebook/></a></li>
+                                            <li><a href="https://twitter.com/slsrlsmith91?s=09"><FaTwitter/></a></li>
+                                            <li><a href="https://www.instagram.com/smit.limbani/" ><FaInstagram/></a></li>
+                                            <li><a href="https://in.linkedin.com/in/smit-limbani-878914106" ><FaLinkedin/></a></li>
                                         </ul>
                                     </div>
                                     <div class="team-content">
