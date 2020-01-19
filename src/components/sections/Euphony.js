@@ -54,7 +54,7 @@ more prizes, with of course more of you!</p>
             <li>All bands must register online/offline before the commencement of the
 competition.</li>
             <li>Decisions of the judges will be final and binding under all circumstances.</li>
-            <li>A band will have a total of 10 minutes on stage.</li>
+            <li>A band will have a total of 25 minutes on stage.</li>
             <li>Exceeding the given time will lead to a penalty.</li>
         </ul>
         <ul type="disc">
