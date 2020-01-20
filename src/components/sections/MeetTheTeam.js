@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/meettheteam.css';
 import { Row,Col } from 'antd';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 import FooterNoMap from './Footerwithoutmap';
 
 class Team extends React.Component {
@@ -62,10 +62,10 @@ class Team extends React.Component {
                                     </div>
                                 </div>
                             </Col>
-                            {/* <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
+                            <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')} />
+                                        <img src={require('../assets/people/ananya.png')} />
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -80,7 +80,7 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col> */}
+                            </Col>
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
@@ -105,10 +105,7 @@ class Team extends React.Component {
                                     <div class="pic">
                                         <img src={require('../assets/people/bharath.jpg')}/>
                                         <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
+                                            <li><a href="https://www.facebook.com/bharath.joshi.9" ><FaFacebook/></a></li>
                                         </ul>
                                     </div>
                                     <div class="team-content">
@@ -122,15 +119,14 @@ class Team extends React.Component {
                         </Row>
                         
                         <Row type="flex" justify="space-around" align="middle">
-                        {/* <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
+                        <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')} />
+                                        <img src={require('../assets/people/brahma.jpg')} />
                                         <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
+                                            <li><a href="https://www.facebook.com/brahma.kulkarni" ><FaFacebook/></a></li>
+                                            <li><a href="https://www.instagram.com/brahmakulkarni/" ><FaInstagram/></a></li>
+                                            <li><a href="https://www.linkedin.com/in/brahma-kulkarni-7a0951145/" ><FaLinkedin/></a></li>
                                         </ul>
                                     </div>
                                     <div class="team-content">
@@ -140,12 +136,12 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col> */}
+                            </Col>
 
                             {/* <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
+                                        <img src={require('../assets/people/prachi.jpg')}/>
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -207,10 +203,10 @@ class Team extends React.Component {
                         <br/>
                         <br/>
                         <Row type="flex" justify="space-around" align="middle">
-                            {/* <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
+                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
+                                        <img src={require('../assets/people/aarushi.jpg')}/>
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -224,7 +220,7 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col> */}
+                            </Col>
                     
                             <Col md={{span:3}} sm={{span:8}} xs={{span:12,offset:1}}>
                                 <div class="our-team">
@@ -254,7 +250,7 @@ class Team extends React.Component {
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/people/agam.png')}/>
+                                        <img src={require('../assets/people/agam.JPG')}/>
                                         <ul class="social">
                                             <li><a href="https://www.facebook.com/agam.sasluck" ><FaFacebook/></a></li>
                                             <li><a href="https://www.instagram.com/agam_kashyap" ><FaInstagram/></a></li>
@@ -269,10 +265,10 @@ class Team extends React.Component {
                                 </div>
                             </Col>
                     
-                            {/* <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
+                            <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
+                                        <img src={require('../assets/people/jishnu.jpg')}/>
                                         <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
@@ -285,10 +281,33 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col> */}
+                            </Col>
                 
                         </Row>
-
+                        <div className="heading" >
+                            Photography 
+                        </div>
+                        <br/>
+                        <br/>
+                        <Row type="flex" justify="space-around" align="middle">
+                            <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src={require('../assets/people/tejas.jpeg')}/>
+                                        <ul class="social">
+                                            <li><a href="https://m.facebook.com/ktejas98" ><FaFacebook/></a></li>
+                                            <li><a href="https://instagram.com/mai.bhi.kheechega" ><FaInstagram/></a></li>
+                                            <li><a href="kotha.tejas@iiitb.org" ><FaMailBulk/></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="team-info">
+                                            <h3 class="title">Tejas Kotha</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
 
                         {/* <div className="heading" >
                             Design
