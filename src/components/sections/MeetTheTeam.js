@@ -138,7 +138,7 @@ class Team extends React.Component {
                                 </div>
                             </Col>
 
-                            {/* <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
+                            <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/prachi.jpg')}/>
@@ -155,7 +155,7 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col> */}
+                            </Col>
                     
                             <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
                                 <div class="our-team">
