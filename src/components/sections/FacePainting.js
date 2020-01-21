@@ -37,17 +37,16 @@ class FacePainting extends React.Component {
         </div>
         <div className = "content">
         <p> Painting is an artist's means of expression, to pour their heart out on an empty canvas. A painting shows not only a picture, but the story behind it. Paint a story on your canvas. The sky is the limit for your creativity. The painting which conveys the strongest message will win.</p>
-        <h2><ul type="disc"><li><b>Prize Money: &#8377;3500</b></li></ul></h2>
+        <h2><ul type="disc"><li><b>Team size - 3 to 4</b></li></ul></h2>
         <h2><ul type="disc"><li><b>Spot Registration will be applicable.</b></li></ul></h2>        
-        <h2><ul type="disc"><li><b>Contact: </b></li></ul></h2>
+        {/* <h2><ul type="disc"><li><b>Contact: </b></li></ul></h2> */}
         <br />
         <br />
         <br />
         <br />
     </div>
 
-    {/* <FooterNoMap/> */}
-
+                    <FooterNoMap/>
             </div>
 
         );

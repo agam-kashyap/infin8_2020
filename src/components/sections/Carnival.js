@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
+import FooterNoMap from './Footerwithoutmap';
 
 class Stage extends React.Component {
     render() {
@@ -58,7 +59,7 @@ class Stage extends React.Component {
         <br />
         <br />
     </div>
-
+                    <FooterNoMap/>
             </div>
 
         );

@@ -3,6 +3,7 @@ import { Carousel } from 'antd';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
+import FooterNoMap from './Footerwithoutmap';
 
 class FashionShow extends React.Component {
     render() {
@@ -56,7 +57,7 @@ are at liberty to choose any one of the above. </li>
         <br />
         <br />
     </div>
-
+                    <FooterNoMap/>
             </div>
 
         );

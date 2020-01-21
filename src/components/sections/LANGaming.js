@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
+import FooterNoMap from './Footerwithoutmap';
 
 class LAN extends React.Component {
     render() {
@@ -114,11 +115,11 @@ friends. </p>
         </ul>               
         <br />
         <br />
-        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSe3lQOK73mhUuEqzqAts-1es3zZDjDfq948vJmlTZGiatYFeg/viewform?vc=0&c=0&w=1"><button class = "button button1">Register</button></a>
+        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSc2TCgBSeamurQyUHbusDD3XFDxL7pSKuRqVFJjwAQdc_Hcow/viewform"><button class = "button button1">Register</button></a>
         <br />
         <br />
     </div>
-
+                    <FooterNoMap/>
             </div>
 
         );

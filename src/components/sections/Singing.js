@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
+import FooterNoMap from './Footerwithoutmap';
 
 class SING extends React.Component {
     render() {
@@ -73,7 +74,7 @@ any slangs or derogatory language.</li>
         <br />
         <br />
     </div>
-
+                    <FooterNoMap/>
             </div>
 
         );

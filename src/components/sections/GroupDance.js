@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
+import FooterNoMap from './Footerwithoutmap';
 
 class GroupDance extends React.Component {
     render() {
@@ -70,7 +71,7 @@ makeup, setup and overall effects.</li>
         <br />
         <br />
     </div>
-
+        <FooterNoMap/>
             </div>
 
         );

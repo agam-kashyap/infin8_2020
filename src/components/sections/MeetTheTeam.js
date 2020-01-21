@@ -207,12 +207,12 @@ class Team extends React.Component {
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/aarushi.jpg')}/>
-                                        {/* <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul> */}
+                                        <ul class="social">
+                                            <li><a href="https://www.facebook.com/aarushi.goenka.9" ><FaFacebook/></a></li>
+                                            {/* <li><a href="#"><FaTwitter/></a></li> */}
+                                            <li><a href="https://www.instagram.com/aarushi2405/" ><FaInstagram/></a></li>
+                                            {/* <li><a href="#" ><FaLinkedin/></a></li> */}
+                                        </ul>
                                     </div>
                                     <div class="team-content">
                                         <div class="team-info">

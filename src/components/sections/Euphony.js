@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/blank.css'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {ParallaxBanner} from 'react-scroll-parallax';
+import FooterNoMap from './Footerwithoutmap';
 
 class Euphony extends React.Component {
     render() {
@@ -67,7 +68,7 @@ competition.</li>
         <br />
         <br />
     </div>
-
+                    <FooterNoMap/>
             </div>
 
         );
