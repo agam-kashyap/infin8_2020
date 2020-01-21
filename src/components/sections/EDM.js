@@ -7,31 +7,14 @@ class EDM extends React.Component {
     render() {
         return(
             <div>
-            <div className="vertical">
-            <div className= "bannerContainer">
-            <ParallaxProvider>
-            <ParallaxBanner
-                    className=" bannerBg"
-                    layers={[
-                        {   
-                            image: require("../assets/candice.jpeg"),
-                            amount: 0.5,
-                            expanded: false,
-                        },
-
-                    ]}
-
-                    style = {{ width : '100vw', height: '100vh'}}
-            >
-                
-            </ParallaxBanner>
-            </ParallaxProvider>    
-                
+            
+                <div className="edmPoster">
+                    <img src={require("../assets/candice.jpeg")}/>
+                </div>
+                <div>
+                    <a className="edmbutton" href = "https://docs.google.com/forms/d/1t7lp_KaEXKBQFHbVTp_-2PZ5xj-TH-xcaF-HYLXeGck/edit"><button class = "button button2">Register</button></a>
+                </div>
             </div>
-            </div>
-
-            </div>
-
         );
     }
 }

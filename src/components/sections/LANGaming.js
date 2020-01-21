@@ -48,7 +48,7 @@ friends. </p>
         <ul type = "disc">
             <li><h3>Registration Details</h3></li>    
             <ul type="circle">
-                <li>Entry fees: </li>
+                <li>Entry fees:&#8377;100 per team </li>
                 <li>Team Size: upto 4</li>
                 <li>Game Type: Battle Royale</li>
             </ul>
@@ -66,6 +66,42 @@ friends. </p>
             <ul type = "circle">    
                 <li>&#8377;6000 will be awarded to the best performing team.</li>
                 <li>&#8377;1000 will be awarded to the player with most kills.</li>
+            </ul>
+            <li><h3>Registration Deadline</h3></li>
+            <ul type = "circle">    
+                <li>6th February 2020</li>
+            </ul>
+            <li><h3>Competition Date</h3></li>
+            <ul type = "circle">    
+                <li>8th February 2020</li>
+            </ul>
+        </ul>               
+        <br />
+        <br />
+        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSe3lQOK73mhUuEqzqAts-1es3zZDjDfq948vJmlTZGiatYFeg/viewform?vc=0&c=0&w=1"><button class = "button button1">Register</button></a>
+        <br />
+        <br />
+
+        <h2>FIFA</h2>
+        <ul type = "disc">
+            <li><h3>Registration Details</h3></li>    
+            <ul type="circle">
+                <li>Entry fees:&#8377;100 </li>
+            </ul>
+            <br />
+            <li><h3>Rules and Regulations</h3></li>
+            <ul type = "circle">    
+                <li>  The individual has to bring his/her own controller. </li>
+                <li>There won't be second leg of any match.</li>
+                <li>This is a knockout competition, losing side wont get second chance.</li>
+                <li>No manipulaton in the game settings would be entertained except the control settings</li>            
+                <li>A match would be of 12 minutes ( 6  min half time).
+</li>
+            </ul> 
+            <br />
+            <li><h3>Prize Distribution</h3></li>
+            <ul type = "circle">    
+                <li>&#8377;2000</li>
             </ul>
             <li><h3>Registration Deadline</h3></li>
             <ul type = "circle">    

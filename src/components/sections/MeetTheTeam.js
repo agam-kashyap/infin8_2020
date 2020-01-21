@@ -49,10 +49,10 @@ class Team extends React.Component {
                                     <div class="pic">
                                         <img src={require('../assets/people/abhigna.jpeg')}/>
                                         <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
+                                            {/* <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
                                             <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
+                                            <li><a href="#" ><FaLinkedin/></a></li> */}
                                         </ul>
                                     </div>
                                     <div class="team-content">
@@ -66,12 +66,12 @@ class Team extends React.Component {
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/ananya.png')} />
-                                        <ul class="social">
+                                        {/* <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
                                             <li><a href="#" ><FaInstagram/></a></li>
                                             <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div class="team-content">
                                         <div class="team-info">
@@ -85,12 +85,12 @@ class Team extends React.Component {
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/aniruddha.jpg')} />
-                                        <ul class="social">
+                                        {/* <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
                                             <li><a href="#" ><FaInstagram/></a></li>
                                             <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div class="team-content">
                                         <div class="team-info">
@@ -142,12 +142,12 @@ class Team extends React.Component {
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/prachi.jpg')}/>
-                                        <ul class="social">
+                                        {/* <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
                                             <li><a href="#" ><FaInstagram/></a></li>
                                             <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div class="team-content">
                                         <div class="team-info">
@@ -161,12 +161,12 @@ class Team extends React.Component {
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/shivani.png')} />
-                                        <ul class="social">
+                                        {/* <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
                                             <li><a href="#" ><FaInstagram/></a></li>
                                             <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div class="team-content">
                                         <div class="team-info">
@@ -207,12 +207,12 @@ class Team extends React.Component {
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/aarushi.jpg')}/>
-                                        <ul class="social">
+                                        {/* <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
                                             <li><a href="#" ><FaInstagram/></a></li>
                                             <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div class="team-content">
                                         <div class="team-info">
@@ -269,11 +269,11 @@ class Team extends React.Component {
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/jishnu.jpg')}/>
-                                        <ul class="social">
+                                        {/* <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
                                             <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div class="team-content">
                                         <div class="team-info">
@@ -309,8 +309,8 @@ class Team extends React.Component {
                             </Col>
                         </Row>
 
-                        {/* <div className="heading" >
-                            Design
+                        <div className="heading" >
+                            Logistics
                         </div>
                         <br/>
                         <br/>
@@ -318,85 +318,22 @@ class Team extends React.Component {
                             <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
-                                        <ul class="social">
+                                        <img src={require('../assets/people/ritik.jpg')}/>
+                                        {/* <ul class="social">
                                             <li><a href="#" ><FaFacebook/></a></li>
                                             <li><a href="#"><FaTwitter/></a></li>
                                             <li><a href="#" ><FaInstagram/></a></li>
                                             <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div class="team-content">
                                         <div class="team-info">
-                                            <h3 class="title">Williamson</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                    
-                            <Col md={{span:3}} sm={{span:8}} xs={{span:12,offset:1}}>
-                                <div class="our-team">
-                                    <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
-                                        <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="team-content">
-                                        <div class="team-info">
-                                            <h3 class="title">Williamson</h3>
+                                            <h3 class="title">Ritik Kakwani</h3>
                                         </div>
                                     </div>
                                 </div>
                             </Col>
                         </Row>
-                        <div className="heading" >
-                            Content Writers
-                        </div>
-                        <br/>
-                        <br/>
-                        <Row type="flex" justify="space-around" align="middle">
-                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
-                                <div class="our-team">
-                                    <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
-                                        <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="team-content">
-                                        <div class="team-info">
-                                            <h3 class="title">CP Vikram Aditya</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                    
-                            <Col md={{span:3}} sm={{span:8}} xs={{span:12,offset:1}}>
-                                <div class="our-team">
-                                    <div class="pic">
-                                        <img src={require('../assets/solosinging2_300x300.jpg')}/>
-                                        <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="team-content">
-                                        <div class="team-info">
-                                            <h3 class="title">Gurleen </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                        </Row> */}
                     </div>
                 </div>
                 <FooterNoMap/>

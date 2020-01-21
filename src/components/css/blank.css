@@ -160,3 +160,65 @@
     0% {background-position: 0 0}
     0% {background-position: 100% -100%}
     }
+
+
+
+@media screen and (min-width:1200px) {
+    .poster {
+        background-image: url("../assets/candice.jpeg");
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .poster {
+        background-image: url("../assets/candice.jpeg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.edmPoster {
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+.edmPoster img {
+    width: 100%;
+    size: cover;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button2:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  @keyframes shad-anim {
+    0% {background-position: 0 0}
+    0% {background-position: 100% -100%}
+    }
