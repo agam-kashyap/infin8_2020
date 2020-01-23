@@ -85,12 +85,10 @@ class Team extends React.Component {
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/aniruddha.jpg')} />
-                                        {/* <ul class="social">
-                                            <li><a href="#" ><FaFacebook/></a></li>
-                                            <li><a href="#"><FaTwitter/></a></li>
-                                            <li><a href="#" ><FaInstagram/></a></li>
-                                            <li><a href="#" ><FaLinkedin/></a></li>
-                                        </ul> */}
+                                        <ul class="social">
+                                            <li><a href=" fb.com/chronos247" ><FaFacebook/></a></li>
+                                            <li><a href="https://www.instagram.com/aniruddhatr/" ><FaInstagram/></a></li>
+                                        </ul>
                                     </div>
                                     <div class="team-content">
                                         <div class="team-info">
@@ -290,7 +288,7 @@ class Team extends React.Component {
                         <br/>
                         <br/>
                         <Row type="flex" justify="space-around" align="middle">
-                            <Col md={{span:3, offset:1}} sm={{span:8, offset:1}} xs={{span:12, offset:1}}>
+                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/tejas.jpeg')}/>
@@ -303,6 +301,43 @@ class Team extends React.Component {
                                     <div class="team-content">
                                         <div class="team-info">
                                             <h3 class="title">Tejas Kotha</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+
+                        <div className="heading" >
+                            Content Writers 
+                        </div>
+                        <br/>
+                        <br/>
+                        <Row type="flex" justify="space-around" align="middle">
+                            {/* <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src={require('../assets/people/vikram.jpg')}/>
+                                        <ul class="social">
+                                        </ul>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="team-info">
+                                            <h3 class="title">Vikram Adithya</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col> */}
+
+                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src={require('../assets/people/gurleen.jpeg')}/>
+                                        <ul class="social">
+                                        </ul>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="team-info">
+                                            <h3 class="title">Gurleen Kaur</h3>
                                         </div>
                                     </div>
                                 </div>
