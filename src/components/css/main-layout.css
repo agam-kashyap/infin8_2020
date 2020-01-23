@@ -26,3 +26,8 @@
 .MainContainer {
   background: #55D3E0;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+  background: 0 0;
+}
