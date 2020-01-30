@@ -69,7 +69,7 @@ class FooterNoMap extends React.Component {
                 <div className="footer-copyright">
                     <div className="container">
                     <Row>
-                    <div className="col-md-12 text-center">
+                    <div className="col-md-12 text-center" style={{textAlign: "center"}}>
                     <p>Copyright <a href="https://zense.co.in">Zense</a>  © 2020. All rights reserved.</p>
                     </div>
                     </Row>
