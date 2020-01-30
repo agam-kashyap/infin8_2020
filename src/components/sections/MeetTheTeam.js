@@ -283,6 +283,42 @@ class Team extends React.Component {
                 
                         </Row>
                         <div className="heading" >
+                            Design Team 
+                        </div>
+                        <br/>
+                        <br/>
+                        <Row type="flex" justify="space-around" align="middle">
+                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src={require('../assets/people/dhruv.jpeg')}/>
+                                        <ul class="social">
+                                        </ul>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="team-info">
+                                            <h3 class="title">Dhruv Patel</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+
+                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src={require('../assets/people/udith.jpg')}/>
+                                        <ul class="social">
+                                        </ul>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="team-info">
+                                            <h3 class="title">Udith M</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                        <div className="heading" >
                             Photography 
                         </div>
                         <br/>
