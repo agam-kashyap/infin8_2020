@@ -288,7 +288,7 @@ class Team extends React.Component {
                         <br/>
                         <br/>
                         <Row type="flex" justify="space-around" align="middle">
-                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
+                            {/* <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
                                 <div class="our-team">
                                     <div class="pic">
                                         <img src={require('../assets/people/dhruv.jpeg')}/>
@@ -301,7 +301,7 @@ class Team extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </Col>
+                            </Col> */}
 
                             <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
                                 <div class="our-team">
