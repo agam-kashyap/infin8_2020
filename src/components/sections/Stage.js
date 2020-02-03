@@ -39,12 +39,6 @@ class Stage extends React.Component {
         <h2> "All the world's a stage" is what Shakespeare believed.<b> Curtain Call</b> - The stage play
             competition seeks if you have what it takes to make the stage your world.
         </h2>
-        
-        <br />
-        <br />
-        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSe_iQt2DGymJJlLHzMjVluU7d6HQMq1R7VNHNMu4E4qWU_H5Q/viewform"><button class = "button button1">Register</button></a>
-        <br />
-        <br />
     </div>
                     <FooterNoMap/>
             </div>
