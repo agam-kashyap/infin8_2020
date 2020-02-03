@@ -223,6 +223,22 @@ class Team extends React.Component {
                             <Col md={{span:3}} sm={{span:8}} xs={{span:12,offset:1}}>
                                 <div class="our-team">
                                     <div class="pic">
+                                        <img src={require('../assets/people/pranav.jpg')}/>
+                                        <ul class="social">
+                                            <li><a href="https://instagram.com/p__k__?igshid=1st2i2bighmnl" ><FaInstagram/></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="team-info">
+                                            <h3 class="title">Pranav Kumar</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+                        
+                            <Col md={{span:3}} sm={{span:8}} xs={{span:12,offset:1}}>
+                                <div class="our-team">
+                                    <div class="pic">
                                         <img src={require('../assets/people/tanmay.JPG')}/>
                                         <ul class="social">
                                             <li><a href="https://www.facebook.com/sinbycosmay" ><FaFacebook/></a></li>
