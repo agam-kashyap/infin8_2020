@@ -322,6 +322,21 @@ class Team extends React.Component {
                             <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
                                 <div class="our-team">
                                     <div class="pic">
+                                        <img src={require('../assets/people/niki.jpeg')}/>
+                                        <ul class="social">
+                                        </ul>
+                                    </div>
+                                    <div class="team-content">
+                                        <div class="team-info">
+                                            <h3 class="title">Nikitha Adivi</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+
+                            <Col md={{span:3}} sm={{span:8}} xs={{span:12}}>
+                                <div class="our-team">
+                                    <div class="pic">
                                         <img src={require('../assets/people/udith.jpg')}/>
                                         <ul class="social">
                                             <li><a href="https://m.facebook.com/uddu.sai?ref=bookmarked"><FaFacebook/></a></li>
