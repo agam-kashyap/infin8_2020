@@ -84,7 +84,7 @@ class Competition extends React.Component {
                                     <Fade bottom big>
                                         <img src={require("../assets/dance2.jpg")} alt="Dancing"/>   
                                     </Fade>
-                                    <h1>Dance off</h1> 
+                                    <h1>Group Dance</h1> 
                                     <a href = "/groupdance">GO!</a>
                             </div> 
                     </li>
